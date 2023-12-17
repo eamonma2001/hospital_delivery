@@ -14,10 +14,10 @@ log_dir = "logs/fit/" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
 tensorboard_callback = TensorBoard(log_dir=log_dir, histogram_freq=1)
 
 # Load odometry data
-odom_df = pd.read_csv('nurse_to_patient1/odom.csv')
+odom_df = pd.read_csv('data/nurse_to_patient1/odom.csv')
 
 # Load laser scan data
-laser_df = pd.read_csv('nurse_to_patient1/laser.csv')
+laser_df = pd.read_csv('data/nurse_to_patient1/laser.csv')
 
 # Convert time to numeric timestamp
 odom_df['time'] = pd.to_datetime(odom_df['time'], unit='s')
@@ -44,10 +44,10 @@ df.ffill()  # Forward fill
 assert not df.isna().any().any(), "There are still NaNs in the DataFrame."
 
 # Load odometry data
-odom_df2 = pd.read_csv('nurse_to_patient2/odom.csv')
+odom_df2 = pd.read_csv('data/nurse_to_patient2/odom.csv')
 
 # Load laser scan data
-laser_df2 = pd.read_csv('nurse_to_patient2/laser.csv')
+laser_df2 = pd.read_csv('data/nurse_to_patient2/laser.csv')
 
 odom_df2['time'] = pd.to_datetime(odom_df2['time'], unit='s')
 laser_df2['time'] = pd.to_datetime(laser_df2['time'], unit='s')
@@ -93,7 +93,7 @@ df['data'] = df['data'].apply(ast.literal_eval)
 
 ranges = len(sample_list)  # Number of elements in the range array
 
-num_groups = 10  # Adjust the number of groups as needed
+num_groups = 10  
 group_size = ranges // num_groups
 
 averaged_ranges = []
@@ -189,12 +189,6 @@ print(f'Root Mean Squared Error: {rmse}')
 
 # Save the model
 model.save('nurse_to_patient_model.tf')
-
-'''
-R² score: 0.4247198904462302
-Mean Absolute Error: 0.0030722565581771453
-Root Mean Squared Error: 0.007522365690106543
-'''
 
 import matplotlib.pyplot as plt
 

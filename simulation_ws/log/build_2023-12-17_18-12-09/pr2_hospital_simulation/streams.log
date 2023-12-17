@@ -1,0 +1,6 @@
+[0.028s] Invoking command in '/home/eamon/hospital_delivery/simulation_ws/build/pr2_hospital_simulation': /usr/bin/cmake --build /home/eamon/hospital_delivery/simulation_ws/build/pr2_hospital_simulation -- -j6 -l6
+[0.030s] CMake Error: The current CMakeCache.txt directory /home/eamon/hospital_delivery/simulation_ws/build/pr2_hospital_simulation/CMakeCache.txt is different than the directory /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.042s] CMake Error: The source directory "/home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/src/pr2_hospital_simulation" does not exist.
+[0.043s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.043s] make: *** [Makefile:1272: cmake_check_build_system] Error 1
+[0.044s] Invoked command in '/home/eamon/hospital_delivery/simulation_ws/build/pr2_hospital_simulation' returned '2': /usr/bin/cmake --build /home/eamon/hospital_delivery/simulation_ws/build/pr2_hospital_simulation -- -j6 -l6

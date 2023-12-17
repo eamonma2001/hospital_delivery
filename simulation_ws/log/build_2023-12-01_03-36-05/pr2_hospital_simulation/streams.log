@@ -1,0 +1,17 @@
+[0.037s] Invoking command in '/home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation': /usr/bin/cmake --build /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation -- -j6 -l6
+[0.091s] Invoked command in '/home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation' returned '0': /usr/bin/cmake --build /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation -- -j6 -l6
+[0.153s] Invoking command in '/home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation': /usr/bin/cmake --build /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation --target tests -- -j6 -l6
+[0.191s] Built target tests
+[0.199s] Invoked command in '/home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation' returned '0': /usr/bin/cmake --build /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation --target tests -- -j6 -l6
+[0.263s] Invoking command in '/home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation': /usr/bin/cmake --install /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation
+[0.269s] -- Install configuration: ""
+[0.270s] -- Up-to-date: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/install/pr2_hospital_simulation/lib/pkgconfig/pr2_hospital_simulation.pc
+[0.272s] -- Up-to-date: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/install/pr2_hospital_simulation/share/pr2_hospital_simulation/cmake/pr2_hospital_simulationConfig.cmake
+[0.272s] -- Up-to-date: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/install/pr2_hospital_simulation/share/pr2_hospital_simulation/cmake/pr2_hospital_simulationConfig-version.cmake
+[0.272s] -- Up-to-date: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/install/pr2_hospital_simulation/share/pr2_hospital_simulation/package.xml
+[0.272s] -- Up-to-date: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/install/pr2_hospital_simulation/share/pr2_hospital_simulation/launch
+[0.272s] -- Up-to-date: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/install/pr2_hospital_simulation/share/pr2_hospital_simulation/launch/hospital.launch
+[0.272s] -- Up-to-date: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/install/pr2_hospital_simulation/share/pr2_hospital_simulation/launch/view_hospital.launch
+[0.273s] -- Up-to-date: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/install/pr2_hospital_simulation/share/pr2_hospital_simulation/worlds
+[0.273s] -- Up-to-date: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/install/pr2_hospital_simulation/share/pr2_hospital_simulation/worlds/empty.world
+[0.280s] Invoked command in '/home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation' returned '0': /usr/bin/cmake --install /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation

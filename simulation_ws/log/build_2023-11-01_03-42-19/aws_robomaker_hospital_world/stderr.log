@@ -1,0 +1,6 @@
+CMake Error at cmake_install.cmake:56 (file):
+  file INSTALL cannot find
+  "/home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/src/deps/aws_robomaker_hospital_world/fuel_models":
+  No such file or directory.
+
+

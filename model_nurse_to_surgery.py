@@ -13,10 +13,10 @@ log_dir = "logs/fit/" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
 tensorboard_callback = TensorBoard(log_dir=log_dir, histogram_freq=1)
 
 # Load odometry data
-odom_df = pd.read_csv('nurse_to_surgery1/odom.csv')
+odom_df = pd.read_csv('data/nurse_to_surgery1/odom.csv')
 
 # Load laser scan data
-laser_df = pd.read_csv('nurse_to_surgery1/laser.csv')
+laser_df = pd.read_csv('data/nurse_to_surgery1/laser.csv')
 
 # Convert time to numeric timestamp
 odom_df['time'] = pd.to_datetime(odom_df['time'], unit='s')
@@ -57,7 +57,7 @@ df['data'] = df['data'].apply(ast.literal_eval)
 
 ranges = len(sample_list)  # Number of elements in the range array
 
-num_groups = 50  # Adjust the number of groups as needed
+num_groups = 10 
 group_size = ranges // num_groups
 
 averaged_ranges = []
@@ -70,7 +70,7 @@ for group in range(num_groups):
 
 print(df)
 
-features = ['step_x', 'pose_position_x', 'pose_position_y', 'pose_position_z', 'pose_orient_x','pose_orient_y', 'pose_orient_z', 'twist_linear_x', 'twist_linear_y', 'twist_linear_z', 'twist_ang_x','twist_ang_y','twist_ang_z']
+features = ['step_x', 'pose_position_x', 'pose_position_y', 'pose_position_z', 'pose_orient_x','pose_orient_y', 'pose_orient_z', 'twist_linear_x', 'twist_linear_y', 'twist_linear_z', 'twist_ang_x','twist_ang_y','twist_ang_z'] + averaged_ranges 
 
 window_size = 20  # Number of previous steps to consider
 

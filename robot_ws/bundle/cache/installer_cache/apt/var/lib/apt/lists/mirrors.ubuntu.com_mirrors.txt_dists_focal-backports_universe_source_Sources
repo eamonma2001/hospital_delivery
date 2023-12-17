@@ -1,0 +1,520 @@
+Package: cockpit
+Format: 3.0 (quilt)
+Binary: cockpit, cockpit-bridge, cockpit-doc, cockpit-networkmanager, cockpit-pcp, cockpit-packagekit, cockpit-storaged, cockpit-system, cockpit-tests, cockpit-ws, cockpit-sosreport
+Architecture: any all
+Version: 264-1ubuntu0.22.04.1~bpo20.04.1
+Priority: optional
+Section: universe/misc
+Maintainer: Martin Pitt <martin.pitt@ubuntu.com>
+Original-Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Biebl <biebl@debian.org>, Martin Pitt <mpitt@debian.org>,
+Standards-Version: 4.6.0
+Build-Depends: debhelper (>= 12), dpkg-dev (>= 1.17.14), gettext (>= 0.19.7), libssh-dev (>= 0.8.5), zlib1g-dev, libkrb5-dev (>= 1.11), libxslt1-dev, libglib2.0-dev (>= 2.50), libgnutls28-dev (>= 3.4.3) | gnutls-dev, libsystemd-dev (>= 235), libpolkit-agent-1-dev, libpcp3-dev, libjson-glib-dev, libpam0g-dev, libpcp-import1-dev, libpcp-pmda3-dev, systemd, xsltproc, xmlto, docbook-xsl, glib-networking, openssh-client <!nocheck>, python3
+Testsuite: autopkgtest
+Testsuite-Triggers: curl
+Homepage: https://cockpit-project.org/
+Vcs-Browser: https://salsa.debian.org/utopia-team/cockpit
+Vcs-Git: https://salsa.debian.org/utopia-team/cockpit.git
+Directory: pool/universe/c/cockpit
+Package-List:
+ cockpit deb admin optional arch=all
+ cockpit-bridge deb admin optional arch=any
+ cockpit-doc deb doc optional arch=all
+ cockpit-networkmanager deb admin optional arch=all
+ cockpit-packagekit deb admin optional arch=all
+ cockpit-pcp deb admin optional arch=any
+ cockpit-sosreport deb admin optional arch=all
+ cockpit-storaged deb admin optional arch=all
+ cockpit-system deb admin optional arch=all
+ cockpit-tests deb admin optional arch=any
+ cockpit-ws deb admin optional arch=any
+Files:
+ 0f0449d2803ff587537b2b0b0c994475 3147 cockpit_264-1ubuntu0.22.04.1~bpo20.04.1.dsc
+ 129c78479b51387cd3bd49d1df8c0b15 8757732 cockpit_264.orig.tar.xz
+ 17d37df0495a7f7c7bf3bcd58f9883fd 24312 cockpit_264-1ubuntu0.22.04.1~bpo20.04.1.debian.tar.xz
+Checksums-Sha1:
+ a7fa11bc43b8947995bd362bbeaad2c25d452918 3147 cockpit_264-1ubuntu0.22.04.1~bpo20.04.1.dsc
+ c408f0050d65f48049f8f3f0ef0ab49e55251988 8757732 cockpit_264.orig.tar.xz
+ 0d6eeaacd2cbc73310f4fdd7dc1f0692286e0aad 24312 cockpit_264-1ubuntu0.22.04.1~bpo20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 271118c3571c03a3cbcc0741347d12a13df2dce6c51a177cedb0b279fae1a9dc 3147 cockpit_264-1ubuntu0.22.04.1~bpo20.04.1.dsc
+ 37dc69c5853cab847e59a888bf49712fabc94c415b57b35b80984517283cf1fe 8757732 cockpit_264.orig.tar.xz
+ 62b46d4b88629af68187e6205314659a06b4b5a3387f131733d65c39ed7771b2 24312 cockpit_264-1ubuntu0.22.04.1~bpo20.04.1.debian.tar.xz
+Checksums-Sha512:
+ 8b7c65e5bb9454fe1dcd41f6e0663df2517e11131ae290d5e55cf09cec45a102de532a72afb512548ad83cd9a64f6e499c235a2382ce7b18314fc2df5bcee4f5 3147 cockpit_264-1ubuntu0.22.04.1~bpo20.04.1.dsc
+ 5e6cb0907e36964908be49eca4d7ea2bc515d40e01ecbd2334d1a54f7ad42ed3b1bec846fe184256074cb9ce6518da13d1d57c89d3feaf146c4682a00e513fa4 8757732 cockpit_264.orig.tar.xz
+ 2ec028f79a6cebc5cabb9913420d2b01e76f2753b8a917fa49d7dcf5467bcce6bd93187f9129d84b1e847c3b2730b4c8eb0634480e04f6ef735de2c29d1bbae8 24312 cockpit_264-1ubuntu0.22.04.1~bpo20.04.1.debian.tar.xz
+
+Package: cockpit-machines
+Format: 3.0 (quilt)
+Binary: cockpit-machines
+Architecture: all
+Version: 265-1~bpo20.04.1
+Priority: optional
+Section: universe/admin
+Maintainer: Utopia Maintenance Team <pkg-utopia-maintainers@lists.alioth.debian.org>
+Uploaders: Michael Biebl <biebl@debian.org>, Martin Pitt <mpitt@debian.org>,
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 12)
+Homepage: https://github.com/cockpit-project/cockpit-machines
+Vcs-Browser: https://salsa.debian.org/debian/cockpit-machines
+Vcs-Git: https://salsa.debian.org/debian/cockpit-machines.git
+Directory: pool/universe/c/cockpit-machines
+Package-List:
+ cockpit-machines deb admin optional arch=all
+Files:
+ fcebb74515b29e287665cb765bbd0dfc 2101 cockpit-machines_265-1~bpo20.04.1.dsc
+ 04220be0c78d534b173934e4848205e4 1250076 cockpit-machines_265.orig.tar.xz
+ 2d93c94791441273918325bb454cac5b 4036 cockpit-machines_265-1~bpo20.04.1.debian.tar.xz
+Checksums-Sha1:
+ 5f1e0cb923f8d3f78ddb2c3c50c98db35abb519a 2101 cockpit-machines_265-1~bpo20.04.1.dsc
+ e34a7924ecad00ebcdde30e2342769383f7a3fac 1250076 cockpit-machines_265.orig.tar.xz
+ 85973c070672adb0c50b28ae33b8f8b4b4489bec 4036 cockpit-machines_265-1~bpo20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 9d7f5bfb0fb81c4122531c46d819f8b8e0956bd42fdfe07753fed75fbdd6c4cc 2101 cockpit-machines_265-1~bpo20.04.1.dsc
+ 855ac1b0cc22bcf011e7f4fd57b5603b990392d6a3cd1bb55b59da02e9581335 1250076 cockpit-machines_265.orig.tar.xz
+ 76b78a05b116c793d4c82f38a0309e4325760455f33931baa0ac2eb3f224564a 4036 cockpit-machines_265-1~bpo20.04.1.debian.tar.xz
+Checksums-Sha512:
+ df464644faa39a3890308717f7bb303f152c553791e11eade19b7d434d94fc368dc8bf1a134c900b37a47a94d21f7c31564ad7b24a75d17c4c4e3e191bf9f06a 2101 cockpit-machines_265-1~bpo20.04.1.dsc
+ 15f3277da8c6ac1f1c0efbc00f478921a104443a8ba8f2c33827d132c2b7b98ce8269d5a88ab02316c94135b6c398d08c77ee35233c9504f8ff1d3f64ef7d657 1250076 cockpit-machines_265.orig.tar.xz
+ 928fbb2c1dcf5e5e2519641516c0da83be34b329865e12a3de731c0aec9fc9301e3c10c2a3bd4a8e12b0830edd9f098d227dc75e7d2271343bec295273d5cb3b 4036 cockpit-machines_265-1~bpo20.04.1.debian.tar.xz
+
+Package: gallery-dl
+Format: 3.0 (quilt)
+Binary: gallery-dl
+Architecture: all
+Version: 1.25.0-1~bpo20.04.1
+Priority: optional
+Section: universe/web
+Maintainer: Unit 193 <unit193@debian.org>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13), dh-python, python3-all, python3-setuptools
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, yt-dlp
+Homepage: https://github.com/mikf/gallery-dl
+Vcs-Browser: https://git.unit193.net/cgit/users/unit193/gallery-dl.git
+Vcs-Git: https://git.unit193.net/cgit/users/unit193/gallery-dl.git
+Directory: pool/universe/g/gallery-dl
+Package-List:
+ gallery-dl deb web optional arch=all
+Files:
+ 6877ddf6a6648213e32829ab461ff2f2 2278 gallery-dl_1.25.0-1~bpo20.04.1.dsc
+ 2b6583ee84a710f8d8b77098261cece1 526802 gallery-dl_1.25.0.orig.tar.gz
+ de372d87ace898f33ad86b96b7ac398d 833 gallery-dl_1.25.0.orig.tar.gz.asc
+ 123dc75745acc623b888fc701730a5e9 7484 gallery-dl_1.25.0-1~bpo20.04.1.debian.tar.xz
+Checksums-Sha1:
+ b164936b9ef2738a842f3607d3aeb7e56725f5ba 2278 gallery-dl_1.25.0-1~bpo20.04.1.dsc
+ 55f7cc9fa9000c511be6a5b439fa5b9ea4fb2c12 526802 gallery-dl_1.25.0.orig.tar.gz
+ c4244bfeb9a903bf3c264e5d29e367d5191ba6ae 833 gallery-dl_1.25.0.orig.tar.gz.asc
+ e285d87adb729c8b315ce4c55b1bc3cf4767cd01 7484 gallery-dl_1.25.0-1~bpo20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 2bf93ac8f0234e5dd48ebb2145ba6f185a46d59f50def7c334436806709c608c 2278 gallery-dl_1.25.0-1~bpo20.04.1.dsc
+ 5b1987eae00c9db9976563a42e1e01eab47a455db17d254167bbf8ec0c25c116 526802 gallery-dl_1.25.0.orig.tar.gz
+ bca89b6d9396b4019d61196b0ff3920a960646af59191e43228d030d452e9fe1 833 gallery-dl_1.25.0.orig.tar.gz.asc
+ ac946327dbdd90cabc69ac5d4dccad4fbab9ae9403bd50189d4cf24034ec86ed 7484 gallery-dl_1.25.0-1~bpo20.04.1.debian.tar.xz
+Checksums-Sha512:
+ 4696dd1d6a736f2962a03e755c7d51ebbdec733dcd69b4406781b92b271fdbea3dea5b2fefa4a2b9aaf457fdb8bbaf2c2f313ba71c0fe44ba87c06cf318793b4 2278 gallery-dl_1.25.0-1~bpo20.04.1.dsc
+ 19139be7c7de38cc1b55d0c86be4f52fe0f09d0659e1e5202bd40906323732c07d8cc72d63a9d98dd403fc8b199178cece2e36e2ed6e5fa290c39aa9815766f3 526802 gallery-dl_1.25.0.orig.tar.gz
+ a7dafaa9f77c639026b322c0ea5f4cea8fb0f0f3837a1696c52720b6de85189d3f0a8a490b6f9eb1a9828985e17105a487890377a252c3d81c8d7634240458b7 833 gallery-dl_1.25.0.orig.tar.gz.asc
+ ffb12a410eb27751c1b288d9fdfb707f0eb10dff4e15235f2a3e71a9ef197a381f258f9834883b1257932e6da3d9b323077100a76e13f1edb4f98f68bd832163 7484 gallery-dl_1.25.0-1~bpo20.04.1.debian.tar.xz
+
+Package: gramps
+Format: 3.0 (quilt)
+Binary: gramps
+Architecture: all
+Version: 5.1.5-1~bpo20.04.1
+Priority: optional
+Section: universe/gnome
+Maintainer: Ross Gammon <rossgammon@debian.org>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: dh-python, gettext, intltool, libxml-parser-perl, python3-all, python3-setuptools, python3-nose, gir1.2-gtk-3.0 (>= 3.12.0), python3-gi (>= 3.12.0), python3-gi-cairo, python3-bsddb3, python3-lxml, python3-jsonschema, python3-mock, python3-icu, python3-nose-exclude
+Testsuite: autopkgtest
+Testsuite-Triggers: gzip
+Homepage: https://www.gramps-project.org/
+Vcs-Browser: https://salsa.debian.org/debian/gramps
+Vcs-Git: https://salsa.debian.org/debian/gramps.git
+Directory: pool/universe/g/gramps
+Package-List:
+ gramps deb gnome optional arch=all
+Files:
+ 0560638ce61dbdc5958e59ea0c1c437d 2186 gramps_5.1.5-1~bpo20.04.1.dsc
+ 1185863de6dd30926a50d2083782078d 17425167 gramps_5.1.5.orig.tar.gz
+ cadca3d755f96328875f7230c848ef69 18252 gramps_5.1.5-1~bpo20.04.1.debian.tar.xz
+Checksums-Sha1:
+ a86704ee612ed8f794fd676b7a192d0d8a820c2a 2186 gramps_5.1.5-1~bpo20.04.1.dsc
+ 890d0ed8269645fe09230cb7b34c6e83856ae78b 17425167 gramps_5.1.5.orig.tar.gz
+ 320086a175723297d51df6b185fce03661263d38 18252 gramps_5.1.5-1~bpo20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 8b0552a3d8317d76ecadf02de3f031bbed7f582bcc464d805ed98446a14c8f98 2186 gramps_5.1.5-1~bpo20.04.1.dsc
+ 4045a142a7c3cbe50a41e594bb160dce4112e37ef7dec68d65af42e9269c2df6 17425167 gramps_5.1.5.orig.tar.gz
+ 02c7a37fd978e8fd07c89e0c9bf8789466af2f43cf54ff28b891105e901cda07 18252 gramps_5.1.5-1~bpo20.04.1.debian.tar.xz
+Checksums-Sha512:
+ eee9f16f48606202e0ade39eb0e46c8c36555995ec159e63a59389b30436ac25f95ebd36c4049be69720418e3ac577bb13909a868e5de4533f41de6a03ba6ee8 2186 gramps_5.1.5-1~bpo20.04.1.dsc
+ 8e36e8da7cfb41cc0c77881993cfc212a15bf9775dad3c8be131889b70360117e023b6837b91dad28fc03198080290a08c8089856c753246ff14c7fc3bca38be 17425167 gramps_5.1.5.orig.tar.gz
+ 9cfc2c3c2173b0bfb0af62655067319ffc17e8545dd040d36b244d9c5f5ad1ed7ced61800e4762ac4e8ccef825413a228ed3cf70bcba85664ce16b8636475b8c 18252 gramps_5.1.5-1~bpo20.04.1.debian.tar.xz
+
+Package: ibus-typing-booster
+Format: 3.0 (quilt)
+Binary: ibus-typing-booster
+Architecture: all
+Version: 2.9.6-1~ubuntu20.04.1
+Priority: optional
+Section: universe/utils
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Input Method Team <debian-input-method@lists.debian.org>
+Uploaders: Gunnar Hjalmarsson <gunnarhj@ubuntu.com>
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 12), dh-python, libibus-1.0-dev (>= 1.5.22-2), python3
+Homepage: https://mike-fabian.github.io/ibus-typing-booster/
+Vcs-Browser: https://salsa.debian.org/input-method-team/ibus-typing-booster
+Vcs-Git: https://salsa.debian.org/input-method-team/ibus-typing-booster.git
+Directory: pool/universe/i/ibus-typing-booster
+Package-List:
+ ibus-typing-booster deb utils optional arch=all
+Files:
+ 0be6c57e8098f6328412e4aefe4fc605 2252 ibus-typing-booster_2.9.6-1~ubuntu20.04.1.dsc
+ 284fe880a2a29fa8f3c6374a6eaf9d3c 8136758 ibus-typing-booster_2.9.6.orig.tar.gz
+ 9d472c0f4e31a4c95016a6643100aa0f 2224 ibus-typing-booster_2.9.6-1~ubuntu20.04.1.debian.tar.xz
+Checksums-Sha1:
+ 7bb16cbc965803dfcf2c3dc0a0efe04b9f3ae5ba 2252 ibus-typing-booster_2.9.6-1~ubuntu20.04.1.dsc
+ 47bf9d18272818577bbf2aaeb0f187ecd4dedae7 8136758 ibus-typing-booster_2.9.6.orig.tar.gz
+ ff5a9ea74e2d533bedeaa389e016497285f4b734 2224 ibus-typing-booster_2.9.6-1~ubuntu20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 4da3662b8569e1313a89376fcd252b92ab7c2ac3551cb30e884f1933786cd40c 2252 ibus-typing-booster_2.9.6-1~ubuntu20.04.1.dsc
+ 90414737323fed25361455d3b4a89f616038dd722c07ce8abdfb67b720d9936e 8136758 ibus-typing-booster_2.9.6.orig.tar.gz
+ ab3503ff1f95f2852ca7190c514674c6fe123135f5cce58027a93305da7c0dac 2224 ibus-typing-booster_2.9.6-1~ubuntu20.04.1.debian.tar.xz
+Checksums-Sha512:
+ 1fc074ba1b92b91b3e83eebe699a6f2cbaf6fae4f301b6fed0e29fdfdec97408a4634057e5ca3fe2205c9cb9e02dae15df8923aeedcd9d713e7749f1a43a1d6e 2252 ibus-typing-booster_2.9.6-1~ubuntu20.04.1.dsc
+ 77446e41500140f700ebafb3c9a57039b56f1057783771327faff648c9251393e28b1ea2a21e543a807089131682a41dd7ffeb2c47dc7a40d9f4603c805d270f 8136758 ibus-typing-booster_2.9.6.orig.tar.gz
+ b3f207e1244cec7abd50cf90ce6228c69e753033f51e881c22e657f928ec84d0d2ae17c06ac9ad927e655dbfbcf8c792d798bb49b9189cc0df2e0eeaad20c69e 2224 ibus-typing-booster_2.9.6-1~ubuntu20.04.1.debian.tar.xz
+
+Package: inkscape
+Format: 3.0 (quilt)
+Binary: inkscape, inkscape-tutorials
+Architecture: any all
+Version: 1.1.1-3ubuntu1~bpo20.04.1
+Priority: optional
+Section: universe/graphics
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders:  Mattia Rizzolo <mattia@debian.org>,
+Standards-Version: 4.5.1
+Build-Depends: cmake, debhelper-compat (= 13), dh-python, dh-sequence-python3, ninja-build, python3
+Build-Depends-Arch: imagemagick (>= 0) <!nocheck>, lib2geom-dev [!i386], libaspell-dev, libboost-dev, libboost-filesystem-dev, libcdr-dev, libdbus-1-dev, libdbus-glib-1-dev, libdouble-conversion-dev, libfontconfig-dev, libgc-dev (>= 1:6.8), libgdl-3-dev, libgmock-dev, libgsl-dev, libgspell-1-dev, libgtk-3-dev, libgtkmm-3.0-dev, libgtkspell3-3-dev, libjemalloc-dev, liblcms2-dev, libmagick++-dev, libpango1.0-dev, libpng-dev, libpoppler-glib-dev, libpoppler-private-dev, libpotrace-dev, libreadline-dev, librevenge-dev, librsvg2-common, libsigc++-2.0-dev (>= 2.0.16-2), libsoup2.4-dev, libtool, libvisio-dev, libwpg-dev (>= 0.3.0), libxml-parser-perl, libxml2-dev (>= 2-2.4.24), libxslt1-dev, pkg-config, ragel [!i386], zlib1g-dev
+Homepage: https://inkscape.org
+Vcs-Browser: https://salsa.debian.org/multimedia-team/inkscape
+Vcs-Git: https://salsa.debian.org/multimedia-team/inkscape.git
+Directory: pool/universe/i/inkscape
+Package-List:
+ inkscape deb graphics optional arch=any
+ inkscape-tutorials deb graphics optional arch=all
+Files:
+ 540d5823fc30512440174402d5b9bf14 3106 inkscape_1.1.1-3ubuntu1~bpo20.04.1.dsc
+ 1852c535a1aec7ca25eca9de110330d7 34221284 inkscape_1.1.1.orig.tar.xz
+ 57b13d7b3a05b21ec8e1b98a4696de60 195 inkscape_1.1.1.orig.tar.xz.asc
+ 974fa8fb9d2498560af2dcb1dfd170c0 32796 inkscape_1.1.1-3ubuntu1~bpo20.04.1.debian.tar.xz
+Checksums-Sha1:
+ 691da80ff38cca79ca3afa7856863d99320483fe 3106 inkscape_1.1.1-3ubuntu1~bpo20.04.1.dsc
+ 203960527f27e9fedf3e662847f759a6b4781178 34221284 inkscape_1.1.1.orig.tar.xz
+ 1a12510a434c834d7fabf5f2705bfe64167293df 195 inkscape_1.1.1.orig.tar.xz.asc
+ 70b2cc7caa8264c136a9979dcc287b82f68be50d 32796 inkscape_1.1.1-3ubuntu1~bpo20.04.1.debian.tar.xz
+Checksums-Sha256:
+ d2774a7200724b144e4c40add24124fe6e3cacd1c61c00bdb54d313b41b06149 3106 inkscape_1.1.1-3ubuntu1~bpo20.04.1.dsc
+ aeca0b9d33b5b1cfa9aa70433bdee6a8c3d020ffafc2e6f0c9a60eed7a7978af 34221284 inkscape_1.1.1.orig.tar.xz
+ ac566742b78816f8842356228d5f964fb33547a077ecd5171fa87bb80c81f643 195 inkscape_1.1.1.orig.tar.xz.asc
+ 750127b708a92d57763bb60023aa626494bd9ccf4f20d6345940282e5674d8cd 32796 inkscape_1.1.1-3ubuntu1~bpo20.04.1.debian.tar.xz
+Checksums-Sha512:
+ c5e17fb53fb11199aa2b20378b4fd7ccdd989588701d9c8d9453d786ec48a0669130c6886f1eeb65d3f3d01c4a89cac7d25f824c8407fca4e43c331d44199f0e 3106 inkscape_1.1.1-3ubuntu1~bpo20.04.1.dsc
+ 22b1b584a344c4f4ebd0b6e84a4af44e472ef47b3971cb97cbb026a4bf7cb5bea49a7de0c2af2a9e439c7c794f775081c8d1904f33eadb49a5389ea01bc0896c 34221284 inkscape_1.1.1.orig.tar.xz
+ 018af8c096caee6deda31fc646ad9f0f9a059c61f1d145ad3128dc0c33de1e1d9f9e4f65d2bb20c83e854f5b24521f1949c15ce07905bbcc89ac66e8e5afdbbe 195 inkscape_1.1.1.orig.tar.xz.asc
+ ee3b48381ae193b72345121d514ef64f24bea4195ba2fe80e3ecdc682385a047f92e180d606d185e0a788abec4b3cf20bbb8047307794dc7b47e2c53c9fddcde 32796 inkscape_1.1.1-3ubuntu1~bpo20.04.1.debian.tar.xz
+
+Package: ipmctl
+Format: 3.0 (quilt)
+Binary: ipmctl, libipmctl-common, libipmctl5, libipmctl-dev
+Architecture: amd64 all
+Version: 03.00.00.0423-1~bpo20.04.1
+Priority: optional
+Section: universe/misc
+Maintainer: Adam Borowski <kilobyte@angband.pl>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 12), cmake, libndctl-dev, pkg-config, python3, asciidoctor
+Homepage: https://github.com/intel/ipmctl
+Vcs-Browser: https://github.com/kilobyte/ipmctl/tree/debian
+Vcs-Git: https://github.com/kilobyte/ipmctl -b debian
+Directory: pool/universe/i/ipmctl
+Package-List:
+ ipmctl deb admin optional arch=amd64
+ libipmctl-common deb libs optional arch=all
+ libipmctl-dev deb libdevel optional arch=amd64
+ libipmctl5 deb libs optional arch=amd64
+Files:
+ 3692a6bcb81c2447d8251cf43d73f132 2434 ipmctl_03.00.00.0423-1~bpo20.04.1.dsc
+ adc28cfafd8adbe4d20667380fef2ab5 4893684 ipmctl_03.00.00.0423.orig-edk2.tar.xz
+ 742c4863fb126814f0285a4b17e39291 877253 ipmctl_03.00.00.0423.orig.tar.gz
+ ca6d4e0144bd228f07ddc047b06ae39a 15836 ipmctl_03.00.00.0423-1~bpo20.04.1.debian.tar.xz
+Checksums-Sha1:
+ 9153c5b9956e4a1e6207abaac3b9bb862a9c1e50 2434 ipmctl_03.00.00.0423-1~bpo20.04.1.dsc
+ 010466df0cfec0df05c3fff05fedfb422515c954 4893684 ipmctl_03.00.00.0423.orig-edk2.tar.xz
+ ee3923cd3c3742c2cb1e198df53050dd9c08adcd 877253 ipmctl_03.00.00.0423.orig.tar.gz
+ 50cb9738e69892e27fdad51d510668b7ca1cb025 15836 ipmctl_03.00.00.0423-1~bpo20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 391d3f22cdbde95d6e513073abdd1ac10b2cb39b4da2f7d840a2b896f9eb9142 2434 ipmctl_03.00.00.0423-1~bpo20.04.1.dsc
+ 2c0f4c155fe031fe56d65fea80cc860ea7b7c8936653ade0042b9bc95bc3f2fb 4893684 ipmctl_03.00.00.0423.orig-edk2.tar.xz
+ e26e10430603b398cd5a0ecd9638cff45cf23a953179f3a0434dc57e21c4a018 877253 ipmctl_03.00.00.0423.orig.tar.gz
+ 7de9d1cd8e082895d01fb9bba77f9383c0d6ad625128412e99bdacfb65112b59 15836 ipmctl_03.00.00.0423-1~bpo20.04.1.debian.tar.xz
+Checksums-Sha512:
+ 2f2193687aab35fbf080f40d6ac0e0ace96e4434660a5bfedfb0a60b0d67486094bd0cfa5fd176c42d1e6d45e50bd90f143b5692a8ab6b2aac4063b4bcdcb50b 2434 ipmctl_03.00.00.0423-1~bpo20.04.1.dsc
+ 1ee1d94658d086816c7f51a457f73755169b34b79a695afff0546955e6e8b5aeaf0f9253db4c4360dee7ce16fbbe3bc2c212384ab9a52ab7cb4a8d35dfac0971 4893684 ipmctl_03.00.00.0423.orig-edk2.tar.xz
+ 5bbd4fd2f0e24c079166f8d8514850ae85c62d72b5529342a1ba28c2d4e3e998b3f69040af2b46ad2b11442b207528be65d45aeca037fc214eb7a5c7e2410fd0 877253 ipmctl_03.00.00.0423.orig.tar.gz
+ 08aa751b5e836886d26ad7b95044e18fa9a5ccbbe6fda395dcd57802284570ee572edd5875da8ed8b5494b5812b3afe5cfd0e8554925206cd342200f2c24b0fc 15836 ipmctl_03.00.00.0423-1~bpo20.04.1.debian.tar.xz
+
+Package: lib2geom
+Format: 3.0 (quilt)
+Binary: lib2geom1.1.0, lib2geom-dev
+Architecture: any
+Version: 1.1-2~bpo20.04.1
+Priority: optional
+Section: universe/libs
+Maintainer: Debian Multimedia Maintainers <debian-multimedia@lists.debian.org>
+Uploaders:  Mattia Rizzolo <mattia@debian.org>,
+Standards-Version: 4.5.1
+Build-Depends: cmake (>= 3.12), debhelper-compat (= 13), ninja-build
+Build-Depends-Arch: libboost-dev, libcairo2-dev, libdouble-conversion-dev, libgsl-dev, libgtest-dev, libgtk-3-dev, pkg-config, ragel
+Homepage: https://gitlab.com/inkscape/lib2geom
+Vcs-Browser: https://salsa.debian.org/multimedia-team/lib2gem
+Vcs-Git: https://salsa.debian.org/multimedia-team/lib2geom.git
+Directory: pool/universe/lib2/lib2geom
+Package-List:
+ lib2geom-dev deb libdevel optional arch=any
+ lib2geom1.1.0 deb libs optional arch=any
+Files:
+ 6d1a4b692f0bc43c5e3d6ebef9b8a297 2189 lib2geom_1.1-2~bpo20.04.1.dsc
+ 438a95f4c92b8370b3ab00a843c8a5fa 1283056 lib2geom_1.1.orig.tar.bz2
+ ea8923d62f9052cd4e6f44cd79fba56f 4752 lib2geom_1.1-2~bpo20.04.1.debian.tar.xz
+Checksums-Sha1:
+ 7c4974f32345a8221717b2da957fbdce0b7e90e8 2189 lib2geom_1.1-2~bpo20.04.1.dsc
+ 5be43934b54bd91aa3e051e8c37dbf6a30d74104 1283056 lib2geom_1.1.orig.tar.bz2
+ 51786678fdf202e66ab125a9331d33d18271685f 4752 lib2geom_1.1-2~bpo20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 47124d8a20a35b2157ac493420e31618f790f2edffb0785273980f651f2d034a 2189 lib2geom_1.1-2~bpo20.04.1.dsc
+ 543c643aa197630b04ca23aeaaa8436d68343232eb40bcc12e07379b5ba1f524 1283056 lib2geom_1.1.orig.tar.bz2
+ 139f7c8a5ca05d5649bbc13ab89deb026f1659451ceeb2014c74f348ebd670ba 4752 lib2geom_1.1-2~bpo20.04.1.debian.tar.xz
+Checksums-Sha512:
+ 92ac5774e15b609672e33f48850bb1b2fa5e694818920a5701924e02397138fde3b714f5b48b4ceeb165e49dc0e0358206e9f49fa307b925005728a1d07f1d3f 2189 lib2geom_1.1-2~bpo20.04.1.dsc
+ f851dce61a5a1dce257ed9ddff7d3b9573b3bd812ba8bb6fb526f4bad7934534cca20d5997a066ff526d59daf633be1e3739cb8c8637ab72fe72999ae5919962 1283056 lib2geom_1.1.orig.tar.bz2
+ 03f9a2b0ef543cee0668b14f01ef60a82e2fb2cc2af50294a1a7dd52bbe23d7da91782cb892f409c8d73d745b7540fc4d7070ad02e9a582e3e912c90c5a445fb 4752 lib2geom_1.1-2~bpo20.04.1.debian.tar.xz
+
+Package: libfile-dirlist-perl
+Format: 3.0 (quilt)
+Binary: libfile-dirlist-perl
+Architecture: all
+Version: 0.05-2~bpo20.04.1
+Priority: optional
+Section: universe/perl
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders:  Andrius Merkys <merkys@debian.org>,
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: perl
+Testsuite: autopkgtest-pkg-perl
+Homepage: https://metacpan.org/release/File-DirList
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libfile-dirlist-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libfile-dirlist-perl.git
+Directory: pool/universe/libf/libfile-dirlist-perl
+Package-List:
+ libfile-dirlist-perl deb perl optional arch=all
+Files:
+ 2f5248ec1d4b74af29fe157aca4ddd76 2247 libfile-dirlist-perl_0.05-2~bpo20.04.1.dsc
+ 8d3d21273b20745789c63a96bf16966e 4337 libfile-dirlist-perl_0.05.orig.tar.gz
+ 3fee9dfd106bf50e212ce4236e0c33ba 2008 libfile-dirlist-perl_0.05-2~bpo20.04.1.debian.tar.xz
+Checksums-Sha1:
+ c5034852d4ef0262a9bdf4221c30fa9faf29d164 2247 libfile-dirlist-perl_0.05-2~bpo20.04.1.dsc
+ 2b4ae8837b3a70a6238bb8f677218dc7b47a9e94 4337 libfile-dirlist-perl_0.05.orig.tar.gz
+ 9f22cba7681b4cb585a859d5eff858498cb199a7 2008 libfile-dirlist-perl_0.05-2~bpo20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 2aa915c52625a9dfcaadf3996d4e4cf234d5c0a90e98fef6f9d11c5c0f411674 2247 libfile-dirlist-perl_0.05-2~bpo20.04.1.dsc
+ 993b7d7662e55798448a1edaccb9abd281d2bd23be7eab99f569b8e2962d3bc3 4337 libfile-dirlist-perl_0.05.orig.tar.gz
+ da8b07b899075e79e9415790ac621e5d463e89bec9392a46015d6cbfa1c51259 2008 libfile-dirlist-perl_0.05-2~bpo20.04.1.debian.tar.xz
+Checksums-Sha512:
+ 44a85c42ee40d1b50ca2e4f8e0da1088644ad06e55b23d439f6a472e2227c6457834fbb8832c52e6f1512494100acac610724d00984c8cf1eb538d51d9bcea25 2247 libfile-dirlist-perl_0.05-2~bpo20.04.1.dsc
+ 16895ee5f49845f31f9b590c8c251234e340563f064d17b96b12540549603b9ade18fc3a1c003447e6167621200b6f906fd28b53e8adc7dcdf46dbf512c4fa46 4337 libfile-dirlist-perl_0.05.orig.tar.gz
+ 4a67471dd19f19e3d04c131307d217e80d083e65e7f179c894e7997931df66f553e04861cf89597d3e0fed83343461f065ba2a250c2ff579a03153a2ea8b6403 2008 libfile-dirlist-perl_0.05-2~bpo20.04.1.debian.tar.xz
+
+Package: opencpn
+Format: 3.0 (quilt)
+Binary: opencpn, opencpn-data
+Architecture: any all
+Version: 5.6.2+dfsg-1~bpo20.04.1
+Priority: optional
+Section: universe/misc
+Maintainer: Alec Leamas <leamas.alec@gmail.com>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13), cmake, libarchive-dev, libbz2-dev, libcurl4-gnutls-dev | libcurl4-openssl-dev, libdrm-dev, libelf-dev, libexif-dev, libgdk-pixbuf2.0-dev, libgtk-3-dev, liblz4-dev, liblzma-dev, libpango1.0-dev, libsqlite3-dev, libtinyxml-dev, libudev-dev, libunarr-dev, libusb-1.0-0-dev, libwxsvg-dev (>= 2:1.5.21), libwxgtk3.0-gtk3-dev | libwxgtk3.1-gtk3-dev, libwxgtk-webview3.0-gtk3-dev, lsb-release, portaudio19-dev
+Homepage: https://opencpn.org
+Vcs-Browser: https://gitlab.com/leamas/opencpn
+Vcs-Git: https://gitlab.com/leamas/opencpn.git -b debian/sid
+Directory: pool/universe/o/opencpn
+Package-List:
+ opencpn deb misc optional arch=any
+ opencpn-data deb misc optional arch=all
+Files:
+ 754bcc9ed3b9e74cc53e1008bf75803e 2005 opencpn_5.6.2+dfsg-1~bpo20.04.1.dsc
+ 7a38c497f941156c28c5e07402bf1e1f 19284472 opencpn_5.6.2+dfsg.orig.tar.xz
+ ddbb5812eabae53a5adfaf1a839f2fee 12816 opencpn_5.6.2+dfsg-1~bpo20.04.1.debian.tar.xz
+Checksums-Sha1:
+ ff66ece4244a175f82c28b061e6d33d5b3d6555d 2005 opencpn_5.6.2+dfsg-1~bpo20.04.1.dsc
+ e38baad54ee726ee71898bb73ef24785fe26cf76 19284472 opencpn_5.6.2+dfsg.orig.tar.xz
+ 4bb757f72571df7fb0c500b8ffd6fbde7c921ddc 12816 opencpn_5.6.2+dfsg-1~bpo20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 0cb8ede9e8bb04f7705a3983793cf3d1cbf5841234e13a4a22074e3cafb61491 2005 opencpn_5.6.2+dfsg-1~bpo20.04.1.dsc
+ 1712b4173712b932046a7cc768d36895c236f77225228556bf4320531e86973a 19284472 opencpn_5.6.2+dfsg.orig.tar.xz
+ 0632b02e9b11780f20c81a9e213c842548cc1a88fa8f4996d8341527fcd7d6f4 12816 opencpn_5.6.2+dfsg-1~bpo20.04.1.debian.tar.xz
+Checksums-Sha512:
+ 5d842c0fffed4c3ab74a13072ccc97530bc051fc9477272350b4cd9e1322bf80bf562fc1f21a845e515957b4bf447bffa754f62fa2608723b5511a19986c3517 2005 opencpn_5.6.2+dfsg-1~bpo20.04.1.dsc
+ f1bf92a581b6a76510d910e53a1b10e774e0f3888aa1eefef0fad5546893c286d06cda655a4a77afde202af74702f1749485aaa5078a62a3012864afad2f70c7 19284472 opencpn_5.6.2+dfsg.orig.tar.xz
+ cf2028e482186d7df0f8e0c959cb97e18cfc9db99bd19f762165382cb90fb1f351d07e5cc32fa3f29fec343b1a872e63c381582a6199e67bab036ef0fbd08b4f 12816 opencpn_5.6.2+dfsg-1~bpo20.04.1.debian.tar.xz
+
+Package: sanlock
+Format: 3.0 (quilt)
+Binary: sanlock, libsanlock-client1, libsanlock1, libsanlock-dev, python3-sanlock
+Architecture: any
+Version: 3.8.2-2~ubuntu20.04.1
+Priority: optional
+Section: universe/libs
+Maintainer: Håvard Flaget Aasen <haavard_aasen@yahoo.no>
+Standards-Version: 4.4.1
+Build-Depends: debhelper-compat (= 12), dh-python, libaio-dev, libblkid-dev, python3-dev
+Homepage: https://www.pagure.io/sanlock/
+Directory: pool/universe/s/sanlock
+Package-List:
+ libsanlock-client1 deb libs optional arch=any
+ libsanlock-dev deb libdevel optional arch=any
+ libsanlock1 deb libs optional arch=any
+ python3-sanlock deb python optional arch=any
+ sanlock deb utils optional arch=any
+Files:
+ 8430812f4ca4c6a874026beb091b0ec6 1723 sanlock_3.8.2-2~ubuntu20.04.1.dsc
+ 994d0587f21981d84a4af11a39617c45 266780 sanlock_3.8.2.orig.tar.gz
+ fe362ac58607f0c7f73df9970ea803fc 10316 sanlock_3.8.2-2~ubuntu20.04.1.debian.tar.xz
+Checksums-Sha1:
+ 80ccef0a545153664996e26366891730c3e45eb4 1723 sanlock_3.8.2-2~ubuntu20.04.1.dsc
+ e75e6dcf8da0bae4cb4a739046bffa706ffcab9a 266780 sanlock_3.8.2.orig.tar.gz
+ 0bb3e13b07462e5c9c233be1bb55de9df7ba1a5e 10316 sanlock_3.8.2-2~ubuntu20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 918dcd2f0137dd8b41aeadf11ba20d34e44840423e2602e2aaf0a0da444693c6 1723 sanlock_3.8.2-2~ubuntu20.04.1.dsc
+ afb3cb772ba2a6e632ea8a97e21e951ac9d34fdab43e4e8b2369484b298b3a12 266780 sanlock_3.8.2.orig.tar.gz
+ 84358cc0f1933579caffa78e386bfc9a89fe21334269ccad7c43814e304c9058 10316 sanlock_3.8.2-2~ubuntu20.04.1.debian.tar.xz
+Checksums-Sha512:
+ 2162cad04cd9e3107f0b33460b54b052770b1bc8cbafb1c78f130f1fc7060d0a306f6295c09d0947af3221deeccc4549028896edef0f9df5ae437f4bf19b6a8b 1723 sanlock_3.8.2-2~ubuntu20.04.1.dsc
+ 2fa92e16eee4d2f3dac452400522f7e90b93b71349d322564d5957e2d87fb4bd69f0b5617b05f4b296c272d6da9a404fccadbbfff106354a0e302c436593eaac 266780 sanlock_3.8.2.orig.tar.gz
+ 2ee1ddf22c72aa17c7209667449ede4eb6985c355827b76e27e39e32338771ee389bc287f2f2be01b8cd6430020d41dd3453ec4cb0fbaaf4eeb1537b5580fedd 10316 sanlock_3.8.2-2~ubuntu20.04.1.debian.tar.xz
+
+Package: sdbus-cpp
+Format: 3.0 (quilt)
+Binary: libsdbus-c++-bin, libsdbus-c++-dev, libsdbus-c++-doc, libsdbus-c++0
+Architecture: linux-any all
+Version: 0.8.3-4~bpo20.04.1
+Priority: optional
+Section: universe/libdevel
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Shengjing Zhu <zhsj@debian.org>
+Standards-Version: 4.5.1
+Build-Depends: cmake, dbus, debhelper-compat (= 12), googletest (>= 1.10.0~), libexpat1-dev, libsystemd-dev, pkg-config
+Build-Depends-Indep: doxygen
+Homepage: https://github.com/Kistler-Group/sdbus-cpp
+Vcs-Browser: https://salsa.debian.org/zhsj/sdbus-cpp
+Vcs-Git: https://salsa.debian.org/zhsj/sdbus-cpp.git
+Directory: pool/universe/s/sdbus-cpp
+Package-List:
+ libsdbus-c++-bin deb utils optional arch=linux-any
+ libsdbus-c++-dev deb libdevel optional arch=linux-any
+ libsdbus-c++-doc deb doc optional arch=all
+ libsdbus-c++0 deb libs optional arch=linux-any
+Files:
+ 5cafc173b94edfba176d0d279a28bbfe 2296 sdbus-cpp_0.8.3-4~bpo20.04.1.dsc
+ ade438a7ea3ce50ae15ad3721f683197 190124 sdbus-cpp_0.8.3.orig.tar.gz
+ 5bd00283eaf82c152e3fe6e2c2569f99 3076 sdbus-cpp_0.8.3-4~bpo20.04.1.debian.tar.xz
+Checksums-Sha1:
+ 29fa42a59fbfbf821fada671754add2ace029f31 2296 sdbus-cpp_0.8.3-4~bpo20.04.1.dsc
+ 003700d9710ab8563681186d5ec244e48bc8ed94 190124 sdbus-cpp_0.8.3.orig.tar.gz
+ b0a3c5a43e1ec50c879f0f0509c0f50f41236143 3076 sdbus-cpp_0.8.3-4~bpo20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 604be216a27f03482102de984910652fdb76659e0a57e82f4e51b11a2c2bb41e 2296 sdbus-cpp_0.8.3-4~bpo20.04.1.dsc
+ 0fd575ae0f463773dd9141242d1133731e2b780fd6526650ce992ba711d88628 190124 sdbus-cpp_0.8.3.orig.tar.gz
+ 2da419f119e270ac52f2ff7ea9aabf9b2a1a20f4e48f3d9a79dcb52bcdf459a6 3076 sdbus-cpp_0.8.3-4~bpo20.04.1.debian.tar.xz
+Checksums-Sha512:
+ 656bb6b58920a901be0f6c28bb81304fbbb7ef5c1b99e1c62b6770d203d7b4b3521e89e8049c10b0569bda90615f66d248e509d58390307ea62f1166c57fc367 2296 sdbus-cpp_0.8.3-4~bpo20.04.1.dsc
+ bdaccd686aeba9f24284c796fac7d0b6d514365e0b757db91e209e1e15c928d9de8ab1d5f5d21671896b07ea762ab4b7c6a5ce0850b17ad08bacb0f1a668cfb2 190124 sdbus-cpp_0.8.3.orig.tar.gz
+ a5d80db46c59b7f3d9272f1142d52d2e1daaa67730f2283b4366a52a7f6bc8cb3ef9770d233c7901701d93118efd908dae542b571c10d6deaa279e7ed50665a7 3076 sdbus-cpp_0.8.3-4~bpo20.04.1.debian.tar.xz
+
+Package: ubuntu-dev-tools
+Format: 3.0 (native)
+Binary: ubuntu-dev-tools, python3-ubuntutools
+Architecture: all
+Version: 0.187~bpo20.04.1
+Priority: optional
+Section: universe/devel
+Maintainer: Ubuntu Developers <ubuntu-dev-tools@packages.debian.org>
+Uploaders:  Benjamin Drung <bdrung@debian.org>, Stefano Rivera <stefanor@debian.org>, Mattia Rizzolo <mattia@debian.org>,
+Standards-Version: 4.6.0
+Build-Depends: dctrl-tools, debhelper-compat (= 13), devscripts (>= 2.11.0~), dh-make, dh-python, distro-info (>= 0.2~), flake8, lsb-release, python3-all, python3-apt, python3-debian, python3-debianbts, python3-distro-info, python3-httplib2, python3-launchpadlib, python3-pytest, python3-requests <!nocheck>, python3-setuptools
+Testsuite: autopkgtest
+Testsuite-Triggers: dh-make, flake8, python3-pytest, python3-setuptools
+Homepage: https://launchpad.net/ubuntu-dev-tools
+Vcs-Browser: https://git.launchpad.net/ubuntu-dev-tools
+Vcs-Git: https://git.launchpad.net/ubuntu-dev-tools
+Directory: pool/universe/u/ubuntu-dev-tools
+Package-List:
+ python3-ubuntutools deb python optional arch=all
+ ubuntu-dev-tools deb devel optional arch=all
+Files:
+ 3b6f5dfd9d932d01eed205a906d6496c 2252 ubuntu-dev-tools_0.187~bpo20.04.1.dsc
+ ef41b977331045263d8b930ce51179f1 164520 ubuntu-dev-tools_0.187~bpo20.04.1.tar.xz
+Checksums-Sha1:
+ 59bd0cb3c221052ea7a8faa04a621390cc8db015 2252 ubuntu-dev-tools_0.187~bpo20.04.1.dsc
+ d20a1c1b58e9ade0de5c9d3ebca0274c3cd307ed 164520 ubuntu-dev-tools_0.187~bpo20.04.1.tar.xz
+Checksums-Sha256:
+ 209636942b7f3b6dde61b9c2f92a903720a5fff681862f06819abf584470179d 2252 ubuntu-dev-tools_0.187~bpo20.04.1.dsc
+ 376b6e38c8f5605766bafa2a0cd0979f27f74db852636becccc2009c7989db06 164520 ubuntu-dev-tools_0.187~bpo20.04.1.tar.xz
+Checksums-Sha512:
+ 89e3da37267567b4d73f6d8960b2b20dac3086430db3803ef29687318c854ee84b000eaae871e67fb09bce11a26849d4080278d88e23edfcb2fa2a6f7ab8470a 2252 ubuntu-dev-tools_0.187~bpo20.04.1.dsc
+ b5ceba74d3836669a2d9360cc5673960cc66358dab079bcb70a34586b75cc4b7d52da22430993552b56722199d46cb73375568543f38ffcf976c33f32e990f99 164520 ubuntu-dev-tools_0.187~bpo20.04.1.tar.xz
+
+Package: yt-dlp
+Format: 3.0 (quilt)
+Binary: yt-dlp
+Architecture: all
+Version: 2022.08.19-1~bpo20.04.1
+Priority: optional
+Section: universe/web
+Maintainer: Unit 193 <unit193@debian.org>
+Standards-Version: 4.6.1
+Build-Depends: debhelper-compat (= 13), dh-python (>= 5.20211213~), pandoc, python3-pkg-resources, python3-pytest <!nocheck>, python3-setuptools, zip
+Build-Depends-Indep: python3
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, python3-all
+Homepage: https://github.com/yt-dlp/yt-dlp
+Vcs-Browser: https://git.unit193.net/cgit/users/unit193/yt-dlp.git
+Vcs-Git: https://git.unit193.net/cgit/users/unit193/yt-dlp.git
+Directory: pool/universe/y/yt-dlp
+Package-List:
+ yt-dlp deb web optional arch=all
+Files:
+ b5958a3bbf7330898a0883ba2881d48f 2111 yt-dlp_2022.08.19-1~bpo20.04.1.dsc
+ bbe39034e89b8a8e2bbd5c66729460da 2122160 yt-dlp_2022.08.19.orig.tar.gz
+ 5f01b6ae1886f51013bcf757486d7680 11288 yt-dlp_2022.08.19-1~bpo20.04.1.debian.tar.xz
+Checksums-Sha1:
+ 531f0bcbbc204f73ccd67e68230fc1ae2f4797cd 2111 yt-dlp_2022.08.19-1~bpo20.04.1.dsc
+ fdf576c0a4f0d11e272a75d45897284114aaa28a 2122160 yt-dlp_2022.08.19.orig.tar.gz
+ d19ce58a74d628c7515572b535c2818573d7d9f1 11288 yt-dlp_2022.08.19-1~bpo20.04.1.debian.tar.xz
+Checksums-Sha256:
+ eec1310a52a00bd5c4f1f834251f786fa112ae4e66c6b1fc0aa091be00a4252e 2111 yt-dlp_2022.08.19-1~bpo20.04.1.dsc
+ 8fbb5193d03f3a2c6098b9bdd08a8a856f5d75a071785366fe84c4efe18bf391 2122160 yt-dlp_2022.08.19.orig.tar.gz
+ 2cf3f49f708fef8313f8d308b96cd7f95947bc50ac8913334f4bc8b0171fbb9b 11288 yt-dlp_2022.08.19-1~bpo20.04.1.debian.tar.xz
+Checksums-Sha512:
+ 7e25f870022429885981f0725ae4de3d5fb50b00dc53b4df32a6d7f9efc1673aa7d9bc253b1664f03222d3e35ec86f19d0eaaa2e05ddab8d7a211fcb0f371940 2111 yt-dlp_2022.08.19-1~bpo20.04.1.dsc
+ d5534327c2e567f91ba44fcacd281b6fb5688a10160a043661093825c0ef7a106e8ce429dc50acc6aeee5831cfd13461ec96c585c5fa30fe95a4381db69073c6 2122160 yt-dlp_2022.08.19.orig.tar.gz
+ 182549d91a6f1596a0a3366918849f9bc16b2fac548ec95ccfa87fa88784626d23a6cd5d22f6ba746664e9b1d4ad8a66024f41dacbf668df7cf8230c3c3ceb2c 11288 yt-dlp_2022.08.19-1~bpo20.04.1.debian.tar.xz
+

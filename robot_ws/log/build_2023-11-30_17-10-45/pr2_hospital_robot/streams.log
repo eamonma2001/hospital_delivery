@@ -1,0 +1,6 @@
+[0.069s] Invoking command in '/home/eamon/hospital/robot_ws/build/pr2_hospital_robot': /usr/bin/cmake --build /home/eamon/hospital/robot_ws/build/pr2_hospital_robot -- -j6 -l6
+[0.094s] CMake Error: The current CMakeCache.txt directory /home/eamon/hospital/robot_ws/build/pr2_hospital_robot/CMakeCache.txt is different than the directory /home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/build/pr2_hospital_robot where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.107s] CMake Error: The source directory "/home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/src/pr2_hospital_robot" does not exist.
+[0.107s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.109s] make: *** [Makefile:334: cmake_check_build_system] Error 1
+[0.112s] Invoked command in '/home/eamon/hospital/robot_ws/build/pr2_hospital_robot' returned '2': /usr/bin/cmake --build /home/eamon/hospital/robot_ws/build/pr2_hospital_robot -- -j6 -l6

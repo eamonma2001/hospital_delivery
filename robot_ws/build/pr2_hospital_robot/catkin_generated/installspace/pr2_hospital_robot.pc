@@ -1,0 +1,8 @@
+prefix=/home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/install/pr2_hospital_robot
+
+Name: pr2_hospital_robot
+Description: Description of pr2_hospital_robot
+Version: 1.2.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

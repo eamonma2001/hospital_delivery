@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation/devel/setup.sh

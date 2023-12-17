@@ -1,0 +1,726 @@
+Package: broadcom-sta
+Format: 3.0 (quilt)
+Binary: broadcom-sta-common, broadcom-sta-dkms, broadcom-sta-source
+Architecture: all
+Version: 6.30.223.271-12ubuntu0.1
+Priority: optional
+Section: multiverse/admin
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Eduard Bloch <blade@debian.org>
+Uploaders: Cyril Lacoux <clacoux@easter-eggs.com>, Roger Shimizu <rosh@debian.org>
+Standards-Version: 4.1.3
+Build-Depends: debhelper (>= 9.2), dkms
+Homepage: http://www.broadcom.com/support/802.11/linux_sta.php
+Vcs-Browser: https://salsa.debian.org/broadcom-sta-team/broadcom-sta
+Vcs-Git: https://salsa.debian.org/broadcom-sta-team/broadcom-sta.git
+Directory: pool/multiverse/b/broadcom-sta
+Package-List:
+ broadcom-sta-common deb non-free/kernel optional arch=all
+ broadcom-sta-dkms deb non-free/kernel optional arch=all
+ broadcom-sta-source deb non-free/kernel optional arch=all
+Files:
+ e8c68014a4bcd7f2b8efe3f740144d9f 1997 broadcom-sta_6.30.223.271-12ubuntu0.1.dsc
+ f2d9a16d5c36afa112ea9cef2f3592be 2194116 broadcom-sta_6.30.223.271.orig.tar.xz
+ 409aeb5b7f97541de59b87cf1737049b 24780 broadcom-sta_6.30.223.271-12ubuntu0.1.debian.tar.xz
+Checksums-Sha1:
+ b6e6a8cc67052f9d0097573fba351fa38e76291d 1997 broadcom-sta_6.30.223.271-12ubuntu0.1.dsc
+ 38f040920b064b244d47bd560a669308fd10cac8 2194116 broadcom-sta_6.30.223.271.orig.tar.xz
+ 7cb2ec35e02571a28cf9083f904bc675653da666 24780 broadcom-sta_6.30.223.271-12ubuntu0.1.debian.tar.xz
+Checksums-Sha256:
+ 96e9b97da5a9390db0ea92a3f8b23283ed770f4ff2c8df5d7c770968ca7ae121 1997 broadcom-sta_6.30.223.271-12ubuntu0.1.dsc
+ 8b539f173ab7092d34307b6306e22c6380df025a7f2483937374492a7aedb2dc 2194116 broadcom-sta_6.30.223.271.orig.tar.xz
+ b091209781b7b1250d18346fca2006fe2badee16cd73dd5bf9c272e148b0a64c 24780 broadcom-sta_6.30.223.271-12ubuntu0.1.debian.tar.xz
+Checksums-Sha512:
+ b3bc00a844fdce9d79f4b552c2817357b132328dedd977f58c5334f278fbd3d20203453dad3007e6eb3c6b5f5bb403b9967a265c88a4d454d323b08f24e338be 1997 broadcom-sta_6.30.223.271-12ubuntu0.1.dsc
+ 946c709564fa0b97e38736bd6f8d236f251b586f787559f65dd1f8f9c9fc2b123823ab623c1979cffb7a184698ffd5dd49fd4b37e95c33cac3d78e07f78c03b8 2194116 broadcom-sta_6.30.223.271.orig.tar.xz
+ dc8f71bda8011a7e9c7bc21b523535945de168a64165baa5d1a3fd62cf90bea850b2d21d7da541f2ebddf7619985187e671c754734b918949f20ca245a1ee132 24780 broadcom-sta_6.30.223.271-12ubuntu0.1.debian.tar.xz
+
+Package: fabric-manager-450
+Format: 3.0 (quilt)
+Binary: nvidia-fabricmanager-450, nvidia-fabricmanager-dev-450, cuda-drivers-fabricmanager-450
+Architecture: amd64
+Version: 450.248.02-0ubuntu0.20.04.1
+Priority: optional
+Section: multiverse/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 10)
+Vcs-Browser: https://github.com/tseliot/apt-packaging-fabric-manager/tree/450
+Vcs-Git: git://github.com/tseliot/apt-packaging-fabric-manager.git
+Directory: pool/multiverse/f/fabric-manager-450
+Package-List:
+ cuda-drivers-fabricmanager-450 deb non-free/libs optional arch=amd64
+ nvidia-fabricmanager-450 deb non-free/libs optional arch=amd64
+ nvidia-fabricmanager-dev-450 deb non-free/libs optional arch=amd64
+Files:
+ 624156acecce0bbd7abd04c201b8ed32 2621 fabric-manager-450_450.248.02-0ubuntu0.20.04.1.dsc
+ f85d0ed32a23579abea36496dc390091 1110346 fabric-manager-450_450.248.02.orig-amd64.tar.gz
+ 4a1a338ffe266b3d662e18d87bba9627 128 fabric-manager-450_450.248.02.orig.tar.gz
+ 6d2883d07c326980f07420f4bbec479d 6932 fabric-manager-450_450.248.02-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha1:
+ 6f747fffbc768fe82e16ebef39f0a4e0055e8d36 2621 fabric-manager-450_450.248.02-0ubuntu0.20.04.1.dsc
+ 886634ae5dbd9e091295531694fa761d0ddcded4 1110346 fabric-manager-450_450.248.02.orig-amd64.tar.gz
+ 7144b8432028840a9eb99c43f58365b454e6e686 128 fabric-manager-450_450.248.02.orig.tar.gz
+ 466ceacc7594fd0f7292912238d6faa521116a4a 6932 fabric-manager-450_450.248.02-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha256:
+ c9f5c35ee1ef374ca87b66ae18f52219cd3f0d4efabcef93188644c4226faac0 2621 fabric-manager-450_450.248.02-0ubuntu0.20.04.1.dsc
+ 4c8f5fc88845a4b0a10be5e7fc3f52e26708656582f89b5ca40d574c8c218b54 1110346 fabric-manager-450_450.248.02.orig-amd64.tar.gz
+ 666cff01aa35c0ce050aabed6b47b9994dc38f4b306570dce5c91a7fac4d1741 128 fabric-manager-450_450.248.02.orig.tar.gz
+ 5cd51a3f3e1dc7a57e90e5dc10811ee089820bcb66d963456b7f90d35c0c2484 6932 fabric-manager-450_450.248.02-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha512:
+ 170abe81df9f556a59c1dfab0f3cbfb359477fbe4b8780f17a579abfd2c08c5a99e7f1ba847e36aa7561fc719e7ab19c043d2ba9f78395dd94b021ac2590e89f 2621 fabric-manager-450_450.248.02-0ubuntu0.20.04.1.dsc
+ 87bd378b0f6c5119ab582964fe62009e3851273c389fe87c5361210bb1a49e28c89163f4ced3b3291763ead99d88b37f29aa2a728a7cd3465d768ab8d9eecea4 1110346 fabric-manager-450_450.248.02.orig-amd64.tar.gz
+ f9b4d633125f762c7cca16a25bc6b08b59548ba53b24aa39e4c3470514d0c8f58e0751132033283d9aa023a6a766f3972217cb889f11c1a4a9da842064958f55 128 fabric-manager-450_450.248.02.orig.tar.gz
+ 405410f2871817f43334948b7a1e48cdccef9a94650c257c03e86909fd72ac5e6bb2820edbfb3fc5788a6dba7e8a4babf149eac2a846ef45f0faf65255c3007b 6932 fabric-manager-450_450.248.02-0ubuntu0.20.04.1.debian.tar.xz
+Autobuild: yes
+
+Package: fabric-manager-460
+Format: 3.0 (quilt)
+Binary: nvidia-fabricmanager-460, nvidia-fabricmanager-dev-460, cuda-drivers-fabricmanager-460
+Architecture: amd64
+Version: 460.106.00-0ubuntu0.20.04.1
+Priority: optional
+Section: multiverse/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 10)
+Vcs-Browser: https://github.com/tseliot/apt-packaging-fabric-manager/tree/460
+Vcs-Git: git://github.com/tseliot/apt-packaging-fabric-manager.git
+Directory: pool/multiverse/f/fabric-manager-460
+Package-List:
+ cuda-drivers-fabricmanager-460 deb non-free/libs optional arch=amd64
+ nvidia-fabricmanager-460 deb non-free/libs optional arch=amd64
+ nvidia-fabricmanager-dev-460 deb non-free/libs optional arch=amd64
+Files:
+ 7228523a8b81e34655f24478a527e897 2621 fabric-manager-460_460.106.00-0ubuntu0.20.04.1.dsc
+ 16f6cdb67336c290277faec2545a8d11 1136039 fabric-manager-460_460.106.00.orig-amd64.tar.gz
+ 7378fb77ae60d3d4ae0143787fc70e5c 129 fabric-manager-460_460.106.00.orig.tar.gz
+ 168d66fc7f5b2fa26674cf593d2ec1c2 6836 fabric-manager-460_460.106.00-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha1:
+ 5955f4a3619d1425d6fff3b5d211432c9d208d14 2621 fabric-manager-460_460.106.00-0ubuntu0.20.04.1.dsc
+ 0984975d934086e37be9aa64f6bbc6b6ce3fea5a 1136039 fabric-manager-460_460.106.00.orig-amd64.tar.gz
+ 4ccd69d441a6a93848c3915b17ffe428eb0050c8 129 fabric-manager-460_460.106.00.orig.tar.gz
+ 20c8d11a564db1560c7573925c1d81d67348b2bc 6836 fabric-manager-460_460.106.00-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 381739173646de35c4f6a5da4e62ad42a94221a0c7c16014f111c2c8286f8299 2621 fabric-manager-460_460.106.00-0ubuntu0.20.04.1.dsc
+ f910695514d1920d15acc037165861ffeae0f52c730fcc701d3ccba0fa7f84c9 1136039 fabric-manager-460_460.106.00.orig-amd64.tar.gz
+ 70561342686c08edd41ce3a385fcf826af0066f863631bcc4625085dabb83781 129 fabric-manager-460_460.106.00.orig.tar.gz
+ 886eb12bd05f4e1b5ae6ac3811dc7cd5eb2a55ea6ea4433de5f58ff2399812c5 6836 fabric-manager-460_460.106.00-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha512:
+ b0dc071d53384933af08f6e44e9372f85d598c1b950ee66428ce31dde01de0059d570fc3d3f5c7661b09ee3083ce6be6549875824e15395553fa6fe836aabe11 2621 fabric-manager-460_460.106.00-0ubuntu0.20.04.1.dsc
+ 860dc637a15e3d415c70bb1a2c9dd48500e005986e4827dd967c7a932451d8f195b3e88cbd4be9f0bf6a918748788d582a35327c85cb78c8cb177026479f708f 1136039 fabric-manager-460_460.106.00.orig-amd64.tar.gz
+ 72247cc830895698da870bfd9fb47c0da2c784e36c4334f3570b45f290bd78ec0662ccb61b8ed2c484d27b1a79e01d366092cdb925dd9cc2cc2ec3d6d419f88f 129 fabric-manager-460_460.106.00.orig.tar.gz
+ 8db9dcfcd439acf590dceaf849043d4ecb9a3dfa0a85ed326a1a6d619869b72a415b3f93a3591b60d83cd7213c4dc6318661b13661df481a2229db712d2c861e 6836 fabric-manager-460_460.106.00-0ubuntu0.20.04.1.debian.tar.xz
+Autobuild: yes
+
+Package: fabric-manager-470
+Format: 3.0 (quilt)
+Binary: nvidia-fabricmanager-470, nvidia-fabricmanager-dev-470, cuda-drivers-fabricmanager-470, nvidia-fabricmanager-460, nvidia-fabricmanager-dev-460, cuda-drivers-fabricmanager-460
+Architecture: amd64
+Version: 470.199.02-0ubuntu0.20.04.1
+Priority: optional
+Section: multiverse/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 10)
+Vcs-Browser: https://github.com/tseliot/apt-packaging-fabric-manager/tree/470
+Vcs-Git: git://github.com/tseliot/apt-packaging-fabric-manager.git
+Directory: pool/multiverse/f/fabric-manager-470
+Package-List:
+ cuda-drivers-fabricmanager-460 deb non-free/libs optional arch=amd64
+ cuda-drivers-fabricmanager-470 deb non-free/libs optional arch=amd64
+ nvidia-fabricmanager-460 deb non-free/libs optional arch=amd64
+ nvidia-fabricmanager-470 deb non-free/libs optional arch=amd64
+ nvidia-fabricmanager-dev-460 deb non-free/libs optional arch=amd64
+ nvidia-fabricmanager-dev-470 deb non-free/libs optional arch=amd64
+Files:
+ 26b39efc450a261f3536651fac412dd2 2911 fabric-manager-470_470.199.02-0ubuntu0.20.04.1.dsc
+ f6639a3ddc4be3217e22bae9fdac7091 1202503 fabric-manager-470_470.199.02.orig-amd64.tar.gz
+ b6f7732a2c7ce28d54fe3f744d95824e 127 fabric-manager-470_470.199.02.orig.tar.gz
+ 66971947fb3d53e15a7c6777e8d1b987 7120 fabric-manager-470_470.199.02-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha1:
+ fae4bf4b5b6af8033986f64f9e9fcfc01119219e 2911 fabric-manager-470_470.199.02-0ubuntu0.20.04.1.dsc
+ 57a058c72f6e152ddf2b1c09b40bc01ebbf4042f 1202503 fabric-manager-470_470.199.02.orig-amd64.tar.gz
+ 776989b7b9a516e8166a63046e96a69df6e51b31 127 fabric-manager-470_470.199.02.orig.tar.gz
+ 91d20b56c7746f2744470a00b1aa0cfa2ab372cc 7120 fabric-manager-470_470.199.02-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 1653faccde5e7cb6a0e1aa13ba4699801dd6853d029f070dec80abae114bc885 2911 fabric-manager-470_470.199.02-0ubuntu0.20.04.1.dsc
+ 16de073ae7c6b119f49fa41e2c5fa89b51ad792a876976cd034486a2367bee93 1202503 fabric-manager-470_470.199.02.orig-amd64.tar.gz
+ 2cb54599f4da7c9777af211f49503ae3cdce313499a0e60a32462c2813969d2d 127 fabric-manager-470_470.199.02.orig.tar.gz
+ a4c9d3a922c0296433c306bd8d780fee89692d18e395dbe130517d76b678775e 7120 fabric-manager-470_470.199.02-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha512:
+ 487b7e82133e917a19d4aa84e8f6fa8054c0a09d94193e4260afb3491e077e1ee07a84ce4b8d4689f04b348b20eb18ea8f34dc40ce2e214fc470cd02038541f0 2911 fabric-manager-470_470.199.02-0ubuntu0.20.04.1.dsc
+ 4be66421bb4da61ebeef8c69b91a36ee634b8e6ded2e1cdc23bdd89bd6e6289a88141cc1b1d2beee3e4f91126a37c4341ceae82ec1eee607360aedafce1a8001 1202503 fabric-manager-470_470.199.02.orig-amd64.tar.gz
+ 8d098308e765e834ad4d409b4c39b000ed1f4316b8a167f48b3774cf8bf43d920686514ffc7dc66cdcb95d0cd33c1fd75c9fd6993cc395d4584144567d2a799c 127 fabric-manager-470_470.199.02.orig.tar.gz
+ 7834dc52f0e6b4da3f5594fa2a193cf1add640ff4887ac83030723ed3dd28ea9c87a728e0a1b5fb8dbbe75d2fcb8c3b1241d42dd5fb8a092f194e589e12e1ddb 7120 fabric-manager-470_470.199.02-0ubuntu0.20.04.1.debian.tar.xz
+Autobuild: yes
+
+Package: fabric-manager-510
+Format: 3.0 (quilt)
+Binary: nvidia-fabricmanager-510, nvidia-fabricmanager-dev-510, cuda-drivers-fabricmanager-510, nvidia-fabricmanager-460, nvidia-fabricmanager-dev-460, cuda-drivers-fabricmanager-460
+Architecture: amd64
+Version: 510.85.02-0ubuntu0.20.04.1
+Priority: optional
+Section: multiverse/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 10)
+Vcs-Browser: https://github.com/tseliot/apt-packaging-fabric-manager/tree/510
+Vcs-Git: git://github.com/tseliot/apt-packaging-fabric-manager.git
+Directory: pool/multiverse/f/fabric-manager-510
+Package-List:
+ cuda-drivers-fabricmanager-460 deb non-free/libs optional arch=amd64
+ cuda-drivers-fabricmanager-510 deb non-free/libs optional arch=amd64
+ nvidia-fabricmanager-460 deb non-free/libs optional arch=amd64
+ nvidia-fabricmanager-510 deb non-free/libs optional arch=amd64
+ nvidia-fabricmanager-dev-460 deb non-free/libs optional arch=amd64
+ nvidia-fabricmanager-dev-510 deb non-free/libs optional arch=amd64
+Files:
+ 5d361fe09c64f735cf3a0597177ead26 2901 fabric-manager-510_510.85.02-0ubuntu0.20.04.1.dsc
+ 0c8d303c41d499cb0a4d818300863194 1528407 fabric-manager-510_510.85.02.orig-amd64.tar.gz
+ 08c8cc4208c14ff1103d6234cc4c40fb 128 fabric-manager-510_510.85.02.orig.tar.gz
+ 3ceeeec3c7a1adb296b36e3c6c5b2225 6904 fabric-manager-510_510.85.02-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha1:
+ 5d216777d55c644205305f7658180b959211f700 2901 fabric-manager-510_510.85.02-0ubuntu0.20.04.1.dsc
+ c731a2f3f0f11bc1f223b3a6319c6b379986498e 1528407 fabric-manager-510_510.85.02.orig-amd64.tar.gz
+ 07ad8f1840a20d8f2ce2499832403a6d4134f794 128 fabric-manager-510_510.85.02.orig.tar.gz
+ 038d461cc431203955483639548489986a9e25b8 6904 fabric-manager-510_510.85.02-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 298312fbfdd86723236272b3234982e85a7a6b835c3e3e07a18191bbfdcf3c57 2901 fabric-manager-510_510.85.02-0ubuntu0.20.04.1.dsc
+ ffdcb86cff9e235dabf454897c598bf9eae4e70afd00968583c7e0dc88ef4ca6 1528407 fabric-manager-510_510.85.02.orig-amd64.tar.gz
+ eb76877137d756b07d6e3573b6daf9af0ea98ff622c170271c43943247a8308a 128 fabric-manager-510_510.85.02.orig.tar.gz
+ 6d6d3a9a2dcf6e7a3e3897871661fd58bffdf6535b1ac8edc6070bd4670f5473 6904 fabric-manager-510_510.85.02-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha512:
+ 639ce3b1d160e1fd817005f29d63b68ff265c0326ec27f5ebdf5c0432b41d4c519e2fd5dc1104f246e64555a941b3f855d3799307731a8f9dbe9d70979b15fea 2901 fabric-manager-510_510.85.02-0ubuntu0.20.04.1.dsc
+ c9b9239c351c62f5f8c0674522ee6f7f0c300d7b29cea73e7730a57e0d92c7cb790cdf3cfbab6c4e6af93db4b97255d7a7dae035d2fd63948450a33b0f726962 1528407 fabric-manager-510_510.85.02.orig-amd64.tar.gz
+ 5798ae98676b7fddee82d22ed30e1106cd0b996818ad22f8b027fa1c5e400759d4dcdb78bb150838ed25e65bc9122c6da8cd6f3198d9e468d861f417f4aa9151 128 fabric-manager-510_510.85.02.orig.tar.gz
+ b693394bf2de1a1cc31530a9e5353ae6e8a88a5667e13b5ef0889e4ddcf92a849ec9bc0595b55b4d3c5572cf3e63cda42440ee1f40749fa46413ffee873d9b89 6904 fabric-manager-510_510.85.02-0ubuntu0.20.04.1.debian.tar.xz
+Autobuild: yes
+
+Package: fabric-manager-525
+Format: 3.0 (quilt)
+Binary: nvidia-fabricmanager-525, nvidia-fabricmanager-dev-525, cuda-drivers-fabricmanager-525
+Architecture: amd64
+Version: 525.125.06-0ubuntu0.20.04.1
+Priority: optional
+Section: multiverse/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 10)
+Vcs-Browser: https://github.com/tseliot/apt-packaging-fabric-manager/tree/525
+Vcs-Git: git://github.com/tseliot/apt-packaging-fabric-manager.git
+Directory: pool/multiverse/f/fabric-manager-525
+Package-List:
+ cuda-drivers-fabricmanager-525 deb non-free/libs optional arch=amd64
+ nvidia-fabricmanager-525 deb non-free/libs optional arch=amd64
+ nvidia-fabricmanager-dev-525 deb non-free/libs optional arch=amd64
+Files:
+ 70aaafd738095ef2e635b17d2b471742 2931 fabric-manager-525_525.125.06-0ubuntu0.20.04.1.dsc
+ 8c46d70a265f90d260cca5cd9834f9c1 1638687 fabric-manager-525_525.125.06.orig-amd64.tar.gz
+ 8af908785b45b5468947a41fa660bd0b 1514901 fabric-manager-525_525.125.06.orig-arm64.tar.gz
+ e6725c3d380406b199e995f75d98f9f0 129 fabric-manager-525_525.125.06.orig.tar.gz
+ b53f25085b7ea682ff41350e0a3b4850 6980 fabric-manager-525_525.125.06-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha1:
+ c36719fa640d24f45d4813f6cb6c91fc1243d9a4 2931 fabric-manager-525_525.125.06-0ubuntu0.20.04.1.dsc
+ 1490792d3a62d4b3dfc3e3757074b1f2bb0efc6e 1638687 fabric-manager-525_525.125.06.orig-amd64.tar.gz
+ 2f92337d70195afc8086910ce40df987340bc594 1514901 fabric-manager-525_525.125.06.orig-arm64.tar.gz
+ 6432b80a94f7fad8f0d1eec6781be1bc95441a59 129 fabric-manager-525_525.125.06.orig.tar.gz
+ da02fe143ef0604f1cc96c27f8b43bcc8ecbe6cd 6980 fabric-manager-525_525.125.06-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 998bf7bb4f0c5f1ac21b368d40eed0b0431df87e82bb7f0408f7b8225b98af3c 2931 fabric-manager-525_525.125.06-0ubuntu0.20.04.1.dsc
+ df697c17a366f18b698957230dde17a407eb1954bf769099f5f57f22dfc51806 1638687 fabric-manager-525_525.125.06.orig-amd64.tar.gz
+ e1eaedd0828ca1dc92585f1eebfa1f83457d02cae65c1e4fbc04365e56659809 1514901 fabric-manager-525_525.125.06.orig-arm64.tar.gz
+ deee0c9110055f6a8559be588b660cd2b3f5cc5964c88e7d25322ae97e5e85d3 129 fabric-manager-525_525.125.06.orig.tar.gz
+ 59e5bbe1a49ff4251bdf458851e20f64ef215aa8b78f64f7c0f48ad11386e58f 6980 fabric-manager-525_525.125.06-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha512:
+ 30e7000ee02c8f3ae0886c39c6ba82ab1381bafdd71cfd319a2acb0f4da2f1daa56b4100a0e3ad3eec1583719de8d63cdb9cbd87611aa25cef5aff750e71977c 2931 fabric-manager-525_525.125.06-0ubuntu0.20.04.1.dsc
+ 20471db861a8116cb90b5e5adc731ebdc1da1f638bfa6b8eb85495f16751bc74f110655161b545b9b6ac19e0f2a7481d445e8775af9eca187fa80c1cf002d13c 1638687 fabric-manager-525_525.125.06.orig-amd64.tar.gz
+ 53421f67f9e5d54236a306175290e0bf43961a5bc0a049fafe842e0243d75b6e125ab75e33a09c42709f2af5e2bce44dca70b1e95b8e6e072af56332a909348d 1514901 fabric-manager-525_525.125.06.orig-arm64.tar.gz
+ a9222fc5d14c23e0d1b3a1370e1b599d3bf2893e47cdb99effbab331ac047ce0c507e4be3136119b9bd6809bdb5cdfe185b0d7854b079bb91e58a977efaf72b6 129 fabric-manager-525_525.125.06.orig.tar.gz
+ 73998e9138cc051c9f249cb1f9fc0725fa72f1d2874d183ee792a477f49bc290f67379e3e6cbb1582d6048f3283e6155a00734c1ea816f2f2d9fc90d96b7c580 6980 fabric-manager-525_525.125.06-0ubuntu0.20.04.1.debian.tar.xz
+Autobuild: yes
+
+Package: fabric-manager-535
+Format: 3.0 (quilt)
+Binary: nvidia-fabricmanager-535, nvidia-fabricmanager-dev-535, cuda-drivers-fabricmanager-535
+Architecture: amd64
+Version: 535.104.12-0ubuntu0.20.04.1
+Priority: optional
+Section: multiverse/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 10)
+Vcs-Browser: https://github.com/tseliot/apt-packaging-fabric-manager/tree/535
+Vcs-Git: git://github.com/tseliot/apt-packaging-fabric-manager.git
+Directory: pool/multiverse/f/fabric-manager-535
+Package-List:
+ cuda-drivers-fabricmanager-535 deb non-free/libs optional arch=amd64
+ nvidia-fabricmanager-535 deb non-free/libs optional arch=amd64
+ nvidia-fabricmanager-dev-535 deb non-free/libs optional arch=amd64
+Files:
+ 9e83c776fd8aceffaec86b2edefc808d 2931 fabric-manager-535_535.104.12-0ubuntu0.20.04.1.dsc
+ 206a09e175ad5e9aa98dfcb9ecaf4048 1821937 fabric-manager-535_535.104.12.orig-amd64.tar.gz
+ 3adec9566d042134664cfd17f35aa360 1682633 fabric-manager-535_535.104.12.orig-arm64.tar.gz
+ 09b8f3710cf300517b6b1afd660e230f 128 fabric-manager-535_535.104.12.orig.tar.gz
+ f3190a98e6053ffb1f6ba84194810e5e 6796 fabric-manager-535_535.104.12-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha1:
+ a290e5ac9e47b1681b7c1fe59c52e7d6647e623a 2931 fabric-manager-535_535.104.12-0ubuntu0.20.04.1.dsc
+ 9752d00c7b81dfedfd817029e4c25593fb3567e4 1821937 fabric-manager-535_535.104.12.orig-amd64.tar.gz
+ 6613c82d185cbd2d55168e736d6f5ceaba6db2f6 1682633 fabric-manager-535_535.104.12.orig-arm64.tar.gz
+ 35ba87272b696f77f792de200cbb9b59724dba06 128 fabric-manager-535_535.104.12.orig.tar.gz
+ b108fda8fe2bdae77404e97b0cc80d4fb7955502 6796 fabric-manager-535_535.104.12-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 5538583d0bbc29fd80fe1719c40372d3b186aaa54c4c7ff75051cc80e6c624c6 2931 fabric-manager-535_535.104.12-0ubuntu0.20.04.1.dsc
+ 711070426ba9484eeb48c67980e11b83ac6b0893521312772d5b4535fd0d1387 1821937 fabric-manager-535_535.104.12.orig-amd64.tar.gz
+ 66ca68bd526cae0bea0541be2a4ea0cf7ebe314ec2ffa463e29793bdb10d0a09 1682633 fabric-manager-535_535.104.12.orig-arm64.tar.gz
+ cab64a528c3b8d2c130dbb0c22cfd60d49455cbeec68e6d1b5ec7f31e04f10c5 128 fabric-manager-535_535.104.12.orig.tar.gz
+ 053cc851ce755b0e50c7c8ce9bdfd06b7f4f68df66b380f9410a8bf36086a1c0 6796 fabric-manager-535_535.104.12-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha512:
+ fc5d2eb8e7c22cd60cf150a87c1e82da55d82a4614e5c161d71d182738179916593b554291543eaff0811742451ea80fc39b88bd6c3595f645c084f6f84f9dfa 2931 fabric-manager-535_535.104.12-0ubuntu0.20.04.1.dsc
+ 5656919cef1ee9942539cd5690253b60d09be60e41ac606b9edc93ddfb48a3c21d18223a681e8b7b07d880fd8ed5914a251b3cee913c842c6da5a9d85af6f243 1821937 fabric-manager-535_535.104.12.orig-amd64.tar.gz
+ 005e842a75f3cbdde2039d41f630e591df214b3f9fd5218df4be26022152104b01ce393486fada18ac7773b02448f41d4d8753bb2ad04b42b9bb7995dfd4bfcc 1682633 fabric-manager-535_535.104.12.orig-arm64.tar.gz
+ 01f296ab386b01c99767fd9be52831d3d297fb86583fb4b1df487644ae08911d378788a31ae8854ab049c5f0a6d73e9a11211d6474c8297e9004cca621385727 128 fabric-manager-535_535.104.12.orig.tar.gz
+ cb86569edaf9ba9e467557a598766634090a0d325b16fd03f4650cea728d28c4d132dedbf513b0ffcf254685238b6558680048f537eb3c32d3fb3a6a9e0f17c7 6796 fabric-manager-535_535.104.12-0ubuntu0.20.04.1.debian.tar.xz
+Autobuild: yes
+
+Package: flashplugin-nonfree
+Format: 1.0
+Binary: flashplugin-installer, flashplugin-downloader
+Architecture: i386 amd64
+Version: 32.0.0.465ubuntu0.20.04.2
+Priority: optional
+Section: multiverse/web
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Bart Martens <bartm@knars.be>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9)
+Homepage: http://www.adobe.com/products/flashplayer.html
+Directory: pool/multiverse/f/flashplugin-nonfree
+Package-List:
+ flashplugin-downloader deb contrib/web optional arch=i386
+ flashplugin-installer deb contrib/web optional arch=i386,amd64
+Files:
+ 9d36ab965d085d577e5dc7bcbd100ccb 1461 flashplugin-nonfree_32.0.0.465ubuntu0.20.04.2.dsc
+ 1d05b12a7e9581ffe72c9f4ec3e1d016 20305 flashplugin-nonfree_32.0.0.465ubuntu0.20.04.2.tar.gz
+Checksums-Sha1:
+ 36a0731c4572b4cea02231a6387760bd3dd9f1b3 1461 flashplugin-nonfree_32.0.0.465ubuntu0.20.04.2.dsc
+ 89201fc538ad0019ab242d4a7465c697a3553ced 20305 flashplugin-nonfree_32.0.0.465ubuntu0.20.04.2.tar.gz
+Checksums-Sha256:
+ 4f362f305c31ee6cdbe5e216c7691f1c1c099ff6bdc1b542d50cfff98b065996 1461 flashplugin-nonfree_32.0.0.465ubuntu0.20.04.2.dsc
+ 58db7fd5c18e51dd21f77dc48087744f8b6728d87e5796c4df457e81ae5a07a1 20305 flashplugin-nonfree_32.0.0.465ubuntu0.20.04.2.tar.gz
+Checksums-Sha512:
+ 16b695bcb2c21f349137d1215687c0b31e94914fa7a8550a6ab861d3927e0a2af554046811c29d2b85b453a411c4ccbd447f4aa301b4629b5a5dd51962ae12cc 1461 flashplugin-nonfree_32.0.0.465ubuntu0.20.04.2.dsc
+ 6db8b2404fbea3a57de5e75e053c3f466dcb73c3ccd06a44abaaf5fb39b2fa1058af44e6e5cf1f8fe676dfa2f122261978649729d5aee8bd7a84096ac5a02fb4 20305 flashplugin-nonfree_32.0.0.465ubuntu0.20.04.2.tar.gz
+
+Package: libnvidia-nscq-450
+Format: 3.0 (quilt)
+Binary: libnvidia-nscq-450
+Architecture: amd64
+Version: 450.248.02-0ubuntu0.20.04.1
+Priority: optional
+Section: multiverse/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 10)
+Vcs-Browser: https://github.com/tseliot/apt-packaging-libnvidia-nscq/tree/450
+Vcs-Git: git://github.com/tseliot/apt-packaging-libnvidia-nscq.git
+Directory: pool/multiverse/libn/libnvidia-nscq-450
+Package-List:
+ libnvidia-nscq-450 deb non-free/libs optional arch=amd64
+Files:
+ 539a836a03dbaffd20f5e1d5edb0bd6e 2406 libnvidia-nscq-450_450.248.02-0ubuntu0.20.04.1.dsc
+ 01352128e0a0d633e304327ec3c6557c 269121 libnvidia-nscq-450_450.248.02.orig-amd64.tar.gz
+ 2c1382ff792cdac5e0a2917b123a6e82 129 libnvidia-nscq-450_450.248.02.orig.tar.gz
+ b891f44110051bca1571e4bc6473dcc0 6488 libnvidia-nscq-450_450.248.02-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha1:
+ e077136d7c616daed8aa14e1b630dc4d24a3293e 2406 libnvidia-nscq-450_450.248.02-0ubuntu0.20.04.1.dsc
+ cd4bf45e9e08f6dd923b34dc4d718543ec54b755 269121 libnvidia-nscq-450_450.248.02.orig-amd64.tar.gz
+ 603eef061cd8960408160be2d3adb0aa115c6c7e 129 libnvidia-nscq-450_450.248.02.orig.tar.gz
+ 77ef54305a8179a43a656ba664f59e13c63ea8ed 6488 libnvidia-nscq-450_450.248.02-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 1b9c01bf6138754fe0f812c5f0944205445af7414c09d17462d721fd6dedb2e0 2406 libnvidia-nscq-450_450.248.02-0ubuntu0.20.04.1.dsc
+ 2abee103ab1c33c429f9069412697e083f6b3e3bb85789d587205e9cef59b385 269121 libnvidia-nscq-450_450.248.02.orig-amd64.tar.gz
+ 1adb3e037f2a80243c9e4eaf15117c485ff1e83c3c0accdaf998f25f50a0ed07 129 libnvidia-nscq-450_450.248.02.orig.tar.gz
+ 2d417dbad26fcb7b4b3ad9b2bbef4e90a087aa9b7e70036cac66f073ec767b47 6488 libnvidia-nscq-450_450.248.02-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha512:
+ bb82bd1e71d640249f47ff43ecde348c8ebea8c85bc4f7837fa075638d63b02ca28b0603087e04b21571531bbaa360b07fbad8cf7163498e61d8c7fcfdae8160 2406 libnvidia-nscq-450_450.248.02-0ubuntu0.20.04.1.dsc
+ 13d45f02f7d0af6db715484f725c5119757a87f3da738a24715d6c59b412b135c735d5449a51662df87698131539aac682113252a73622d4015610dc5fc2ac6a 269121 libnvidia-nscq-450_450.248.02.orig-amd64.tar.gz
+ f19f21d7a68d513dcea94677075f1378097a210b2c8f33c019c982846f68109816d0027448bd657f06d5dbdf71b6e962fc98981e4f0f8d9a9631c65f9159e9d9 129 libnvidia-nscq-450_450.248.02.orig.tar.gz
+ d286e5a6a3bdaf660c6bbb9dfcf9eeb578bdf7789e03ca2c88f3da34c8df61d47a87fb0f60295aa291f999ef9dd0f9d006bb94363aaf64f16097abd395e8e225 6488 libnvidia-nscq-450_450.248.02-0ubuntu0.20.04.1.debian.tar.xz
+Autobuild: yes
+
+Package: libnvidia-nscq-460
+Format: 3.0 (quilt)
+Binary: libnvidia-nscq-460
+Architecture: amd64
+Version: 460.106.00-0ubuntu0.20.04.1
+Priority: optional
+Section: multiverse/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 10)
+Vcs-Browser: https://github.com/tseliot/apt-packaging-libnvidia-nscq/tree/460
+Vcs-Git: git://github.com/tseliot/apt-packaging-libnvidia-nscq.git
+Directory: pool/multiverse/libn/libnvidia-nscq-460
+Package-List:
+ libnvidia-nscq-460 deb non-free/libs optional arch=amd64
+Files:
+ 0f64889bb2b1fab111d2bf4d45865cc3 2406 libnvidia-nscq-460_460.106.00-0ubuntu0.20.04.1.dsc
+ 16961a9ddf57ccbb35287ac42572032d 275597 libnvidia-nscq-460_460.106.00.orig-amd64.tar.gz
+ 3891a84c82421f7a1126429804019187 129 libnvidia-nscq-460_460.106.00.orig.tar.gz
+ 436ed2f27952cf76a0918526c025a4a7 6364 libnvidia-nscq-460_460.106.00-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha1:
+ 486b1f0417797a59f0dfbb0cc554e0f6f3871555 2406 libnvidia-nscq-460_460.106.00-0ubuntu0.20.04.1.dsc
+ 64dbc8099fb5898f4fd6f05bca4686f137c197fa 275597 libnvidia-nscq-460_460.106.00.orig-amd64.tar.gz
+ 85644531d98425d8fbc9c844b2b78a07d76ea6bc 129 libnvidia-nscq-460_460.106.00.orig.tar.gz
+ be22b231bee5f141da1bb619b95867567ae10c4c 6364 libnvidia-nscq-460_460.106.00-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 8419e86c7be620bf2930fd28711cdeae3d018ada7a0ae1c7d32746b60d1d69b0 2406 libnvidia-nscq-460_460.106.00-0ubuntu0.20.04.1.dsc
+ 16785ef8a78d46ffeed688e9d5861b3716b8fbfcbd7fd6de39321832a60f3529 275597 libnvidia-nscq-460_460.106.00.orig-amd64.tar.gz
+ 920602469307c3c3729fa3d1a4014369ba464f79cad46a2d10bab40773bac9a3 129 libnvidia-nscq-460_460.106.00.orig.tar.gz
+ d968933ff3482f87b06cddb0dafff1ef61a180c6d7ea6354d69b803e765092b8 6364 libnvidia-nscq-460_460.106.00-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha512:
+ fc73907b333f739011d6bcf7c1e738365fa119a865fcd07d9c2c4173dcf610c71d326b6ad3abb081fbf34c3a1fd0b5d87772df78fae4bd50c394632f0eddb3f8 2406 libnvidia-nscq-460_460.106.00-0ubuntu0.20.04.1.dsc
+ 42213849cf2c871868d99092bbb17ca36381ae0472c88605035cdd663ca363cb3ab8d8d864fae2f56e1d2385f2a076a909a4bd01388dbf28e2b2684b36bd4e86 275597 libnvidia-nscq-460_460.106.00.orig-amd64.tar.gz
+ 0912b437e6f11e419167bbf0d34f3ff795f1d0c39816f4fbaab598e00f2f4f435452c850c8324ba599f08df904e7162ac6a0accc5fea7ba9e04e98144aa1946d 129 libnvidia-nscq-460_460.106.00.orig.tar.gz
+ cd4b9b382a113a0e2e4b5d04dd1964ced03ae7f5dd986924ae8d63a865605c302685e24639e716fb636f7d4042d4bf3da2474b4186dc75e1dea1b6d12c900a50 6364 libnvidia-nscq-460_460.106.00-0ubuntu0.20.04.1.debian.tar.xz
+Autobuild: yes
+
+Package: libnvidia-nscq-470
+Format: 3.0 (quilt)
+Binary: libnvidia-nscq-470, libnvidia-nscq-460
+Architecture: amd64
+Version: 470.199.02-0ubuntu0.20.04.1
+Priority: optional
+Section: multiverse/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 10)
+Vcs-Browser: https://github.com/tseliot/apt-packaging-libnvidia-nscq/tree/470
+Vcs-Git: git://github.com/tseliot/apt-packaging-libnvidia-nscq.git
+Directory: pool/multiverse/libn/libnvidia-nscq-470
+Package-List:
+ libnvidia-nscq-460 deb non-free/libs optional arch=amd64
+ libnvidia-nscq-470 deb non-free/libs optional arch=amd64
+Files:
+ f6fb91d6995fff4fd06261610b47b4b3 2484 libnvidia-nscq-470_470.199.02-0ubuntu0.20.04.1.dsc
+ 6a9dda0c222ed7d4694667f47b99c2d7 282942 libnvidia-nscq-470_470.199.02.orig-amd64.tar.gz
+ 8e3abef5c9e10a7e4695f3c975a1f109 129 libnvidia-nscq-470_470.199.02.orig.tar.gz
+ 26c378ed43d95c7c8dbb57dcb9260b42 6584 libnvidia-nscq-470_470.199.02-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha1:
+ e05008b8b9f2b1943620235d6fc132146cb36c3a 2484 libnvidia-nscq-470_470.199.02-0ubuntu0.20.04.1.dsc
+ 34e8fc326564f7586e3fd0c5973a2d183f46bb40 282942 libnvidia-nscq-470_470.199.02.orig-amd64.tar.gz
+ 30b7ef52eb5e08f5bcf4b600936d2fc360d33d1b 129 libnvidia-nscq-470_470.199.02.orig.tar.gz
+ dccbd68467b17a502792c3e9b7afe998c66eba32 6584 libnvidia-nscq-470_470.199.02-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 1156097c6737a738cc7810c7071085e43266a25bc073fa0f542c38d42da02280 2484 libnvidia-nscq-470_470.199.02-0ubuntu0.20.04.1.dsc
+ 03421431c2692dc1d1fc0ccafbb034291050a21a3259799b6ffaa3a7e6a813eb 282942 libnvidia-nscq-470_470.199.02.orig-amd64.tar.gz
+ eeaa414d14964651bb953be9efee36b023a82f0726c2c3c44a6e36d3c5df96ac 129 libnvidia-nscq-470_470.199.02.orig.tar.gz
+ cd22028ec6fea6fd4355abd63790b88e833d83d7b0f29fc1c168acd5de054be9 6584 libnvidia-nscq-470_470.199.02-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha512:
+ 83edbda527b95a789f3b9b258d44f949e07bea6816f9dd182a03b4d43ec177e6b6cf521cbc337c40c3e1c283925db1b53c9f0e5cec62981964c58249efec6bc4 2484 libnvidia-nscq-470_470.199.02-0ubuntu0.20.04.1.dsc
+ 7749e39792ba8ae4588b80163e47dda06f2142a45d253d4d938a6dfe877c3701a0003584990843bd5fef33e0715b8d0549112c036d09094c3600ab2b6f7f7d49 282942 libnvidia-nscq-470_470.199.02.orig-amd64.tar.gz
+ 84fdd2f4070f645a84c23d49e44fce477a250a038f9dab890b2cbb78a8e5ff8e5227c91544da706fa2f932bfe76e382823de4317abdac670a6dd193a05e24c9d 129 libnvidia-nscq-470_470.199.02.orig.tar.gz
+ dfbcda2cca91628b62b0a8fb350ca3044030c7db06740b1a8e9c6f016c6c550990692de24e25b1f8bc0ea17333bd38b9251f66dd3823c36dfe13e36946ab053e 6584 libnvidia-nscq-470_470.199.02-0ubuntu0.20.04.1.debian.tar.xz
+Autobuild: yes
+
+Package: libnvidia-nscq-510
+Format: 3.0 (quilt)
+Binary: libnvidia-nscq-510, libnvidia-nscq-460
+Architecture: amd64
+Version: 510.85.02-0ubuntu0.20.04.1
+Priority: optional
+Section: multiverse/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 10)
+Vcs-Browser: https://github.com/tseliot/apt-packaging-libnvidia-nscq/tree/510
+Vcs-Git: git://github.com/tseliot/apt-packaging-libnvidia-nscq.git
+Directory: pool/multiverse/libn/libnvidia-nscq-510
+Package-List:
+ libnvidia-nscq-460 deb non-free/libs optional arch=amd64
+ libnvidia-nscq-510 deb non-free/libs optional arch=amd64
+Files:
+ a00a81f5be3852d675c33fea9be64c4e 2474 libnvidia-nscq-510_510.85.02-0ubuntu0.20.04.1.dsc
+ 6cc0df1329cdf337d3d71aa73e59c9cf 317376 libnvidia-nscq-510_510.85.02.orig-amd64.tar.gz
+ bd762cb030397b207e634b462d6c9b45 129 libnvidia-nscq-510_510.85.02.orig.tar.gz
+ d2680ff93ab96c4f6c4fbcde31c22c7e 6372 libnvidia-nscq-510_510.85.02-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha1:
+ 6870626b43427286e30906c291ed768a6cd9bce5 2474 libnvidia-nscq-510_510.85.02-0ubuntu0.20.04.1.dsc
+ e63ec611421a80f952d070e688e353b7091eafa0 317376 libnvidia-nscq-510_510.85.02.orig-amd64.tar.gz
+ 6fe617af62b8942a4532ee7a31efe4b207e0f320 129 libnvidia-nscq-510_510.85.02.orig.tar.gz
+ e19e96c00829fa90da1c9b2d02ded69ce678a942 6372 libnvidia-nscq-510_510.85.02-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 232bcc74216cef81495c691c22056637a57f8d6f3359d7657be59ff94e7e0546 2474 libnvidia-nscq-510_510.85.02-0ubuntu0.20.04.1.dsc
+ 4048d4d98913d42c8d23f57f283f5fbf10789160fb99dc706bddc03d3a7516f2 317376 libnvidia-nscq-510_510.85.02.orig-amd64.tar.gz
+ 7caa50831f14d4ef9defa92a86c69d5c283ceef508b10adb29f82d3f67be72d8 129 libnvidia-nscq-510_510.85.02.orig.tar.gz
+ 6efc9c4f469857b881668560c4337d8ca23a6d13b98624e06794dcec93a0f7a0 6372 libnvidia-nscq-510_510.85.02-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha512:
+ 93472ad9a36e05b590f1033a19defc2a079b2f41b3f5b94b83838cc43e82992902a677e66bad799f80a80ac32f997e68fc8aa2f8cf10b03fb5baf3c3061eed05 2474 libnvidia-nscq-510_510.85.02-0ubuntu0.20.04.1.dsc
+ 3f1c9b8dd5744f4cbb6d9e9a1795759a9ec9434f92e075349a5d6d24f50964bbe0eba70d650478dae60881eead6e88e933245e17d66044da368c2c06b65313e7 317376 libnvidia-nscq-510_510.85.02.orig-amd64.tar.gz
+ 63cd31c7ef1cb7b1ca683f7af8b79222f8536660454b4383fa558f00565130b6e1979118f7b1f844aa7d9fe97ab2f9a8ef49c59adff040266fecaf01e3a08af4 129 libnvidia-nscq-510_510.85.02.orig.tar.gz
+ 840bf3cba292c6e1771c19e98b08275a126ae45e26c680428aeee7f4a8441d7d094086ecb330cafee5285ab542d775ee4c4920a540a2ad097ca3a0787a530a08 6372 libnvidia-nscq-510_510.85.02-0ubuntu0.20.04.1.debian.tar.xz
+Autobuild: yes
+
+Package: libnvidia-nscq-525
+Format: 3.0 (quilt)
+Binary: libnvidia-nscq-525
+Architecture: amd64
+Version: 525.125.06-0ubuntu0.20.04.1
+Priority: optional
+Section: multiverse/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 10)
+Vcs-Browser: https://github.com/tseliot/apt-packaging-libnvidia-nscq/tree/525
+Vcs-Git: git://github.com/tseliot/apt-packaging-libnvidia-nscq.git
+Directory: pool/multiverse/libn/libnvidia-nscq-525
+Package-List:
+ libnvidia-nscq-525 deb non-free/libs optional arch=amd64
+Files:
+ 7d0d9011cabec6d72135a9153a1c4e29 2713 libnvidia-nscq-525_525.125.06-0ubuntu0.20.04.1.dsc
+ 729e7d0d838f0149396ec32160cba2c6 559317 libnvidia-nscq-525_525.125.06.orig-amd64.tar.gz
+ 5efa5475739c23a816e8c3a311eb80ad 515747 libnvidia-nscq-525_525.125.06.orig-arm64.tar.gz
+ aeaa0790f0d2e2ee4bb24ff46b34dcd2 129 libnvidia-nscq-525_525.125.06.orig.tar.gz
+ 3e02a8a42de6555676148e2355ee8a67 6588 libnvidia-nscq-525_525.125.06-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha1:
+ ee81137abfe1d72cf070bdbb53f17959eea984b1 2713 libnvidia-nscq-525_525.125.06-0ubuntu0.20.04.1.dsc
+ 9c2b4161d69d36ef5a6b86be21ca04350ffeb832 559317 libnvidia-nscq-525_525.125.06.orig-amd64.tar.gz
+ 812ea45c78bd50e4780920462c3dd63031b934dd 515747 libnvidia-nscq-525_525.125.06.orig-arm64.tar.gz
+ af89bcbdcc7c6cc410d91a877cb234c404f80c53 129 libnvidia-nscq-525_525.125.06.orig.tar.gz
+ 5ac06dffc98fb4921bbd481247516d53b7c5e68a 6588 libnvidia-nscq-525_525.125.06-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 1938768f59c5bc311484ad9f1442b36848af2dc8c4a99caab12f9639fca21c89 2713 libnvidia-nscq-525_525.125.06-0ubuntu0.20.04.1.dsc
+ 85a87ab73b953531c450ac0395286cfa9f9dff3018129e43d30fadf483cde3b0 559317 libnvidia-nscq-525_525.125.06.orig-amd64.tar.gz
+ baed67de9d77ece8f062d72a963d4f8613cffc5fdcd1ff1c503ff56bb3438cd4 515747 libnvidia-nscq-525_525.125.06.orig-arm64.tar.gz
+ 5f4efac4d62dcb2a9ce516ba51bf4049cf7822515319efae354d6e660f88fbd4 129 libnvidia-nscq-525_525.125.06.orig.tar.gz
+ 518d2f48d6acf7e0552aba998f9e817e36be87ea102b4f8d0f3ae54025831f82 6588 libnvidia-nscq-525_525.125.06-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha512:
+ 10ece0fe5d1fbd53b736823a8b905c4e7451a38aa0627b3f7e33e285cf84a78ff786735ff1243a0641905a47918c031af3e4538f3479e1a9e6dc870227ad3b27 2713 libnvidia-nscq-525_525.125.06-0ubuntu0.20.04.1.dsc
+ 51ce1a16f7b59c718d42c3ec6abeff8f0a2bb0425912af0957344222c4f98f22716538fa95ea5e7cefa4595c4d565eec367b0404122f363abacf2a731b1bc421 559317 libnvidia-nscq-525_525.125.06.orig-amd64.tar.gz
+ 6fcb6182eb22a6b4d2d8758b36a6d627a73703e49bcb93e42ccf786db63d7f92c75c2bedb9af5f318e4063cea43412a3c45da58bc3a99cb100e890ba6de57c05 515747 libnvidia-nscq-525_525.125.06.orig-arm64.tar.gz
+ 9f4c90bb3b25a7c30f91993e8c58f2c07434e72016196b31b57eea0bf71ac1e057a170b0364fed10c7a687db620b721c7b08a7b89b3a33c79337a914aef49e26 129 libnvidia-nscq-525_525.125.06.orig.tar.gz
+ d5d54d2cd1b8ccbf534748c8a21a4eeaac81a07fe7822136948aad103ad4769bbe43ef58c1396af89759e83790cf24705f29013d4ca955ba032439eabae99ee1 6588 libnvidia-nscq-525_525.125.06-0ubuntu0.20.04.1.debian.tar.xz
+Autobuild: yes
+
+Package: libnvidia-nscq-535
+Format: 3.0 (quilt)
+Binary: libnvidia-nscq-535
+Architecture: amd64
+Version: 535.104.12-0ubuntu0.20.04.1
+Priority: optional
+Section: multiverse/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.4
+Build-Depends: debhelper (>= 10)
+Vcs-Browser: https://github.com/tseliot/apt-packaging-libnvidia-nscq/tree/535
+Vcs-Git: git://github.com/tseliot/apt-packaging-libnvidia-nscq.git
+Directory: pool/multiverse/libn/libnvidia-nscq-535
+Package-List:
+ libnvidia-nscq-535 deb non-free/libs optional arch=amd64
+Files:
+ 9f702f62267324c8b1136f43876baa16 2713 libnvidia-nscq-535_535.104.12-0ubuntu0.20.04.1.dsc
+ 5078e5eff6287d559249b1a129b314b9 351426 libnvidia-nscq-535_535.104.12.orig-amd64.tar.gz
+ 8956ef50a5b905a3107870d41b04a153 317725 libnvidia-nscq-535_535.104.12.orig-arm64.tar.gz
+ 5f4705b94a9de3b1606116e16ba4817c 128 libnvidia-nscq-535_535.104.12.orig.tar.gz
+ d6837cac84082efcf5f84443373f1f6d 6392 libnvidia-nscq-535_535.104.12-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha1:
+ a4dd274d9d08395cae4c55a3d23dc2b4b682fbca 2713 libnvidia-nscq-535_535.104.12-0ubuntu0.20.04.1.dsc
+ 9a83f2fd4321ce5444c947a0e6cbf8268414f010 351426 libnvidia-nscq-535_535.104.12.orig-amd64.tar.gz
+ 9bb26cf561f6ae6412a3ab8f74cfaee803775ad2 317725 libnvidia-nscq-535_535.104.12.orig-arm64.tar.gz
+ 2bc26880922a887f3cc97d52dd85f6906960e4c2 128 libnvidia-nscq-535_535.104.12.orig.tar.gz
+ 705cf3dab5c022e2eeb2ef14a01a715b8b377459 6392 libnvidia-nscq-535_535.104.12-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 66c1e36975092d5af189ccd0485890b3dc32cd5ca74c353de50680e964abd4de 2713 libnvidia-nscq-535_535.104.12-0ubuntu0.20.04.1.dsc
+ a4d8bc9620c27339dfad62bd09639060de92edb9866b8240ae69518b87e8bcba 351426 libnvidia-nscq-535_535.104.12.orig-amd64.tar.gz
+ 5a3cfc538e2984a7e209f3e492427a89a7f5173a81974922c558b7f06ae1908d 317725 libnvidia-nscq-535_535.104.12.orig-arm64.tar.gz
+ c7403714d5e8b5992502d81234695a278503694ad719973f3788df9591a5605c 128 libnvidia-nscq-535_535.104.12.orig.tar.gz
+ 6f88163e77bbdb1623a858157f064a7d70da90c96c8a321da75a68ec9b194474 6392 libnvidia-nscq-535_535.104.12-0ubuntu0.20.04.1.debian.tar.xz
+Checksums-Sha512:
+ 669e5f732b55d9ccb31468fc8d88b86553fc2567cef019f1428d6f1c023f4c939af8be48915efbf085ff65049b1336bcbe89175fb97221e23521f22391dcb056 2713 libnvidia-nscq-535_535.104.12-0ubuntu0.20.04.1.dsc
+ e47c5724fb8a850a88d090602b45901c8b0f9d4d431d43ca2ec09721d4fd03ad672a2f655f5757a95feef7e4f4ac5c93e62e330c8e80dcb717770126405fcba7 351426 libnvidia-nscq-535_535.104.12.orig-amd64.tar.gz
+ 6c03b7fc3819537eed3630c7e96d705690205696a6ce3c4ff67f5ca836dc71a3d9553eb90b22a69ded36fc6bd3ffe9bfb55842b9a5a869f6079039c12c255b94 317725 libnvidia-nscq-535_535.104.12.orig-arm64.tar.gz
+ c7efe5c71f1da79c449dc2cbe03a1ffaa39c2a16851457c9625cf7961c70ad68e969ba31a87bf848e4d573b7f09a990b97096675c6433ea77754e8c9530a43ef 128 libnvidia-nscq-535_535.104.12.orig.tar.gz
+ 806292902afdb08b4c2a1db6675d478dfac0cd2c39e14755c88a100481507040f00a2647c9a326ebdc28f836a6c7c564268e121110f5600a27129a8f6e21091b 6392 libnvidia-nscq-535_535.104.12-0ubuntu0.20.04.1.debian.tar.xz
+Autobuild: yes
+
+Package: nvidia-graphics-drivers-418-server
+Format: 3.0 (quilt)
+Binary: nvidia-driver-418-server, nvidia-kernel-source-418-server, nvidia-dkms-418-server, nvidia-utils-418-server, libnvidia-compute-418-server, nvidia-compute-utils-418-server, nvidia-headless-no-dkms-418-server, nvidia-headless-418-server, nvidia-kernel-common-418-server, libnvidia-gl-418-server, libnvidia-common-418-server, xserver-xorg-video-nvidia-418-server, libnvidia-cfg1-418-server, libnvidia-ifr1-418-server, libnvidia-fbc1-418-server, libnvidia-decode-418-server, libnvidia-encode-418-server
+Architecture: amd64 i386 all
+Version: 418.226.00-0ubuntu0.20.04.2
+Priority: optional
+Section: multiverse/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.1
+Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.17.11~), xz-utils, dkms, libxext6, quilt, po-debconf, execstack, dh-modaliases, xserver-xorg-dev (>= 2:1.4), libglvnd-dev, libkmod-dev, libpciaccess-dev, pkg-config, libc6, libx11-6
+Homepage: http://www.nvidia.com
+Vcs-Browser: https://github.com/tseliot/nvidia-graphics-drivers/tree/418-server
+Vcs-Git: git://github.com/tseliot/nvidia-graphics-drivers.git
+Directory: pool/multiverse/n/nvidia-graphics-drivers-418-server
+Package-List:
+ libnvidia-cfg1-418-server deb non-free/libs optional arch=amd64
+ libnvidia-common-418-server deb non-free/libs optional arch=all
+ libnvidia-compute-418-server deb non-free/libs optional arch=i386,amd64
+ libnvidia-decode-418-server deb non-free/libs optional arch=i386,amd64
+ libnvidia-encode-418-server deb non-free/libs optional arch=i386,amd64
+ libnvidia-fbc1-418-server deb non-free/libs optional arch=i386,amd64
+ libnvidia-gl-418-server deb non-free/libs optional arch=i386,amd64
+ libnvidia-ifr1-418-server deb non-free/libs optional arch=i386,amd64
+ nvidia-compute-utils-418-server deb non-free/libs optional arch=amd64
+ nvidia-dkms-418-server deb non-free/libs optional arch=amd64
+ nvidia-driver-418-server deb non-free/libs optional arch=amd64
+ nvidia-headless-418-server deb non-free/libs optional arch=amd64
+ nvidia-headless-no-dkms-418-server deb non-free/libs optional arch=amd64
+ nvidia-kernel-common-418-server deb non-free/libs optional arch=amd64
+ nvidia-kernel-source-418-server deb non-free/libs optional arch=amd64
+ nvidia-utils-418-server deb non-free/libs optional arch=amd64
+ xserver-xorg-video-nvidia-418-server deb non-free/x11 optional arch=amd64
+Files:
+ 9c9070620bb7205ed6dac8b63d04c752 4406 nvidia-graphics-drivers-418-server_418.226.00-0ubuntu0.20.04.2.dsc
+ 4a0ee0cace5c1fa06c0425991c530c77 108754716 nvidia-graphics-drivers-418-server_418.226.00.orig-amd64.tar.gz
+ 14872b7bef1ceaf2814b632081661e37 140 nvidia-graphics-drivers-418-server_418.226.00.orig.tar.gz
+ e03f5da1ec67737a05658b9ddbd6be5f 48488 nvidia-graphics-drivers-418-server_418.226.00-0ubuntu0.20.04.2.debian.tar.xz
+Checksums-Sha1:
+ 8988e6aa93f3a1f6217b2469f9563d791522d56a 4406 nvidia-graphics-drivers-418-server_418.226.00-0ubuntu0.20.04.2.dsc
+ 2b022cee09211855021eb07b4b21cabbd8f08d65 108754716 nvidia-graphics-drivers-418-server_418.226.00.orig-amd64.tar.gz
+ 9d5603f97a1ab0e85c1ef8ed9e89e14aa35fe0c5 140 nvidia-graphics-drivers-418-server_418.226.00.orig.tar.gz
+ c0ca35a7d657451d73789233fd980c6eb61b2eb4 48488 nvidia-graphics-drivers-418-server_418.226.00-0ubuntu0.20.04.2.debian.tar.xz
+Checksums-Sha256:
+ 3b138932a7de6398a02a8628096b709af417b00d9b5391df7847bb0db681198a 4406 nvidia-graphics-drivers-418-server_418.226.00-0ubuntu0.20.04.2.dsc
+ 0aa5e61ce3fddbf8f4d8dce29984ee7aa1b5563d9d61c1a6f16137051194258c 108754716 nvidia-graphics-drivers-418-server_418.226.00.orig-amd64.tar.gz
+ 6b4eb631085481739b6807f8d68e983400a11470ede08d5ef0c27d6eb11c466f 140 nvidia-graphics-drivers-418-server_418.226.00.orig.tar.gz
+ 91411a01838012e918ce3176dbb43bddbea53e4aa2c824083925c4231ac04df5 48488 nvidia-graphics-drivers-418-server_418.226.00-0ubuntu0.20.04.2.debian.tar.xz
+Checksums-Sha512:
+ af1c8f4f4b4e3dc43384ed04a327939f4867a8b68834ef1bb88f58fd00ad6bb01a9e09fdc7c4f3454b8b0328673046ee996728cf41a820d5086a80d580fc09c2 4406 nvidia-graphics-drivers-418-server_418.226.00-0ubuntu0.20.04.2.dsc
+ d714b87a07f8b4e514c3e4e911881d6a4bbbebdb00a49ebc1ddb4be8eb6923f1a8ee11e871c1d1b068e47e15eecf68c4c59f566d4e45461106108a2aaaeff348 108754716 nvidia-graphics-drivers-418-server_418.226.00.orig-amd64.tar.gz
+ c9680c0873a783b86dd8e1a868a8a8b66da39e0d6346690a6d98bb0aaebe2fa3ef731393cadebcfb3159ad37dcc0d8acc3f134bf50369062f984f5f60e884252 140 nvidia-graphics-drivers-418-server_418.226.00.orig.tar.gz
+ 543e220d542226fcafd6cf98216dfaefc39b56e1be8d527788ee0a2621f92f2116c481227b39383d4d578cc623959a7da14d22f827090cb0f5443c67fcc57007 48488 nvidia-graphics-drivers-418-server_418.226.00-0ubuntu0.20.04.2.debian.tar.xz
+Autobuild: yes
+
+Package: r8168
+Format: 3.0 (quilt)
+Binary: r8168-dkms
+Architecture: all
+Version: 8.048.00-1ubuntu0.20.04.2
+Section: multiverse/kernel
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Andreas Beckmann <anbe@debian.org>
+Standards-Version: 4.4.1
+Build-Depends: debhelper-compat (= 12), dkms
+Homepage: https://www.realtek.com/en/component/zoo/category/network-interface-controllers-10-100-1000m-gigabit-ethernet-pci-express-software
+Vcs-Browser: https://salsa.debian.org/debian/r8168
+Vcs-Git: https://salsa.debian.org/debian/r8168.git
+Directory: pool/multiverse/r/r8168
+Package-List:
+ r8168-dkms deb non-free/kernel optional arch=all
+Files:
+ 6e7c1ae50be94faec237e8db08889766 2090 r8168_8.048.00-1ubuntu0.20.04.2.dsc
+ 43bc32c19881f0f1fdffec518637b955 109018 r8168_8.048.00.orig.tar.bz2
+ 2f1ec4c3d8d34463cf80256282d932cd 6488 r8168_8.048.00-1ubuntu0.20.04.2.debian.tar.xz
+Checksums-Sha1:
+ dd2f5d33363026a497885bd00e576200827fbcfe 2090 r8168_8.048.00-1ubuntu0.20.04.2.dsc
+ 5819efa526f78c42634b2d1c46761ad1dc0f47a5 109018 r8168_8.048.00.orig.tar.bz2
+ ed5009699e505147ba4ee993cb4deec4261dd69d 6488 r8168_8.048.00-1ubuntu0.20.04.2.debian.tar.xz
+Checksums-Sha256:
+ eec1b7d1ab2fc1214809b758543f3f275eb951543ec96b6d1c31c50daf048364 2090 r8168_8.048.00-1ubuntu0.20.04.2.dsc
+ f2dc53f750857001d95cb93c1c54b797ca555261a8d009a71b7943324bbcad05 109018 r8168_8.048.00.orig.tar.bz2
+ 49c20d93e53aa6cce9085692c534a288bb96603c46c3576ad07c199da4ee2d9f 6488 r8168_8.048.00-1ubuntu0.20.04.2.debian.tar.xz
+Checksums-Sha512:
+ e9a935b9b2104965cfe2af01a11cf91ce20b8040b619f79c4ddbb26ad271c1ac5dfdd25eff600c7068d9f9512b98a8af13a482b68883f10eac5f29c13785bd8f 2090 r8168_8.048.00-1ubuntu0.20.04.2.dsc
+ 425d3e0fc56006e9371c31078d32f6fd135a038b13ec1c4f1b809f68e73e8fd15e4a4c2d027c0b4a2cee9ef0dda348b478cc855fb123eb05e4157564ab9de12a 109018 r8168_8.048.00.orig.tar.bz2
+ 9703d2012bf5cd1efe0275860a35b57bbda77e089c324f2a23301968f1406a030b69aa298c80f0b520e3f794cd65d82dc5470974f6c0814d91cbd9caa1578388 6488 r8168_8.048.00-1ubuntu0.20.04.2.debian.tar.xz
+Autobuild: yes
+
+Package: virtualbox
+Format: 3.0 (quilt)
+Binary: virtualbox-qt, virtualbox, virtualbox-dkms, virtualbox-source, virtualbox-guest-dkms, virtualbox-guest-source, virtualbox-guest-x11, virtualbox-guest-utils
+Architecture: amd64 all i386
+Version: 6.1.38-dfsg-3~ubuntu1.20.04.1
+Priority: optional
+Section: multiverse/misc
+Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Uploaders: Ritesh Raj Sarraf <rrs@debian.org>, Gianfranco Costamagna <locutusofborg@debian.org>
+Standards-Version: 4.6.0
+Build-Depends: bzip2, debhelper-compat (= 12), default-jdk, jaxws, dh-python, dkms, docbook-xml, docbook-xsl, dpkg-dev (>= 1.15.6~), g++-multilib, genisoimage, gsoap, acpica-tools, kbuild (>= 1:0.1.9998svn3098~), libasound2-dev, libcap-dev, libcurl4-gnutls-dev, libdevmapper-dev, libdrm-dev, libegl1-mesa-dev, libgl1-mesa-dev, libglu1-mesa-dev, libgsoap-dev, liblzf-dev, libidl-dev, libopus-dev, libpam0g-dev, libpixman-1-dev, libpng-dev, libpulse-dev, libqt5x11extras5-dev, libqt5opengl5-dev, qttools5-dev-tools, libsdl1.2-dev, libssl-dev, libvncserver-dev, libvpx-dev, libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxi-dev, libxinerama-dev, libxml2-dev, libxml2-utils, libxmu-dev, libxrandr-dev, libxrender-dev, libxslt1-dev, libxt-dev, lsb-release, lynx, makeself, module-assistant, nasm, python3-dev, texlive-fonts-extra, texlive-fonts-recommended, texlive-latex-extra, texlive-latex-recommended, uuid-dev, x11proto-gl-dev, x11proto-xf86dri-dev, xserver-xorg-dev, xsltproc, yasm, zlib1g-dev
+Homepage: https://www.virtualbox.org
+Vcs-Browser: https://salsa.debian.org/pkg-virtualbox-team/virtualbox
+Vcs-Git: https://salsa.debian.org/pkg-virtualbox-team/virtualbox.git
+Directory: pool/multiverse/v/virtualbox
+Package-List:
+ virtualbox deb contrib/misc optional arch=amd64
+ virtualbox-dkms deb contrib/kernel optional arch=amd64
+ virtualbox-guest-dkms deb contrib/kernel optional arch=all
+ virtualbox-guest-source deb contrib/kernel optional arch=all
+ virtualbox-guest-utils deb contrib/misc optional arch=amd64,i386
+ virtualbox-guest-x11 deb contrib/x11 optional arch=amd64,i386
+ virtualbox-qt deb contrib/misc optional arch=amd64
+ virtualbox-source deb contrib/kernel optional arch=amd64
+Files:
+ 49a6c567db0b0621c6051d011b6e19de 3676 virtualbox_6.1.38-dfsg-3~ubuntu1.20.04.1.dsc
+ d8df6da3d7b17e2d2bbdf5c4215e9549 71180052 virtualbox_6.1.38-dfsg.orig.tar.xz
+ 14fb11f0c204def1260c4fdcfd2b7417 87112 virtualbox_6.1.38-dfsg-3~ubuntu1.20.04.1.debian.tar.xz
+Checksums-Sha1:
+ 48679a30b76039d856bf6b0829c8449b64d72585 3676 virtualbox_6.1.38-dfsg-3~ubuntu1.20.04.1.dsc
+ ca568e46aab2f88921cae100d2a97a1c35f8fe1e 71180052 virtualbox_6.1.38-dfsg.orig.tar.xz
+ 05747fc0fb201ccf926ca9bc00fb705d8ba04ce8 87112 virtualbox_6.1.38-dfsg-3~ubuntu1.20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 7a4a848177db3e3f6a05fbf286881855cee94fb250e6d240d4aee92e27baddce 3676 virtualbox_6.1.38-dfsg-3~ubuntu1.20.04.1.dsc
+ fec3b6ed70c413d5d9608c3c0c63a8b4596ab1b0efef15c30cc265357c1f0143 71180052 virtualbox_6.1.38-dfsg.orig.tar.xz
+ ac31a88f3838eb5312ccea3c2278145e2f4e48ae530f761c1b9d48774bf73046 87112 virtualbox_6.1.38-dfsg-3~ubuntu1.20.04.1.debian.tar.xz
+Checksums-Sha512:
+ 6a8ebf10013322f3dc4a321d4e3c3dbadefdc816d8201b43a8d7db5c76e93689951ac05b45d417e09c7de0c48eb8008d6029f3c8dfd6b4dccd97caa21dd24f01 3676 virtualbox_6.1.38-dfsg-3~ubuntu1.20.04.1.dsc
+ d6a42ccb829cd7b30accb378fa8dec3fe4688bf3049cb0214925ab5edf84156e55abef8432e0e1255f54ad454831a421e78b6017d5cf0a3d5d8137cc417e6047 71180052 virtualbox_6.1.38-dfsg.orig.tar.xz
+ 3af51c702f867e0a8b6f48e8f5a0b7dfa6fd2e5595ccb352414c02d88204f96f2e00bfacf9cb2f9062b11878f412628bc4bab6bd667000bfa998ff2b44bc935a 87112 virtualbox_6.1.38-dfsg-3~ubuntu1.20.04.1.debian.tar.xz
+
+Package: virtualbox-hwe
+Format: 3.0 (quilt)
+Binary: virtualbox-guest-dkms-hwe, virtualbox-guest-source-hwe, virtualbox-guest-x11-hwe, virtualbox-guest-utils-hwe
+Architecture: all amd64 i386
+Version: 6.1.16-dfsg-6ubuntu1.20.04.2
+Priority: optional
+Section: multiverse/misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Virtualbox Team <team+debian-virtualbox@tracker.debian.org>
+Uploaders: Ritesh Raj Sarraf <rrs@debian.org>, Gianfranco Costamagna <locutusofborg@debian.org>
+Standards-Version: 4.5.0
+Build-Depends: bzip2, debhelper-compat (= 12), default-jdk, jaxws, dh-python, dkms, docbook-xml, docbook-xsl, dpkg-dev (>= 1.15.6~), g++-multilib, genisoimage, gsoap, acpica-tools, imagemagick, kbuild (>= 1:0.1.9998svn3098~), libasound2-dev, libcap-dev, libcurl4-gnutls-dev, libdevmapper-dev, libdrm-dev, libegl1-mesa-dev, libgl1-mesa-dev, libglu1-mesa-dev, libgsoap-dev, liblzf-dev, libidl-dev, libopus-dev, libpam0g-dev, libpixman-1-dev, libpng-dev, libpulse-dev, libqt5x11extras5-dev, libqt5opengl5-dev, qttools5-dev-tools, libsdl1.2-dev, libssl-dev, libvncserver-dev, libvpx-dev, libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxi-dev, libxinerama-dev, libxml2-dev, libxml2-utils, libxmu-dev, libxrandr-dev, libxrender-dev, libxslt1-dev, libxt-dev, lsb-release, lynx, makeself, module-assistant, nasm, python3-dev, texlive-fonts-extra, texlive-fonts-recommended, texlive-latex-extra, texlive-latex-recommended, uuid-dev, x11proto-gl-dev, x11proto-xf86dri-dev, xserver-xorg-dev-hwe-18.04, xsltproc, yasm, zlib1g-dev
+Homepage: https://www.virtualbox.org
+Vcs-Browser: https://salsa.debian.org/pkg-virtualbox-team/virtualbox
+Vcs-Git: https://salsa.debian.org/pkg-virtualbox-team/virtualbox.git
+Directory: pool/multiverse/v/virtualbox-hwe
+Package-List:
+ virtualbox-guest-dkms-hwe deb contrib/kernel optional arch=all
+ virtualbox-guest-source-hwe deb contrib/kernel optional arch=all
+ virtualbox-guest-utils-hwe deb contrib/misc optional arch=amd64,i386
+ virtualbox-guest-x11-hwe deb contrib/x11 optional arch=amd64,i386
+Files:
+ cfe6a5dede4f311f29c166a39be4e620 3556 virtualbox-hwe_6.1.16-dfsg-6ubuntu1.20.04.2.dsc
+ 6c0c2893901d7df2580a41c2af57bcd9 70612076 virtualbox-hwe_6.1.16-dfsg.orig.tar.xz
+ 0348c75c78dd4463e12baeabd0d91b8b 89216 virtualbox-hwe_6.1.16-dfsg-6ubuntu1.20.04.2.debian.tar.xz
+Checksums-Sha1:
+ 426c3ae2251d285b4b835efccd6fa513145694be 3556 virtualbox-hwe_6.1.16-dfsg-6ubuntu1.20.04.2.dsc
+ 2d7909ee98f25823684deffb2f7a76333bff950d 70612076 virtualbox-hwe_6.1.16-dfsg.orig.tar.xz
+ 12a61da86363e788cc036635cf1e53c1fd7d5ec6 89216 virtualbox-hwe_6.1.16-dfsg-6ubuntu1.20.04.2.debian.tar.xz
+Checksums-Sha256:
+ 94638f52dd56fe7ad4fd9540e5c695c42715c16d87791adb6cc8d0cdca987cd2 3556 virtualbox-hwe_6.1.16-dfsg-6ubuntu1.20.04.2.dsc
+ 35e6ca28c9bbe10eb79cc4c8e6d3a8f9cf87425c2fd27b485556051819ecaca5 70612076 virtualbox-hwe_6.1.16-dfsg.orig.tar.xz
+ 7c34947c9ee33b22cd9bd000c488c17d4e6abbdbfadd1ee4e40ef3efa25be011 89216 virtualbox-hwe_6.1.16-dfsg-6ubuntu1.20.04.2.debian.tar.xz
+Checksums-Sha512:
+ ffa3b66e922b64959d455fa98914d09456b721b28b328e7716b59414df1a54f913b3ee5db75117e42f5d465e9c7f3d4d970ba7404766ea30122245472062284d 3556 virtualbox-hwe_6.1.16-dfsg-6ubuntu1.20.04.2.dsc
+ 8a5ce01d8478f13ccd307c9a5beb36c7550a2df3cfc5001836d23555fddb507a559b2bf4daf3197e17e88a8b98f679db94483c5c8e5e2359b728af5d805d03a6 70612076 virtualbox-hwe_6.1.16-dfsg.orig.tar.xz
+ af660d70dff7aa5aaddff672a1f7d3500d0fa32489af3fa35025026f63eca338917e712e75f4acb5d6434714e860f0b94769bde28aab301982134e6b3d2942df 89216 virtualbox-hwe_6.1.16-dfsg-6ubuntu1.20.04.2.debian.tar.xz
+

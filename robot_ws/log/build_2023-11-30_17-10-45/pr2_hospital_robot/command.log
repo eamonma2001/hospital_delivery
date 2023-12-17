@@ -1,0 +1,2 @@
+Invoking command in '/home/eamon/hospital/robot_ws/build/pr2_hospital_robot': /usr/bin/cmake --build /home/eamon/hospital/robot_ws/build/pr2_hospital_robot -- -j6 -l6
+Invoked command in '/home/eamon/hospital/robot_ws/build/pr2_hospital_robot' returned '2': /usr/bin/cmake --build /home/eamon/hospital/robot_ws/build/pr2_hospital_robot -- -j6 -l6

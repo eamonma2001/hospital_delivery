@@ -1,0 +1,66 @@
+[1.084s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'bundle']
+[1.084s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], apt_allow_insecure=False, apt_package_blacklist='/home/eamon/.local/lib/python3.8/site-packages/colcon_bundle/installer/assets/apt_package_blacklist.txt', apt_sources_list='/home/eamon/.local/lib/python3.8/site-packages/colcon_bundle/installer/assets/focal.sources.list', base_paths=['.'], build_base='build', bundle_base='bundle', bundle_version=2, event_handlers=None, executor='parallel', ignore_user_meta=False, include_sources=False, install_base='install', log_base=None, log_level=None, main=<bound method BundleVerb.main of <colcon_bundle.verb.bundle.BundleVerb object at 0xffff882304c0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, pip3_args=None, pip3_requirements=None, pip_args=None, pip_requirements=None, upgrade=False, verb_extension=<colcon_bundle.verb.bundle.BundleVerb object at 0xffff882304c0>, verb_name='bundle', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff87f18e20>)
+[1.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.128s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.128s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(bundle) by extensions ['ignore', 'ignore_ament_install']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(bundle) by extension 'ignore'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(bundle) ignored
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/pr2_hospital_robot) by extensions ['ignore', 'ignore_ament_install']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/pr2_hospital_robot) by extension 'ignore'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/pr2_hospital_robot) by extension 'ignore_ament_install'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/pr2_hospital_robot) by extensions ['colcon_pkg']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/pr2_hospital_robot) by extension 'colcon_pkg'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/pr2_hospital_robot) by extensions ['colcon_meta']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/pr2_hospital_robot) by extension 'colcon_meta'
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/pr2_hospital_robot) by extensions ['ros']
+[1.129s] Level 1:colcon.colcon_core.package_identification:_identify(src/pr2_hospital_robot) by extension 'ros'
+[1.131s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pr2_hospital_robot' with type 'ros.catkin' and name 'pr2_hospital_robot'
+[1.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[48.236s] ERROR:colcon.colcon_bundle.verb:Could not fetch from repositories: W:GPG error: http://packages.osrfoundation.org/gazebo/ubuntu-stable focal InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 67170598AF249743, E:The repository 'http://packages.osrfoundation.org/gazebo/ubuntu-stable focal InRelease' is not signed.
+[48.239s] ERROR:colcon:colcon bundle: Failed to fetch from repositories. Did you set your keys correctly?

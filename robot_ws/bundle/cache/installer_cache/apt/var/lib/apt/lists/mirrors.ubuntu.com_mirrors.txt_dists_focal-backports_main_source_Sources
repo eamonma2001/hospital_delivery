@@ -1,0 +1,511 @@
+Package: debhelper
+Format: 3.0 (native)
+Binary: debhelper, libdebhelper-perl
+Architecture: all
+Version: 13.6ubuntu1~bpo20.04.1
+Priority: optional
+Section: devel
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
+Uploaders: Niels Thykier <niels@thykier.net>,
+Standards-Version: 4.5.1
+Build-Depends: dpkg-dev (>= 1.18.0~), perl:any, po4a, man-db <pkg.debhelper.ci>, libtest-pod-perl <pkg.debhelper.ci>
+Testsuite: autopkgtest-pkg-perl
+Vcs-Browser: https://salsa.debian.org/debian/debhelper
+Vcs-Git: https://salsa.debian.org/debian/debhelper.git
+Directory: pool/main/d/debhelper
+Package-List:
+ debhelper deb devel optional arch=all
+ libdebhelper-perl deb perl optional arch=all
+Files:
+ 7e79fff32d53ccdfae9f10a6845cb0fc 1761 debhelper_13.6ubuntu1~bpo20.04.1.dsc
+ 4469f767f098257c6b70727350d64eb1 570072 debhelper_13.6ubuntu1~bpo20.04.1.tar.xz
+Checksums-Sha1:
+ 0ec1f646a16335270cdeea50fb0e729a84c7c303 1761 debhelper_13.6ubuntu1~bpo20.04.1.dsc
+ 6cf2fc9e9747a47fdd41d7fe9bfe49cbeaf4c13e 570072 debhelper_13.6ubuntu1~bpo20.04.1.tar.xz
+Checksums-Sha256:
+ 584bcf422e4a87a493f6cb919361b735ccee4723eced8ccb0ee732592fb514ac 1761 debhelper_13.6ubuntu1~bpo20.04.1.dsc
+ 086146fcf5d72715a93df71e4fc304b118f516146d1943badeb869b45bc701a5 570072 debhelper_13.6ubuntu1~bpo20.04.1.tar.xz
+Checksums-Sha512:
+ 947d6b026b215b38a41c89ad1ac98e51086be5e1b4d34a00adce2fd3169ce17705048bc68d910d6de44d6e96640b722e36cec1ee11448b10657e126faf1a9bba 1761 debhelper_13.6ubuntu1~bpo20.04.1.dsc
+ 80299f25970ae0fd0dc6ee3d60fed00e866e64dda51397b0f6fbe3a6a567a9b1309a3d2469051ae0dcd6ecfc3801449bc609c3bbf4680bab4f35921a95bf74be 570072 debhelper_13.6ubuntu1~bpo20.04.1.tar.xz
+
+Package: devscripts
+Format: 3.0 (native)
+Binary: devscripts
+Architecture: any
+Version: 2.22.1ubuntu1~bpo20.04.1
+Priority: optional
+Section: devel
+Maintainer: Devscripts Maintainers <devscripts@packages.debian.org>
+Uploaders:  Mattia Rizzolo <mattia@debian.org>,
+Standards-Version: 4.6.0
+Build-Depends: bash-completion, debhelper-compat (= 13), dh-sequence-python3, docbook-xsl, dpkg-dev (>= 1.19.1), faketime <!nocheck>, file <!nocheck>, git (>= 1:2.7.0) <!nocheck>, gnupg <!nocheck> | gnupg2 <!nocheck>, help2man, libdistro-info-perl <!nocheck>, libdpkg-perl <!nocheck>, libfile-desktopentry-perl <!nocheck>, libfile-dirlist-perl <!nocheck>, libfile-homedir-perl <!nocheck>, libfile-touch-perl <!nocheck>, libfile-which-perl <!nocheck>, libgit-wrapper-perl <!nocheck>, libgitlab-api-v4-perl (>= 0.13) <!nocheck>, libipc-run-perl <!nocheck>, liblist-compare-perl <!nocheck>, libmoo-perl <!nocheck>, libstring-shellquote-perl <!nocheck>, libtest-output-perl <!nocheck>, libtimedate-perl <!nocheck>, libtry-tiny-perl <!nocheck>, liburi-perl <!nocheck>, libwww-perl <!nocheck>, lsb-release <!nocheck>, mozilla-devscripts <!nocheck>, perl:any, perltidy <!nocheck>, pkg-config, po4a, pylint (>= 2.2.2-2) <!nocheck> | pylint3 <!nocheck>, python3-all:any, python3-apt <!nocheck>, python3-debian <!nocheck>, python3-flake8 <!nocheck>, python3-magic <!nocheck>, python3-pyftpdlib <!nocheck>, python3-requests <!nocheck>, python3-setuptools, python3-unidiff <!nocheck>, python3-xdg <!nocheck>, shunit2 <!nocheck>, subversion [!i386] <!nocheck>, unzip <!nocheck>, wdiff <!nocheck>, xsltproc, xz-utils <!nocheck>, zip <!nocheck>, zstd <!nocheck>
+Testsuite: autopkgtest
+Testsuite-Triggers: apt, build-essential, debhelper, fakeroot, faketime, git, gnupg, libdistro-info-perl, libdpkg-perl, libgitlab-api-v4-perl, libipc-run-perl, libtest-output-perl, libwww-perl, mozilla-devscripts, perl, python3-debian, python3-pyftpdlib, shunit2, subversion, wdiff, zip, zstd
+Vcs-Browser: https://salsa.debian.org/debian/devscripts
+Vcs-Git: https://salsa.debian.org/debian/devscripts.git
+Directory: pool/main/d/devscripts
+Package-List:
+ devscripts deb devel optional arch=any
+Files:
+ 7123276bcc6c2f23154f516d4e834cb5 3297 devscripts_2.22.1ubuntu1~bpo20.04.1.dsc
+ a8f0f5b520281976a1e724afefcae7db 989320 devscripts_2.22.1ubuntu1~bpo20.04.1.tar.xz
+Checksums-Sha1:
+ 973926f7360431b383d73cd41f0fde8fd9750888 3297 devscripts_2.22.1ubuntu1~bpo20.04.1.dsc
+ 82addd99f6750f2bc5959e0f7a22221971e4312d 989320 devscripts_2.22.1ubuntu1~bpo20.04.1.tar.xz
+Checksums-Sha256:
+ 09beb9570b0c8adaba80719526e56e9765f5b7d27e7550ceabbd8a9d84fd132e 3297 devscripts_2.22.1ubuntu1~bpo20.04.1.dsc
+ 15519e21695c7996ff39515fee96fb5945dccbfd513d9b77ad9e226b45375560 989320 devscripts_2.22.1ubuntu1~bpo20.04.1.tar.xz
+Checksums-Sha512:
+ 1cdf608ebb932041e638ea352cbdbec0fa47be0d2c95c855df18a39ee78fd773b95c13a93290312500e87b3cf3e6559638f28546e9297ac5e7f4dd233f98fdc7 3297 devscripts_2.22.1ubuntu1~bpo20.04.1.dsc
+ a61d0816c3cfb782dd2106ebb632c083a1bb1dd53d596060784c9732105e85191a6f9639c4f2b9073dad1b3392d235e12dbe6e6f076fdd10a3a73ca096a9f207 989320 devscripts_2.22.1ubuntu1~bpo20.04.1.tar.xz
+
+Package: freeipmi
+Format: 3.0 (quilt)
+Binary: freeipmi, freeipmi-bmc-watchdog, freeipmi-common, freeipmi-ipmidetect, freeipmi-ipmiseld, freeipmi-tools, libfreeipmi-dev, libfreeipmi17, libipmiconsole-dev, libipmiconsole2, libipmidetect-dev, libipmidetect0, libipmimonitoring-dev, libipmimonitoring6
+Architecture: kfreebsd-any linux-any all
+Version: 1.6.9-2~bpo20.04.1
+Priority: extra
+Section: admin
+Maintainer: Fabio Fantoni <fantonifabio@tiscali.it>
+Uploaders: Bernd Zeimetz <bzed@debian.org>
+Standards-Version: 4.5.1
+Build-Depends: chrpath, debhelper-compat (= 13), dh-exec, libgcrypt20-dev, libsystemd-dev [linux-any], pkg-config, systemd [linux-any], texinfo
+Homepage: https://www.gnu.org/software/freeipmi/
+Vcs-Browser: https://salsa.debian.org/debian/freeipmi
+Vcs-Git: https://salsa.debian.org/debian/freeipmi.git -b focal-backports
+Directory: pool/main/f/freeipmi
+Package-List:
+ freeipmi deb admin optional arch=all
+ freeipmi-bmc-watchdog deb admin optional arch=kfreebsd-any,linux-any
+ freeipmi-common deb admin optional arch=all
+ freeipmi-ipmidetect deb admin optional arch=kfreebsd-any,linux-any
+ freeipmi-ipmiseld deb admin optional arch=kfreebsd-any,linux-any
+ freeipmi-tools deb admin optional arch=kfreebsd-any,linux-any
+ libfreeipmi-dev deb libdevel optional arch=kfreebsd-any,linux-any
+ libfreeipmi17 deb libs optional arch=kfreebsd-any,linux-any
+ libipmiconsole-dev deb libdevel optional arch=kfreebsd-any,linux-any
+ libipmiconsole2 deb libs optional arch=kfreebsd-any,linux-any
+ libipmidetect-dev deb libdevel optional arch=kfreebsd-any,linux-any
+ libipmidetect0 deb libs optional arch=kfreebsd-any,linux-any
+ libipmimonitoring-dev deb libdevel optional arch=kfreebsd-any,linux-any
+ libipmimonitoring6 deb libs optional arch=kfreebsd-any,linux-any
+Files:
+ 9904cd82e7520d5a75fe472e58463daa 3405 freeipmi_1.6.9-2~bpo20.04.1.dsc
+ d1a1e073d98cc517f0c359d630b6c852 3429566 freeipmi_1.6.9.orig.tar.gz
+ 237c8f35ede79a01b47f3ade04b35858 163 freeipmi_1.6.9.orig.tar.gz.asc
+ a9b25eb3e4c929e517073c82e9e6d763 29376 freeipmi_1.6.9-2~bpo20.04.1.debian.tar.xz
+Checksums-Sha1:
+ 55894bccb0f1453a5d8d6c3e13accbc3739ecf30 3405 freeipmi_1.6.9-2~bpo20.04.1.dsc
+ e26ac60caedae1e408d85b583acf19f233fa379a 3429566 freeipmi_1.6.9.orig.tar.gz
+ c098e8ef9500afcbdcb927751d2a16b4cf094221 163 freeipmi_1.6.9.orig.tar.gz.asc
+ 86e4d75a84ba323c7ee8b1683d414a008b9f4f70 29376 freeipmi_1.6.9-2~bpo20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 259861ed0e9415dcb5205c28516937bd3569700e0bd2ec17d18b4997a27f10ed 3405 freeipmi_1.6.9-2~bpo20.04.1.dsc
+ f25e1c35f3d0f1b5a99cc31ecc2353ca83ed46a15163842fba870127dc9c8206 3429566 freeipmi_1.6.9.orig.tar.gz
+ 1f5f3e058b3fe237327f3c27d81b5ec45f882e90642e3c91ac3e11008eaaff6f 163 freeipmi_1.6.9.orig.tar.gz.asc
+ 3e12db10dd0c37d31b2a56a6afaa3e255d9434638782f29d8fa25930fa4af7ac 29376 freeipmi_1.6.9-2~bpo20.04.1.debian.tar.xz
+Checksums-Sha512:
+ db24b8790e786ef572d10087adc1a6fe73a0241625e5e120ceb07992daec576c94ec0e4f9e8679925d3ee32299df3cc76b2c1243cb00a3d62702025bc67f009a 3405 freeipmi_1.6.9-2~bpo20.04.1.dsc
+ 536add8dc01aa4d9df45e3499f8be1318185b19beb579c8f991a11ca973626d7e0aabe1d8760a9addadc418ea5c1e2b5432053e46ba94fd9078fb6dcabf48280 3429566 freeipmi_1.6.9.orig.tar.gz
+ 8721738723e410a5815015683fa95f1047b9bc003cb1026602a12c7c1da30be6338dd326a5b4f8541fe4e1e5ed90125f87c596b7cc00dcbec456a845408ad26b 163 freeipmi_1.6.9.orig.tar.gz.asc
+ d76e8ecda09e4cf0a1bd8c40ba82b3062d1a5d062e6fc5ef4607076972eb21a284a00b6f8a69975d7c4be676846105da6a2cda9cf6645eca2d2a4b482f7eae23 29376 freeipmi_1.6.9-2~bpo20.04.1.debian.tar.xz
+
+Package: libreoffice
+Format: 3.0 (quilt)
+Binary: libreoffice, libreoffice-nogui, libreoffice-l10n-za, libreoffice-l10n-in, libreoffice-core, libreoffice-core-nogui, libreoffice-common, libreoffice-java-common, libreoffice-help-common, libreoffice-writer, libreoffice-writer-nogui, libreoffice-calc, libreoffice-calc-nogui, libreoffice-impress, libreoffice-impress-nogui, libreoffice-draw, libreoffice-draw-nogui, libreoffice-math, libreoffice-math-nogui, libreoffice-base-core, libreoffice-base, libreoffice-base-nogui, libreoffice-style-breeze, libreoffice-style-colibre, libreoffice-style-sifr, libreoffice-style-elementary, libreoffice-style-karasa-jaga, libreoffice-style-sukapura, libreoffice-style-yaru, libreoffice-gnome, python3-uno, libreoffice-script-provider-python, libreoffice-script-provider-bsh, libreoffice-script-provider-js, libreoffice-sdbc-hsqldb, libreoffice-sdbc-mysql, libreoffice-base-drivers, python3-access2base, libofficebean-java, libreoffice-l10n-af, libreoffice-l10n-am, libreoffice-l10n-ar,
+ libreoffice-l10n-as, libreoffice-l10n-ast, libreoffice-l10n-be, libreoffice-l10n-bg, libreoffice-l10n-bn, libreoffice-l10n-br, libreoffice-l10n-bs, libreoffice-l10n-ca, libreoffice-l10n-cs, libreoffice-l10n-cy, libreoffice-l10n-da, libreoffice-l10n-de, libreoffice-l10n-dz, libreoffice-l10n-el, libreoffice-l10n-en-gb, libreoffice-l10n-en-za, libreoffice-l10n-eo, libreoffice-l10n-es, libreoffice-l10n-et, libreoffice-l10n-eu, libreoffice-l10n-fa, libreoffice-l10n-fi, libreoffice-l10n-fr, libreoffice-l10n-ga, libreoffice-l10n-gd, libreoffice-l10n-gl, libreoffice-l10n-gu, libreoffice-l10n-gug, libreoffice-l10n-he, libreoffice-l10n-hi, libreoffice-l10n-hr, libreoffice-l10n-hu, libreoffice-l10n-id, libreoffice-l10n-is, libreoffice-l10n-it, libreoffice-l10n-ja, libreoffice-l10n-ka, libreoffice-l10n-kk, libreoffice-l10n-km, libreoffice-l10n-kmr, libreoffice-l10n-kn, libreoffice-l10n-ko, libreoffice-l10n-lt, libreoffice-l10n-lv, libreoffice-l10n-mk, libreoffice-l10n-mn,
+ libreoffice-l10n-ml, libreoffice-l10n-mr, libreoffice-l10n-nb, libreoffice-l10n-ne, libreoffice-l10n-nl, libreoffice-l10n-nn, libreoffice-l10n-nr, libreoffice-l10n-nso, libreoffice-l10n-oc, libreoffice-l10n-om, libreoffice-l10n-or, libreoffice-l10n-pa-in, libreoffice-l10n-pl, libreoffice-l10n-pt, libreoffice-l10n-pt-br, libreoffice-l10n-ro, libreoffice-l10n-ru, libreoffice-l10n-rw, libreoffice-l10n-si, libreoffice-l10n-sk, libreoffice-l10n-sl, libreoffice-l10n-sr, libreoffice-l10n-ss, libreoffice-l10n-st, libreoffice-l10n-sv, libreoffice-l10n-szl, libreoffice-l10n-ta, libreoffice-l10n-te, libreoffice-l10n-tg, libreoffice-l10n-th, libreoffice-l10n-tn, libreoffice-l10n-tr, libreoffice-l10n-ts, libreoffice-l10n-ug, libreoffice-l10n-uk, libreoffice-l10n-uz, libreoffice-l10n-ve, libreoffice-l10n-vi, libreoffice-l10n-xh, libreoffice-l10n-zh-cn, libreoffice-l10n-zh-tw, libreoffice-l10n-zu, libreoffice-help-en-us, libreoffice-help-ca, libreoffice-help-cs,
+ libreoffice-help-da, libreoffice-help-de, libreoffice-help-dz, libreoffice-help-el, libreoffice-help-en-gb, libreoffice-help-es, libreoffice-help-et, libreoffice-help-eu, libreoffice-help-fi, libreoffice-help-fr, libreoffice-help-gl, libreoffice-help-hi, libreoffice-help-hu, libreoffice-help-id, libreoffice-help-it, libreoffice-help-ja, libreoffice-help-km, libreoffice-help-ko, libreoffice-help-nl, libreoffice-help-om, libreoffice-help-pl, libreoffice-help-pt, libreoffice-help-pt-br, libreoffice-help-ru, libreoffice-help-sk, libreoffice-help-sl, libreoffice-help-sv, libreoffice-help-tr, libreoffice-help-vi, libreoffice-help-zh-cn, libreoffice-help-zh-tw, uno-libs-private, libuno-sal3, libuno-salhelpergcc3-3, libuno-cppu3, libuno-cppuhelpergcc3-3, libuno-purpenvhelpergcc3-3, ure, ure-java, libunoloader-java, liblibreoffice-java, libreoffice-wiki-publisher, libreoffice-report-builder, libreoffice-report-builder-bin, libreoffice-report-builder-bin-nogui,
+ libreoffice-nlpsolver, fonts-opensymbol, libreoffice-dev, libreoffice-dev-gui, libreoffice-dev-common, libreoffice-dev-doc, libreofficekit-dev, libreoffice-gtk3, gir1.2-lokdocview-0.1, liblibreofficekitgtk, libreofficekit-data, libreoffice-kf5, libreoffice-qt5, libreoffice-plasma, libreoffice-sdbc-postgresql, libreoffice-evolution, libreoffice-subsequentcheckbase, libreoffice-smoketest-data, libreoffice-librelogo, libreoffice-sdbc-firebird, libreoffice-gtk, libreoffice-gtk2, libreoffice-style-galaxy, libreoffice-style-human, libreoffice-style-hicontrast, libreoffice-style-oxygen, libreoffice-style-tango, libreoffice-systray, libreoffice-pdfimport, libreoffice-kde, libreoffice-kde4, libreoffice-ogltrans, libreoffice-mysql-connector, libreoffice-avmedia-backend-gstreamer, libreoffice-kde5, libunoil-java, libjuh-java, libridl-java, libjurt-java,
+ libreoffice-officebean
+Architecture: amd64 arm64 armhf ppc64el s390x all
+Version: 1:7.4.7-0ubuntu0.22.10.1~bpo20.04.1
+Priority: optional
+Section: editors
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Uploaders: Rene Engelhard <rene@debian.org>, Chris Halls <halls@debian.org>
+Standards-Version: 4.0.1
+Build-Depends: ant (>= 1.7.0) <!nojava>, ant-optional (>= 1.7.0) <!nojava>, autoconf, automake, bc, bison, bzip2, clang (>= 1:11) [armel], clang (>= 1:8.0.1) [amd64 arm64 armhf], cpp, debhelper-compat (= 12), default-jdk (>= 2:1.9) [!hppa !s390 !sparc !hurd-i386] <!nojava>, default-libmysqlclient-dev, dh-python <!nopython>, dpkg-dev (>= 1.18.2~), firebird-dev (>= 3.0.0.32483.ds4-4), flex (>= 2.3.35), fontforge-nox | fontforge, g++ (>= 4:7), gcc (>= 4:7), gobject-introspection (>= 1.32.0), gperf (>= 3.1), java-common (>= 0.61) <!nojava>, javahelper (>= 0.37~) <!nojava>, junit4 (>= 4.8.2-2) [amd64 arm64] <!nocheck !nojava>, libabw-dev (<< 0.2~), libabw-dev (>= 0.1), libarchive-zip-perl <!nojava>, libavahi-client-dev, libbluetooth-dev [linux-any], libboost-date-time-dev (>= 1.71), libboost-dev (>= 1.71), libboost-filesystem-dev (>= 1.71), libboost-iostreams-dev (>= 1.71), libboost-locale-dev (>= 1.71), libboost-program-options-dev (>= 1.71), libboost-system-dev (>= 1.71), libc0.1 (>= 2.10.2-7) [kfreebsd-any], libcairo2-dev, libcdr-dev (<< 0.2~), libcdr-dev (>= 0.1), libclucene-dev (>= 2.3.3.4-4.1), libcups2-dev, libcurl4-gnutls-dev (>= 7.68), libdbus-1-dev (>= 0.60), libdconf-dev (>= 0.15.2), libe-book-dev (<< 0.2~), libe-book-dev (>= 0.1), libebook1.2-dev, libeot-dev, libepoxy-dev (>= 1.2), libepubgen-dev (<< 0.2~), libepubgen-dev (>= 0.1.0), libetonyek-dev (<< 0.2~), libexpat1-dev, libexttextcat-dev (>= 3.4.1), libfontconfig-dev | libfontconfig1-dev, libfreehand-dev (<< 0.2~), libfreehand-dev (>= 0.1), libfreetype-dev (>= 2.8.1), libgirepository1.0-dev (>= 1.32), libgl-dev, libglib2.0-dev (>= 2.38.0), libglm-dev (>= 0.9.9~a2), libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libgtk-3-dev (>= 3.20.0), libhsqldb1.8.0-java (>> 1.8.0.10) <!nojava>, libhunspell-dev (>= 1.1.5-2), libhyphen-dev (>= 2.4), libice-dev, libicu-dev (>= 52), libjpeg-dev, libkf5config-dev, libkf5coreaddons-dev, libkf5i18n-dev, libkf5kio-dev, libkf5windowsystem-dev, liblangtag-dev (>= 0.4), liblcms2-dev, libldap2-dev, liblockfile-bin, liblpsolve55-dev (>= 5.5.0.13-5+b1), libmspub-dev (<< 0.2~), libmspub-dev (>= 0.1), libmythes-dev (>= 2:1.2), libnspr4-dev, libnss3-dev (>= 3.12.3), libodfgen-dev (<< 0.2~), libodfgen-dev (>= 0.1), libopenjp2-7-dev (>= 2.3), libpagemaker-dev (<< 0.1~), libpng-dev (>= 1.6), libpoppler-cpp-dev, libpoppler-dev (>= 0.14.0), libpoppler-private-dev, libpq-dev (>= 9.0~), libqt5x11extras5-dev (>= 5.6), librdf0-dev (>= 1.0.16-2), librevenge-dev (<< 0.1~), libsane-dev, libsm-dev, libsuitesparse-dev (>= 1:3.4.0), libtiff-dev, libvisio-dev (<< 0.2~), libvisio-dev (>= 0.1), libwebp-dev, libwpd-dev (<< 0.11~), libwpd-dev (>= 0.10), libwpg-dev (<< 0.4~), libwpg-dev (>= 0.3), libx11-dev, libx11-xcb-dev, libxaw7-dev, libxcb-icccm4-dev, libxcb1-dev, libxext-dev, libxinerama-dev, libxkbfile-dev, libxml2-dev (>= 2.8), libxml2-utils, libxmlsec1-dev (>= 1.2.28), libxrandr-dev, libxrender-dev, libxslt1-dev, libxt-dev, libxtst-dev, lp-solve (>= 5.5.0.13-5+b1), maven-repo-helper, pkg-config, python3, python3-dev (>= 3.3) <!nopython>, python3-distutils <!nopython>, qt5-qmake (>= 5.6), qtbase5-dev (>= 5.6), qtbase5-dev-tools (>= 5.6), unixodbc-dev (>= 2.2.11), unzip, x11proto-render-dev, xsltproc, zip, zlib1g-dev
+Build-Depends-Arch: firebird3.0-server-core <!nocheck>, fontconfig [!s390x] <!nocheck>, fonts-crosextra-carlito [!s390x] <!nocheck>, fonts-dejavu [!s390x] <!nocheck>, fonts-kacst [!s390x] <!nocheck>, fonts-liberation2 [!s390x] <!nocheck>, fonts-linuxlibertine [!s390x] <!nocheck>, fonts-noto-core [!s390x] <!nocheck>, gdb [!s390x] <!nocheck>, ghostscript [!s390x] <!nocheck>, gpg [!s390x] <!nocheck>, gpg-agent [!s390x] <!nocheck>, gpgconf [!s390x] <!nocheck>, hunspell-en-us [!s390x] <!nocheck>, hyphen-en-us [!s390x] <!nocheck>, imagemagick [!s390x] <!nocheck>, libcppunit-dev (>= 1.14) [!s390x] <!nocheck>, libe-book-dev (>= 0.1.2) [!s390x] <!nocheck>, libetonyek-dev (>= 0.1.8) [!s390x] <!nocheck>, locales [!s390x] <!nocheck>, poppler-data [!s390x] <!nocheck>, pstoedit [!s390x] <!nocheck>, python3-lxml [!s390x] <!nocheck !nopython>
+Build-Depends-Indep: apparmor <!nocheck>, dh-apparmor, doxygen (>= 1.8.4) <!nodoc>, gettext, graphviz <!nodoc>, junit4 (>= 4.8.2-2) <!nojava>, libbsh-java <!nojava>, rdfind, symlinks
+Build-Conflicts: amd-libopencl1, fonts-opensymbol <!nocheck>, nvidia-glx-dev, nvidia-glx-legacy-dev, nvidia-libopencl1
+Testsuite: autopkgtest
+Testsuite-Triggers: @builddeps@, apparmor, default-jdk, python3
+Homepage: http://www.libreoffice.org
+Vcs-Browser: https://git.launchpad.net/~libreoffice/ubuntu/+source/libreoffice
+Vcs-Git: https://git.launchpad.net/~libreoffice/ubuntu/+source/libreoffice -b ubuntu-focal-7.4
+Directory: pool/main/libr/libreoffice
+Package-List:
+ fonts-opensymbol deb fonts optional arch=all
+ gir1.2-lokdocview-0.1 deb introspection optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libjuh-java deb oldlibs optional arch=all
+ libjurt-java deb oldlibs optional arch=all
+ liblibreoffice-java deb java optional arch=all
+ liblibreofficekitgtk deb gnome optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libofficebean-java deb java optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice deb metapackages optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-avmedia-backend-gstreamer deb oldlibs optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-base deb database optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-base-core deb editors optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-base-drivers deb database optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-base-nogui deb database optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-calc deb editors optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-calc-nogui deb editors optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-common deb editors optional arch=all
+ libreoffice-core deb editors optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-core-nogui deb editors optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-dev deb devel optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-dev-common deb devel optional arch=all
+ libreoffice-dev-doc deb doc optional arch=all profile=!nodoc
+ libreoffice-dev-gui deb devel optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-draw deb editors optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-draw-nogui deb editors optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-evolution deb gnome optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-gnome deb gnome optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-gtk deb oldlibs extra arch=all
+ libreoffice-gtk2 deb oldlibs extra arch=all
+ libreoffice-gtk3 deb gnome optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-help-ca deb doc optional arch=all
+ libreoffice-help-common deb editors optional arch=all
+ libreoffice-help-cs deb doc optional arch=all
+ libreoffice-help-da deb doc optional arch=all
+ libreoffice-help-de deb doc optional arch=all
+ libreoffice-help-dz deb doc optional arch=all
+ libreoffice-help-el deb doc optional arch=all
+ libreoffice-help-en-gb deb doc optional arch=all
+ libreoffice-help-en-us deb doc optional arch=all
+ libreoffice-help-es deb doc optional arch=all
+ libreoffice-help-et deb doc optional arch=all
+ libreoffice-help-eu deb doc optional arch=all
+ libreoffice-help-fi deb doc optional arch=all
+ libreoffice-help-fr deb doc optional arch=all
+ libreoffice-help-gl deb doc optional arch=all
+ libreoffice-help-hi deb doc optional arch=all
+ libreoffice-help-hu deb doc optional arch=all
+ libreoffice-help-id deb doc optional arch=all
+ libreoffice-help-it deb doc optional arch=all
+ libreoffice-help-ja deb doc optional arch=all
+ libreoffice-help-km deb doc optional arch=all
+ libreoffice-help-ko deb doc optional arch=all
+ libreoffice-help-nl deb doc optional arch=all
+ libreoffice-help-om deb doc optional arch=all
+ libreoffice-help-pl deb doc optional arch=all
+ libreoffice-help-pt deb doc optional arch=all
+ libreoffice-help-pt-br deb doc optional arch=all
+ libreoffice-help-ru deb doc optional arch=all
+ libreoffice-help-sk deb doc optional arch=all
+ libreoffice-help-sl deb doc optional arch=all
+ libreoffice-help-sv deb doc optional arch=all
+ libreoffice-help-tr deb doc optional arch=all
+ libreoffice-help-vi deb doc optional arch=all
+ libreoffice-help-zh-cn deb doc optional arch=all
+ libreoffice-help-zh-tw deb doc optional arch=all
+ libreoffice-impress deb editors optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-impress-nogui deb editors optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-java-common deb editors optional arch=all
+ libreoffice-kde deb oldlibs optional arch=all
+ libreoffice-kde4 deb oldlibs optional arch=all
+ libreoffice-kde5 deb oldlibs optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-kf5 deb kde optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-l10n-af deb localization optional arch=all
+ libreoffice-l10n-am deb localization optional arch=all
+ libreoffice-l10n-ar deb localization optional arch=all
+ libreoffice-l10n-as deb localization optional arch=all
+ libreoffice-l10n-ast deb localization optional arch=all
+ libreoffice-l10n-be deb localization optional arch=all
+ libreoffice-l10n-bg deb localization optional arch=all
+ libreoffice-l10n-bn deb localization optional arch=all
+ libreoffice-l10n-br deb localization optional arch=all
+ libreoffice-l10n-bs deb localization optional arch=all
+ libreoffice-l10n-ca deb localization optional arch=all
+ libreoffice-l10n-cs deb localization optional arch=all
+ libreoffice-l10n-cy deb localization optional arch=all
+ libreoffice-l10n-da deb localization optional arch=all
+ libreoffice-l10n-de deb localization optional arch=all
+ libreoffice-l10n-dz deb localization optional arch=all
+ libreoffice-l10n-el deb localization optional arch=all
+ libreoffice-l10n-en-gb deb localization optional arch=all
+ libreoffice-l10n-en-za deb localization optional arch=all
+ libreoffice-l10n-eo deb localization optional arch=all
+ libreoffice-l10n-es deb localization optional arch=all
+ libreoffice-l10n-et deb localization optional arch=all
+ libreoffice-l10n-eu deb localization optional arch=all
+ libreoffice-l10n-fa deb localization optional arch=all
+ libreoffice-l10n-fi deb localization optional arch=all
+ libreoffice-l10n-fr deb localization optional arch=all
+ libreoffice-l10n-ga deb localization optional arch=all
+ libreoffice-l10n-gd deb localization optional arch=all
+ libreoffice-l10n-gl deb localization optional arch=all
+ libreoffice-l10n-gu deb localization optional arch=all
+ libreoffice-l10n-gug deb localization optional arch=all
+ libreoffice-l10n-he deb localization optional arch=all
+ libreoffice-l10n-hi deb localization optional arch=all
+ libreoffice-l10n-hr deb localization optional arch=all
+ libreoffice-l10n-hu deb localization optional arch=all
+ libreoffice-l10n-id deb localization optional arch=all
+ libreoffice-l10n-in deb metapackages optional arch=all
+ libreoffice-l10n-is deb localization optional arch=all
+ libreoffice-l10n-it deb localization optional arch=all
+ libreoffice-l10n-ja deb localization optional arch=all
+ libreoffice-l10n-ka deb localization optional arch=all
+ libreoffice-l10n-kk deb localization optional arch=all
+ libreoffice-l10n-km deb localization optional arch=all
+ libreoffice-l10n-kmr deb localization optional arch=all
+ libreoffice-l10n-kn deb localization optional arch=all
+ libreoffice-l10n-ko deb localization optional arch=all
+ libreoffice-l10n-lt deb localization optional arch=all
+ libreoffice-l10n-lv deb localization optional arch=all
+ libreoffice-l10n-mk deb localization optional arch=all
+ libreoffice-l10n-ml deb localization optional arch=all
+ libreoffice-l10n-mn deb localization optional arch=all
+ libreoffice-l10n-mr deb localization optional arch=all
+ libreoffice-l10n-nb deb localization optional arch=all
+ libreoffice-l10n-ne deb localization optional arch=all
+ libreoffice-l10n-nl deb localization optional arch=all
+ libreoffice-l10n-nn deb localization optional arch=all
+ libreoffice-l10n-nr deb localization optional arch=all
+ libreoffice-l10n-nso deb localization optional arch=all
+ libreoffice-l10n-oc deb localization optional arch=all
+ libreoffice-l10n-om deb localization optional arch=all
+ libreoffice-l10n-or deb localization optional arch=all
+ libreoffice-l10n-pa-in deb localization optional arch=all
+ libreoffice-l10n-pl deb localization optional arch=all
+ libreoffice-l10n-pt deb localization optional arch=all
+ libreoffice-l10n-pt-br deb localization optional arch=all
+ libreoffice-l10n-ro deb localization optional arch=all
+ libreoffice-l10n-ru deb localization optional arch=all
+ libreoffice-l10n-rw deb localization optional arch=all
+ libreoffice-l10n-si deb localization optional arch=all
+ libreoffice-l10n-sk deb localization optional arch=all
+ libreoffice-l10n-sl deb localization optional arch=all
+ libreoffice-l10n-sr deb localization optional arch=all
+ libreoffice-l10n-ss deb localization optional arch=all
+ libreoffice-l10n-st deb localization optional arch=all
+ libreoffice-l10n-sv deb localization optional arch=all
+ libreoffice-l10n-szl deb localization optional arch=all
+ libreoffice-l10n-ta deb localization optional arch=all
+ libreoffice-l10n-te deb localization optional arch=all
+ libreoffice-l10n-tg deb localization optional arch=all
+ libreoffice-l10n-th deb localization optional arch=all
+ libreoffice-l10n-tn deb localization optional arch=all
+ libreoffice-l10n-tr deb localization optional arch=all
+ libreoffice-l10n-ts deb localization optional arch=all
+ libreoffice-l10n-ug deb localization optional arch=all
+ libreoffice-l10n-uk deb localization optional arch=all
+ libreoffice-l10n-uz deb localization optional arch=all
+ libreoffice-l10n-ve deb localization optional arch=all
+ libreoffice-l10n-vi deb localization optional arch=all
+ libreoffice-l10n-xh deb localization optional arch=all
+ libreoffice-l10n-za deb metapackages optional arch=all
+ libreoffice-l10n-zh-cn deb localization optional arch=all
+ libreoffice-l10n-zh-tw deb localization optional arch=all
+ libreoffice-l10n-zu deb localization optional arch=all
+ libreoffice-librelogo deb misc optional arch=all profile=!nopython
+ libreoffice-math deb editors optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-math-nogui deb editors optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-mysql-connector deb oldlibs optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-nlpsolver deb math optional arch=all
+ libreoffice-nogui deb metapackages optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-officebean deb oldlibs optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-ogltrans deb oldlibs optional arch=all
+ libreoffice-pdfimport deb oldlibs optional arch=all
+ libreoffice-plasma deb editors optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-qt5 deb editors optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-report-builder deb misc optional arch=all
+ libreoffice-report-builder-bin deb misc optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-report-builder-bin-nogui deb misc optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-script-provider-bsh deb java optional arch=all
+ libreoffice-script-provider-js deb web optional arch=all
+ libreoffice-script-provider-python deb python optional arch=all profile=!nopython
+ libreoffice-sdbc-firebird deb database optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-sdbc-hsqldb deb database optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-sdbc-mysql deb database optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-sdbc-postgresql deb misc optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-smoketest-data deb misc optional arch=all profile=!noinsttest
+ libreoffice-style-breeze deb editors optional arch=all
+ libreoffice-style-colibre deb editors optional arch=all
+ libreoffice-style-elementary deb editors optional arch=all
+ libreoffice-style-galaxy deb oldlibs extra arch=all
+ libreoffice-style-hicontrast deb oldlibs extra arch=all
+ libreoffice-style-human deb oldlibs extra arch=all
+ libreoffice-style-karasa-jaga deb editors optional arch=all
+ libreoffice-style-oxygen deb oldlibs extra arch=all
+ libreoffice-style-sifr deb editors optional arch=all
+ libreoffice-style-sukapura deb editors optional arch=all
+ libreoffice-style-tango deb oldlibs extra arch=all
+ libreoffice-style-yaru deb editors optional arch=all
+ libreoffice-subsequentcheckbase deb libs optional arch=all profile=!noinsttest
+ libreoffice-systray deb oldlibs extra arch=all
+ libreoffice-wiki-publisher deb misc optional arch=all
+ libreoffice-writer deb editors optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreoffice-writer-nogui deb editors optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libreofficekit-data deb web optional arch=all
+ libreofficekit-dev deb libdevel optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libridl-java deb oldlibs optional arch=all
+ libuno-cppu3 deb libs optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libuno-cppuhelpergcc3-3 deb libs optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libuno-purpenvhelpergcc3-3 deb libs optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libuno-sal3 deb libs optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libuno-salhelpergcc3-3 deb libs optional arch=amd64,arm64,armhf,ppc64el,s390x
+ libunoil-java deb oldlibs optional arch=all
+ libunoloader-java deb java optional arch=all
+ python3-access2base deb python optional arch=all
+ python3-uno deb python optional arch=amd64,arm64,armhf,ppc64el,s390x profile=!nopython
+ uno-libs-private deb libs optional arch=amd64,arm64,armhf,ppc64el,s390x
+ ure deb libs optional arch=amd64,arm64,armhf,ppc64el,s390x
+ ure-java deb java optional arch=amd64,arm64,armhf,ppc64el,s390x
+Files:
+ 23f236e0f2e46e2ef41ff78f64edf55f 25849 libreoffice_7.4.7-0ubuntu0.22.10.1~bpo20.04.1.dsc
+ cb0e5666b5060f59556e2aa990a2a0a1 112524236 libreoffice_7.4.7.orig-helpcontent2.tar.xz
+ 041818a9a62f362b30e2ccf5ef6e4a50 336622488 libreoffice_7.4.7.orig-tarballs.tar.xz
+ b4db0dbb7440452ae453ef2089e65ac8 212864056 libreoffice_7.4.7.orig-translations.tar.xz
+ 6d66705b91a77b6a35830eb810be51ac 19837152 libreoffice_7.4.7.orig-yaru.tar.xz
+ 94ef5331983b96f6ec7af7bfb8f748a9 264680724 libreoffice_7.4.7.orig.tar.xz
+ 09c027e824888f4d7b3368cec7f67a34 833 libreoffice_7.4.7.orig.tar.xz.asc
+ 73e14469837c6deb8ffe65a38d6fc6d1 2391508 libreoffice_7.4.7-0ubuntu0.22.10.1~bpo20.04.1.debian.tar.xz
+Checksums-Sha1:
+ 1b6eebe962c081fba21a1c129f05ea9417f4564e 25849 libreoffice_7.4.7-0ubuntu0.22.10.1~bpo20.04.1.dsc
+ ee666af5343f242a0dbd1872a74ea865275aa4b1 112524236 libreoffice_7.4.7.orig-helpcontent2.tar.xz
+ a0dd707d3ad9ab75f77c398472f49080d55555b5 336622488 libreoffice_7.4.7.orig-tarballs.tar.xz
+ 78f79abe91eb3a7e5cc3bd4b53e364f2dcd5b0d1 212864056 libreoffice_7.4.7.orig-translations.tar.xz
+ c1d09f8b2c6a29abcf5a5fca770166ab1a12f039 19837152 libreoffice_7.4.7.orig-yaru.tar.xz
+ e1850b0d5e3ca17b22f4bf013b93b6bdc9d30d66 264680724 libreoffice_7.4.7.orig.tar.xz
+ 769461119138f3359deb0e27769c00f6215d0f6b 833 libreoffice_7.4.7.orig.tar.xz.asc
+ 5acbbc1aa2ad71d3a114af605e7bc3da40745a25 2391508 libreoffice_7.4.7-0ubuntu0.22.10.1~bpo20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 9e78124b19411a7eafaa7a8a91eaf31de246404fe00baf3ca701e9148cd242c0 25849 libreoffice_7.4.7-0ubuntu0.22.10.1~bpo20.04.1.dsc
+ 79bc6ba2a1cc7336044f6330d572c8ca0e228a59951f6375e7c1dcecbedd928d 112524236 libreoffice_7.4.7.orig-helpcontent2.tar.xz
+ 6992133cd4c27d6bd26f6585ad2cc39ff238c81b97711071ecc0f6409d013fa8 336622488 libreoffice_7.4.7.orig-tarballs.tar.xz
+ bbba9a22ab286ef2ef77a3a1b97d863f3783c9e534283d828354c017885130d1 212864056 libreoffice_7.4.7.orig-translations.tar.xz
+ f20c5303f634268463db40f3d507b4bc9b06d5828dcd07024cc5e82a482e0894 19837152 libreoffice_7.4.7.orig-yaru.tar.xz
+ 743d91f2a138a678380fa7a8ecb5b2401d994b067b330750f03ad8f523a2fb20 264680724 libreoffice_7.4.7.orig.tar.xz
+ f10980f93e55f99a4921839c1a28aa82f60d7e38136a2d427f75c91d7c304ee9 833 libreoffice_7.4.7.orig.tar.xz.asc
+ b728478c3ce54be2ad320c2df8352e6fc7d138f133faaccec97cdc1f67b53c61 2391508 libreoffice_7.4.7-0ubuntu0.22.10.1~bpo20.04.1.debian.tar.xz
+Checksums-Sha512:
+ a4e1316e40623b94f6fe8cf5b1ab2d66b00437c1d9e1774821627a8c1f6635fffb01ae3bf10b899e37adc20701f67a4373ba920463e824f5f932c3decea62668 25849 libreoffice_7.4.7-0ubuntu0.22.10.1~bpo20.04.1.dsc
+ acaf9bcc62dca376d4c779d65651382e15f22179b87061cf45fb55c503b6aefa1b302987a7962f6b05eef83414a81507ac2c461d2c548d7f6fae6cb55b01374f 112524236 libreoffice_7.4.7.orig-helpcontent2.tar.xz
+ 55e213ad876b64cd9caf3bcc53835c990276e410e638dde5901065b830ebf7b730debf14964bbe64b9e2679802d58e2891f2d74263dafc04bb3b7c42bad4971f 336622488 libreoffice_7.4.7.orig-tarballs.tar.xz
+ 1fecc4756e335a78c3ea6f27821fd04ba9ce48b05c58058132c9e6597a86aed695e6b0cf9636a501851f4a249a5de90072d7585c8704cab6df71e0012699e451 212864056 libreoffice_7.4.7.orig-translations.tar.xz
+ ea55de027512b6ae1fa2bbcd6029febc1630be38ffc3e98db454903f03a40aab7e2d74f85bb1948bb9c9591ace82daff4e1dc7feef4fd931545f1740bd678487 19837152 libreoffice_7.4.7.orig-yaru.tar.xz
+ 806c01c7c300fead815ffb8a89ec05542483797953879a815b2ef3ac4d6265bbb01e7f51f8f62fd0e3274438c44bae17f14c1e39379680052e75ba34e03530bc 264680724 libreoffice_7.4.7.orig.tar.xz
+ fb1bbb40128923a086267446f73d35db8f266ca9794614ba404a663fb86b0aca597dd3d533b9ef192e7282329aaff44a5e8224879038f5823dfbcaa0456d1efc 833 libreoffice_7.4.7.orig.tar.xz.asc
+ 7eea50a269eb4bfb5bdbdd7c3f6cad48e9bf9ecb470abc2f6636241e7b225e89dc06199d54d01e43d132ff8736e0583bd4d7b57d209b2cc95df91c9856894514 2391508 libreoffice_7.4.7-0ubuntu0.22.10.1~bpo20.04.1.debian.tar.xz
+
+Package: lvm2
+Format: 3.0 (quilt)
+Binary: lvm2, lvm2-udeb, lvm2-dbusd, lvm2-lockd, libdevmapper-dev, libdevmapper1.02.1, libdevmapper1.02.1-udeb, dmsetup, dmsetup-udeb, libdevmapper-event1.02.1, dmeventd, liblvm2cmd2.03, liblvm2-dev
+Architecture: linux-any all
+Version: 2.03.11-2ubuntu4~ubuntu20.04.1
+Priority: important
+Section: admin
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian LVM Team <team+lvm@tracker.debian.org>
+Uploaders: Bastian Blank <waldi@debian.org>
+Standards-Version: 4.1.1
+Build-Depends: debhelper-compat (= 12), autoconf-archive, automake, libaio-dev, libblkid-dev, pkg-config, systemd, thin-provisioning-tools
+Build-Depends-Arch: libcmap-dev, libcorosync-common-dev, libcpg-dev, libdlm-dev (>> 2), libdlmcontrol-dev, libedit-dev, libquorum-dev, libsanlock-dev, libselinux1-dev, libsystemd-dev, libudev-dev
+Build-Depends-Indep: dh-sequence-python3, python3-dev, python3-dbus, python3-pyudev
+Homepage: https://sourceware.org/lvm2/
+Vcs-Browser: https://salsa.debian.org/lvm-team/lvm2
+Vcs-Git: https://salsa.debian.org/lvm-team/lvm2.git
+Directory: pool/main/l/lvm2
+Package-List:
+ dmeventd deb admin optional arch=linux-any
+ dmsetup deb admin optional arch=linux-any
+ dmsetup-udeb udeb debian-installer optional arch=linux-any
+ libdevmapper-dev deb libdevel optional arch=linux-any
+ libdevmapper-event1.02.1 deb libs optional arch=linux-any
+ libdevmapper1.02.1 deb libs optional arch=linux-any
+ libdevmapper1.02.1-udeb udeb debian-installer optional arch=linux-any
+ liblvm2-dev deb libdevel optional arch=linux-any
+ liblvm2cmd2.03 deb libs optional arch=linux-any
+ lvm2 deb admin optional arch=linux-any
+ lvm2-dbusd deb admin optional arch=all
+ lvm2-lockd deb admin optional arch=linux-any
+ lvm2-udeb udeb debian-installer optional arch=linux-any
+Files:
+ 0847728659bb59996341154775ac4187 2879 lvm2_2.03.11-2ubuntu4~ubuntu20.04.1.dsc
+ 7abb38e01b740dd7cbbe3d2aac93f1bc 1699012 lvm2_2.03.11.orig.tar.xz
+ 5da6c74281717ac4c2590a80ef503b04 44284 lvm2_2.03.11-2ubuntu4~ubuntu20.04.1.debian.tar.xz
+Checksums-Sha1:
+ 201f94be720b65f0654c79b93a7c993916a5b85b 2879 lvm2_2.03.11-2ubuntu4~ubuntu20.04.1.dsc
+ 131a5943a49f141d67fbd75ff4d6577c884fe132 1699012 lvm2_2.03.11.orig.tar.xz
+ e874c8d217b40d30c32af408ab691ad0d988711b 44284 lvm2_2.03.11-2ubuntu4~ubuntu20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 33a0cf1b9fe9ce6b06230bc45f86d5985cd8ac6e6cb6d43084fcf656d434fb15 2879 lvm2_2.03.11-2ubuntu4~ubuntu20.04.1.dsc
+ 7ef41edc65c4b807c5667ac7e9c371016d0db2a641812b334571acc0e025d86c 1699012 lvm2_2.03.11.orig.tar.xz
+ 746d69d187b5ff97988b632a38b1f7c7792ec3f772bb0d75985c8fc2aed2c6f0 44284 lvm2_2.03.11-2ubuntu4~ubuntu20.04.1.debian.tar.xz
+Checksums-Sha512:
+ f845c6d692a7029baa6fb74e239ac0b5eca31d21d40be8f07104f635e7697a4cc27c3a717e12dfe29f9b0f8449f0dc630a76aea54e62fb715c515a5817db2c78 2879 lvm2_2.03.11-2ubuntu4~ubuntu20.04.1.dsc
+ 80befad86e93dea1d3eeb299d864ac5c48880bf196a80898199bf09dc6bc1a30b3c8acc86efed43e8ff62a20280b60b853a0c5772eadf6aa2fbcfd79aad0372d 1699012 lvm2_2.03.11.orig.tar.xz
+ 40a97db56a22e0fc8da46288d60c3a31a1449193f32aeffa6edc996c1f811164c99ad60af9148b07b7d4a92c7746526d9de6145fcfef21a064594a45256285e8 44284 lvm2_2.03.11-2ubuntu4~ubuntu20.04.1.debian.tar.xz
+
+Package: memtest86+
+Format: 3.0 (quilt)
+Binary: memtest86+
+Architecture: amd64 hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386
+Version: 5.31b+dfsg-4~bpo20.04.1
+Priority: optional
+Section: misc
+Maintainer: Fabio Fantoni <fantonifabio@tiscali.it>
+Standards-Version: 4.6.0
+Build-Depends: debhelper-compat (= 13), dh-exec, gcc-multilib [amd64 kfreebsd-amd64], xorriso, po-debconf
+Homepage: https://www.memtest.org/
+Vcs-Browser: https://salsa.debian.org/debian/memtest86plus
+Vcs-Git: https://salsa.debian.org/debian/memtest86plus.git -b ubuntu/focal-backports
+Directory: pool/main/m/memtest86+
+Package-List:
+ memtest86+ deb misc optional arch=amd64,hurd-i386,i386,kfreebsd-amd64,kfreebsd-i386
+Files:
+ 26f68263d65fc61c2a679189de075727 1938 memtest86+_5.31b+dfsg-4~bpo20.04.1.dsc
+ 75fdce14981f566e212667008877b889 181212 memtest86+_5.31b+dfsg.orig.tar.xz
+ 00b8ce7a5634afb3c4ab87db4e287c29 22148 memtest86+_5.31b+dfsg-4~bpo20.04.1.debian.tar.xz
+Checksums-Sha1:
+ d6e83a281fb4cca043e1cf693c35b5b0c9b7f75e 1938 memtest86+_5.31b+dfsg-4~bpo20.04.1.dsc
+ 5689804e55318543d881f49b28d3463a85d31d9d 181212 memtest86+_5.31b+dfsg.orig.tar.xz
+ 685bec54a1ca2b6b724acaba788ea3a23c650bd5 22148 memtest86+_5.31b+dfsg-4~bpo20.04.1.debian.tar.xz
+Checksums-Sha256:
+ f179e0037cedd8696f367cf4379eb60045cdd20c47d30488d68c0848107aced3 1938 memtest86+_5.31b+dfsg-4~bpo20.04.1.dsc
+ b31025b00fddd35ec8794cbe832289562cdd9690a5d0062e9ac69eb655e2605f 181212 memtest86+_5.31b+dfsg.orig.tar.xz
+ bb5a116269ae0af83ff1dd49f8a0b4424166844860ac47d3dd2cf2ca1ade9488 22148 memtest86+_5.31b+dfsg-4~bpo20.04.1.debian.tar.xz
+Checksums-Sha512:
+ e0833cd6527340d2822355d1121723c5f16800823c1922f8a55d3f1232231f43614f3da5a27fcd3329ac74e80928f1f9a2dbd32aba5e014d692fbc34cd875de5 1938 memtest86+_5.31b+dfsg-4~bpo20.04.1.dsc
+ dfe88c9b80403b7885637569e695ae4ad7ea47ba10839684bb47a76320f0d6163430e8608b8f4e6f4037243776a1325d8ac4eff4e29b308de343e272cc1c8e47 181212 memtest86+_5.31b+dfsg.orig.tar.xz
+ 6506d4c40fc3227f5d0feecb89047677aae40b748ceeb7b264353ea16d9b86bd9e319dcb980087a7c50ce7cfcda512b706d986f7dcea2b9e2ae260026783d407 22148 memtest86+_5.31b+dfsg-4~bpo20.04.1.debian.tar.xz
+
+Package: simplestreams
+Format: 3.0 (quilt)
+Binary: simplestreams, python3-simplestreams, python3-simplestreams-openstack
+Architecture: all
+Version: 0.1.0-48-gb936edd4-0ubuntu1~bpo20.04.1
+Priority: extra
+Section: python
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Standards-Version: 4.2.1
+Build-Depends: debhelper (>= 7), dh-python, python3, python3-flake8, python3-glanceclient, python3-keystoneclient, python3-mock, python3-nose, python3-requests (>= 1.1), python3-setuptools, python3-swiftclient, python3-yaml
+Homepage: http://launchpad.net/simplestreams
+Directory: pool/main/s/simplestreams
+Package-List:
+ python3-simplestreams deb python optional arch=all
+ python3-simplestreams-openstack deb python optional arch=all
+ simplestreams deb python optional arch=all
+Files:
+ cfda1aff9531ddc6012036c060426e67 1981 simplestreams_0.1.0-48-gb936edd4-0ubuntu1~bpo20.04.1.dsc
+ 60590f36aa8a16539d20d65b5823db17 113749 simplestreams_0.1.0-48-gb936edd4.orig.tar.gz
+ 3bb81af81dffb7ec29276a6799767614 6572 simplestreams_0.1.0-48-gb936edd4-0ubuntu1~bpo20.04.1.debian.tar.xz
+Checksums-Sha1:
+ 3bff9566dafc1f09ec52121d374b552c9d80e9d0 1981 simplestreams_0.1.0-48-gb936edd4-0ubuntu1~bpo20.04.1.dsc
+ ab5a385f31d5561ee5c5e690b88ebf25b26a1582 113749 simplestreams_0.1.0-48-gb936edd4.orig.tar.gz
+ 72a6db95912b4072eadb1a465c80e75014d5db20 6572 simplestreams_0.1.0-48-gb936edd4-0ubuntu1~bpo20.04.1.debian.tar.xz
+Checksums-Sha256:
+ 36709b1a90bf6ec9103db6670396fefd770b4c74fcbfbb97a3ea9ad8a766d371 1981 simplestreams_0.1.0-48-gb936edd4-0ubuntu1~bpo20.04.1.dsc
+ 95256a84ae30cba759b527b18391ee9b4101f9cdca2c7aff07f9f7655524eb14 113749 simplestreams_0.1.0-48-gb936edd4.orig.tar.gz
+ 3ad7417039a5a068ffb61a6dee7848ccb5ab90da75bc61a12745916b9de587c3 6572 simplestreams_0.1.0-48-gb936edd4-0ubuntu1~bpo20.04.1.debian.tar.xz
+Checksums-Sha512:
+ 2a865a77d3e4cb01643a06524b24ba9587bd495401114ea93994e8682a82d4499dda256cae03122d61d4c1e9e3f097b186db5ca8d49c1512ee6b00ad6efcca40 1981 simplestreams_0.1.0-48-gb936edd4-0ubuntu1~bpo20.04.1.dsc
+ 410d593633b16bc42450972daca7bdc33b4c0315be911ebb53750418724a71204e44c6904466d8ebb8e6c135726d5d749d11cb0439266f9e4424e91819f75c4f 113749 simplestreams_0.1.0-48-gb936edd4.orig.tar.gz
+ 8bf65697d0d9ba73986ff3e5bd5cc69b3e36e21a65f7d42bbf245f47a315529c76abee122550706e8f9585051a9964f5012ea5a6c5957960e6a5aa87f1a7564b 6572 simplestreams_0.1.0-48-gb936edd4-0ubuntu1~bpo20.04.1.debian.tar.xz
+

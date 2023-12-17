@@ -1,0 +1,17 @@
+[0.022s] Invoking command in '/home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/build/pr2_hospital_robot': /usr/bin/cmake --build /home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/build/pr2_hospital_robot -- -j6 -l6
+[0.084s] Invoked command in '/home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/build/pr2_hospital_robot' returned '0': /usr/bin/cmake --build /home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/build/pr2_hospital_robot -- -j6 -l6
+[0.102s] Invoking command in '/home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/build/pr2_hospital_robot': /usr/bin/cmake --build /home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/build/pr2_hospital_robot --target tests -- -j6 -l6
+[0.138s] Built target tests
+[0.144s] Invoked command in '/home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/build/pr2_hospital_robot' returned '0': /usr/bin/cmake --build /home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/build/pr2_hospital_robot --target tests -- -j6 -l6
+[0.169s] Invoking command in '/home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/build/pr2_hospital_robot': /usr/bin/cmake --install /home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/build/pr2_hospital_robot
+[0.176s] -- Install configuration: ""
+[0.177s] -- Up-to-date: /home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/install/pr2_hospital_robot/lib/pkgconfig/pr2_hospital_robot.pc
+[0.179s] -- Up-to-date: /home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/install/pr2_hospital_robot/share/pr2_hospital_robot/cmake/pr2_hospital_robotConfig.cmake
+[0.179s] -- Up-to-date: /home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/install/pr2_hospital_robot/share/pr2_hospital_robot/cmake/pr2_hospital_robotConfig-version.cmake
+[0.179s] -- Up-to-date: /home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/install/pr2_hospital_robot/share/pr2_hospital_robot/package.xml
+[0.179s] -- Up-to-date: /home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/install/pr2_hospital_robot/share/pr2_hospital_robot/launch
+[0.180s] -- Up-to-date: /home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/install/pr2_hospital_robot/share/pr2_hospital_robot/launch/move_base.launch
+[0.180s] -- Up-to-date: /home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/install/pr2_hospital_robot/share/pr2_hospital_robot/launch/pr2_2dnav.launch
+[0.180s] -- Up-to-date: /home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/install/pr2_hospital_robot/share/pr2_hospital_robot/config
+[0.180s] -- Up-to-date: /home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/install/pr2_hospital_robot/share/pr2_hospital_robot/config/costmap_common_params.yaml
+[0.184s] Invoked command in '/home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/build/pr2_hospital_robot' returned '0': /usr/bin/cmake --install /home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/build/pr2_hospital_robot

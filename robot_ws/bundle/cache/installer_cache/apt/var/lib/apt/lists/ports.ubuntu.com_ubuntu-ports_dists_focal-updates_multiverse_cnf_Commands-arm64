@@ -1,0 +1,37 @@
+suite: focal-updates
+component: multiverse
+arch: arm64
+
+
+name: conserver-client
+version: 8.2.4-2ubuntu0.20.04.1
+commands: console
+
+name: conserver-server
+version: 8.2.4-2ubuntu0.20.04.1
+commands: conserver
+
+name: nvidia-modprobe
+version: 465.24.02-1~ubuntu20.04.1
+commands: nvidia-modprobe
+
+name: pi-bluetooth
+version: 0.1.15ubuntu0~20.04.1
+commands: bthelper,btuart
+
+name: rpi-eeprom
+version: 11.3-1ubuntu1~20.04.1
+commands: rpi-eeprom-config,rpi-eeprom-update
+
+name: xilinx-vcu-ctrl
+version: 2020.2-0ubuntu4~20.04.1
+commands: ctrlsw_decoder,ctrlsw_encoder
+
+name: xilinx-vcu-omx-utils
+version: 2020.2-0ubuntu4~20.04.1
+commands: omx_decoder,omx_encoder
+
+name: xlnx-kria-firmware
+version: 0.6~20.04.1
+commands: fru-dump
+

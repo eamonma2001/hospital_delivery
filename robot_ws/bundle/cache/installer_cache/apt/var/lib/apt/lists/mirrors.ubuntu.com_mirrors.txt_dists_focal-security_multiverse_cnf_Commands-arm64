@@ -1,0 +1,5 @@
+suite: focal-security
+component: multiverse
+arch: arm64
+
+

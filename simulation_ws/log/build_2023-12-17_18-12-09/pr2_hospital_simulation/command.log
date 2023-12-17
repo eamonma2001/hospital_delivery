@@ -1,0 +1,2 @@
+Invoking command in '/home/eamon/hospital_delivery/simulation_ws/build/pr2_hospital_simulation': /usr/bin/cmake --build /home/eamon/hospital_delivery/simulation_ws/build/pr2_hospital_simulation -- -j6 -l6
+Invoked command in '/home/eamon/hospital_delivery/simulation_ws/build/pr2_hospital_simulation' returned '2': /usr/bin/cmake --build /home/eamon/hospital_delivery/simulation_ws/build/pr2_hospital_simulation -- -j6 -l6

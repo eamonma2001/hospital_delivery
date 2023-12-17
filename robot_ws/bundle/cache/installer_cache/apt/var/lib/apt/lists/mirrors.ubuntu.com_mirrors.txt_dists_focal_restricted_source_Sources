@@ -1,0 +1,534 @@
+Package: bcmwl
+Format: 1.0
+Binary: bcmwl-kernel-source
+Architecture: i386 amd64
+Version: 6.30.223.271+bdcom-0ubuntu5
+Priority: optional
+Section: restricted/admin
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Alberto Milone <alberto.milone@canonical.com>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 7.0.50~), dh-modaliases
+Directory: pool/restricted/b/bcmwl
+Package-List:
+ bcmwl-kernel-source deb admin optional arch=i386,amd64
+Files:
+ cfa568d581cce460b8e17ef73b83f3af 1888 bcmwl_6.30.223.271+bdcom-0ubuntu5.dsc
+ 4381c7c0eb0fe569e803212c6419aff1 5661606 bcmwl_6.30.223.271+bdcom.orig.tar.gz
+ 5e022b5fe98e83aed9d24875b8d7d511 27209 bcmwl_6.30.223.271+bdcom-0ubuntu5.diff.gz
+Checksums-Sha1:
+ 9066298f23390cd9fec59d3742198fae8c7669ee 1888 bcmwl_6.30.223.271+bdcom-0ubuntu5.dsc
+ a72d2526235399ea43ff4ba1bf156b581e915f0c 5661606 bcmwl_6.30.223.271+bdcom.orig.tar.gz
+ 771500b20bb539b644438922e2a339eedcfc03cc 27209 bcmwl_6.30.223.271+bdcom-0ubuntu5.diff.gz
+Checksums-Sha256:
+ effbbb5d8dfb97f928689d128b3e0b8ba7c8f632a0b1368401de53e7f9e6bce5 1888 bcmwl_6.30.223.271+bdcom-0ubuntu5.dsc
+ c2e88bb1a311ee80846a7802ebabcb4f3351354de4fc8712254cd19b08e5d2c4 5661606 bcmwl_6.30.223.271+bdcom.orig.tar.gz
+ 6b064e498211a868ed9bd779e05b005a667745d72d81de0b8e266eceb847eafa 27209 bcmwl_6.30.223.271+bdcom-0ubuntu5.diff.gz
+
+Package: linux-restricted-modules
+Format: 3.0 (native)
+Binary: linux-modules-nvidia-430-generic, linux-modules-nvidia-430-lowlatency, linux-modules-nvidia-390-oem, linux-modules-nvidia-418-oem, linux-modules-nvidia-390-oem-osp1, linux-modules-nvidia-418-oem-osp1, linux-modules-nvidia-390-generic, linux-modules-nvidia-390-lowlatency, linux-modules-nvidia-440-generic, linux-modules-nvidia-440-lowlatency, linux-modules-nvidia-390-generic-hwe-20.04, linux-modules-nvidia-390-lowlatency-hwe-20.04, linux-modules-nvidia-440-generic-hwe-20.04, linux-modules-nvidia-440-lowlatency-hwe-20.04, linux-modules-nvidia-390-5.4.0-26-generic, linux-modules-nvidia-390-5.4.0-26-lowlatency, linux-modules-nvidia-440-5.4.0-26-generic, linux-modules-nvidia-440-5.4.0-26-lowlatency
+Architecture: amd64
+Version: 5.4.0-26.30+2
+Priority: optional
+Section: restricted/utils
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9), lsb-release, python3, python3-apt, cpio, dkms, curl, gawk, linux-headers-5.4.0-26-generic (>= 5.4.0-26.30), linux-buildinfo-5.4.0-26-generic (>= 5.4.0-26.30), linux-headers-5.4.0-26-lowlatency (>= 5.4.0-26.30), linux-buildinfo-5.4.0-26-lowlatency (>= 5.4.0-26.30)
+Vcs-Git: git://git.launchpad.net/~ubuntu-kernel/ubuntu/+source/linux-restricted-modules/+git/focal
+Directory: pool/restricted/l/linux-restricted-modules
+Package-List:
+ linux-modules-nvidia-390-5.4.0-26-generic deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-390-5.4.0-26-lowlatency deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-390-generic deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-390-generic-hwe-20.04 deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-390-lowlatency deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-390-lowlatency-hwe-20.04 deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-390-oem deb oldlibs optional arch=amd64
+ linux-modules-nvidia-390-oem-osp1 deb oldlibs optional arch=amd64
+ linux-modules-nvidia-418-oem deb oldlibs optional arch=amd64
+ linux-modules-nvidia-418-oem-osp1 deb oldlibs optional arch=amd64
+ linux-modules-nvidia-430-generic deb oldlibs optional arch=amd64
+ linux-modules-nvidia-430-lowlatency deb oldlibs optional arch=amd64
+ linux-modules-nvidia-440-5.4.0-26-generic deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-440-5.4.0-26-lowlatency deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-440-generic deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-440-generic-hwe-20.04 deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-440-lowlatency deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-440-lowlatency-hwe-20.04 deb kernel optional arch=amd64 profile=!stage1
+Files:
+ 04eba272f8afe192825e2cf76a7f1a04 3988 linux-restricted-modules_5.4.0-26.30+2.dsc
+ 28fda02fdb5ea20cd7de57e3c0fab3a5 19296 linux-restricted-modules_5.4.0-26.30+2.tar.xz
+Checksums-Sha1:
+ 5f5c8d7fa2d980f8dfe01112075372a9198f3b31 3988 linux-restricted-modules_5.4.0-26.30+2.dsc
+ 270ccb02ca076894f90c1483938cd8ef62afff3e 19296 linux-restricted-modules_5.4.0-26.30+2.tar.xz
+Checksums-Sha256:
+ b4837d40e576f5d793843c6873e6effb23a151f9ecdd37f3ba14ab18247127c5 3988 linux-restricted-modules_5.4.0-26.30+2.dsc
+ bdfb376189347fba7040a87bf004c4c410c252fc4a880610a5e1a1b396ab2804 19296 linux-restricted-modules_5.4.0-26.30+2.tar.xz
+
+Package: linux-restricted-modules-aws
+Format: 3.0 (native)
+Binary: linux-modules-nvidia-430-aws, linux-modules-nvidia-390-aws, linux-modules-nvidia-440-aws, linux-modules-nvidia-390-5.4.0-1009-aws, linux-modules-nvidia-440-5.4.0-1009-aws
+Architecture: amd64
+Version: 5.4.0-1009.9
+Priority: optional
+Section: restricted/utils
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9), lsb-release, python3, python3-apt, cpio, dkms, curl, gawk, linux-headers-5.4.0-1009-aws (>= 5.4.0-1009.9), linux-buildinfo-5.4.0-1009-aws (>= 5.4.0-1009.9)
+Vcs-Git: git://git.launchpad.net/~canonical-kernel/ubuntu/+source/linux-restricted-modules-aws/+git/focal
+Directory: pool/restricted/l/linux-restricted-modules-aws
+Package-List:
+ linux-modules-nvidia-390-5.4.0-1009-aws deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-390-aws deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-430-aws deb oldlibs optional arch=amd64
+ linux-modules-nvidia-440-5.4.0-1009-aws deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-440-aws deb kernel optional arch=amd64 profile=!stage1
+Files:
+ 2f854583891eff0250b826f86f416198 2301 linux-restricted-modules-aws_5.4.0-1009.9.dsc
+ b8ddf947e9ca6638a282e565b613bf0c 17132 linux-restricted-modules-aws_5.4.0-1009.9.tar.xz
+Checksums-Sha1:
+ 9c2a9ff435f19c006107f829b316d3097df91485 2301 linux-restricted-modules-aws_5.4.0-1009.9.dsc
+ 3b03e1b866ec1867f16b060c785dc41739c4b220 17132 linux-restricted-modules-aws_5.4.0-1009.9.tar.xz
+Checksums-Sha256:
+ ec68e7b212453d917e1a04573d0e4c8e2fd1aa65a8db3d6759b514af01f63d1f 2301 linux-restricted-modules-aws_5.4.0-1009.9.dsc
+ c8dc80a4710db41184deb49c8ad73604c16b334dd4edaafb6519ec76d14ffd79 17132 linux-restricted-modules-aws_5.4.0-1009.9.tar.xz
+
+Package: linux-restricted-modules-azure
+Format: 3.0 (native)
+Binary: linux-modules-nvidia-430-azure, linux-modules-nvidia-390-azure, linux-modules-nvidia-440-azure, linux-modules-nvidia-390-5.4.0-1010-azure, linux-modules-nvidia-440-5.4.0-1010-azure
+Architecture: amd64
+Version: 5.4.0-1010.10
+Priority: optional
+Section: restricted/utils
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9), lsb-release, python3, python3-apt, cpio, dkms, curl, gawk, linux-headers-5.4.0-1010-azure (>= 5.4.0-1010.10), linux-buildinfo-5.4.0-1010-azure (>= 5.4.0-1010.10)
+Vcs-Git: git://git.launchpad.net/~canonical-kernel/ubuntu/+source/linux-restricted-modules-azure/+git/focal
+Directory: pool/restricted/l/linux-restricted-modules-azure
+Package-List:
+ linux-modules-nvidia-390-5.4.0-1010-azure deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-390-azure deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-430-azure deb oldlibs optional arch=amd64
+ linux-modules-nvidia-440-5.4.0-1010-azure deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-440-azure deb kernel optional arch=amd64 profile=!stage1
+Files:
+ 020b5b6d38486d650e9fb3b3d4ae46a2 2033 linux-restricted-modules-azure_5.4.0-1010.10.dsc
+ 0c2094c182ef9d057fc51eb9b0455325 17288 linux-restricted-modules-azure_5.4.0-1010.10.tar.xz
+Checksums-Sha1:
+ 151e9d5417822a7bd89bb238b2780e0f777c232f 2033 linux-restricted-modules-azure_5.4.0-1010.10.dsc
+ 2d3330bf121844239c7759e5a56d29ac00fa0d9e 17288 linux-restricted-modules-azure_5.4.0-1010.10.tar.xz
+Checksums-Sha256:
+ daf96aea7ad28f983bf44c6cad4148b55dd07197d4a46313b85f7867d0b71aa5 2033 linux-restricted-modules-azure_5.4.0-1010.10.dsc
+ dd560ecf141bb4525c9b88597007a77577f1680e5ac8eab14b342d1e83ec6bad 17288 linux-restricted-modules-azure_5.4.0-1010.10.tar.xz
+
+Package: linux-restricted-modules-gcp
+Format: 3.0 (native)
+Binary: linux-modules-nvidia-430-gcp, linux-modules-nvidia-390-gcp, linux-modules-nvidia-440-gcp, linux-modules-nvidia-390-5.4.0-1009-gcp, linux-modules-nvidia-440-5.4.0-1009-gcp
+Architecture: amd64
+Version: 5.4.0-1009.9
+Priority: optional
+Section: restricted/utils
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9), lsb-release, python3, python3-apt, cpio, dkms, curl, gawk, linux-headers-5.4.0-1009-gcp (>= 5.4.0-1009.9), linux-buildinfo-5.4.0-1009-gcp (>= 5.4.0-1009.9)
+Vcs-Git: git://git.launchpad.net/~canonical-kernel/ubuntu/+source/linux-restricted-modules-gcp/+git/focal
+Directory: pool/restricted/l/linux-restricted-modules-gcp
+Package-List:
+ linux-modules-nvidia-390-5.4.0-1009-gcp deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-390-gcp deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-430-gcp deb oldlibs optional arch=amd64
+ linux-modules-nvidia-440-5.4.0-1009-gcp deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-440-gcp deb kernel optional arch=amd64 profile=!stage1
+Files:
+ 87d2adb7aee73b68d0d3fdc2c2944617 1956 linux-restricted-modules-gcp_5.4.0-1009.9.dsc
+ 7f8d4688f572f37a2db404a68e65456d 17288 linux-restricted-modules-gcp_5.4.0-1009.9.tar.xz
+Checksums-Sha1:
+ 391680051d62f16be07b3adb00b72fd282392460 1956 linux-restricted-modules-gcp_5.4.0-1009.9.dsc
+ 8baab12e23ff95087a3562fc38cd80624da458e8 17288 linux-restricted-modules-gcp_5.4.0-1009.9.tar.xz
+Checksums-Sha256:
+ 6483f2559a974451531da4e0b15c3754fab78e69ce859b50136643e72526808f 1956 linux-restricted-modules-gcp_5.4.0-1009.9.dsc
+ 2a478e7567b0d702d6c612fd9d3e4d93c98fc326507b66165e34815ba9b8d3a2 17288 linux-restricted-modules-gcp_5.4.0-1009.9.tar.xz
+
+Package: linux-restricted-modules-oem-5.6
+Format: 3.0 (native)
+Binary: linux-modules-nvidia-440-oem-20.04, linux-modules-nvidia-440-5.6.0-1007-oem
+Architecture: amd64
+Version: 5.6.0-1007.7
+Priority: optional
+Section: restricted/utils
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9), lsb-release, python3, python3-apt, cpio, dkms, wget, gawk, linux-headers-5.6.0-1007-oem (>= 5.6.0-1007.7), linux-buildinfo-5.6.0-1007-oem (>= 5.6.0-1007.7)
+Vcs-Git: git://git.launchpad.net/~canonical-kernel/ubuntu/+source/linux-restricted-modules-oem/+git/focal -b oem-5.6
+Directory: pool/restricted/l/linux-restricted-modules-oem-5.6
+Package-List:
+ linux-modules-nvidia-440-5.6.0-1007-oem deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-440-oem-20.04 deb kernel optional arch=amd64 profile=!stage1
+Files:
+ 6cd0ba803331abc1afff47cc70d0f51a 2012 linux-restricted-modules-oem-5.6_5.6.0-1007.7.dsc
+ 85873190159b2471d1b075fbbf7ea21c 18572 linux-restricted-modules-oem-5.6_5.6.0-1007.7.tar.xz
+Checksums-Sha1:
+ da84eb4f832d8516ef6a48ee3a3f5f5e1131cf93 2012 linux-restricted-modules-oem-5.6_5.6.0-1007.7.dsc
+ 78f32e654d9ca9094426587dfb35cc1c04ae339a 18572 linux-restricted-modules-oem-5.6_5.6.0-1007.7.tar.xz
+Checksums-Sha256:
+ b0214f63d9649d5efb286d71079657691dcd29ae2554c4849327c601625434bb 2012 linux-restricted-modules-oem-5.6_5.6.0-1007.7.dsc
+ 71379bb8c954a19ee4aef2c426ae1517f8e39fd6ccfa7bd6030441810bb04ee3 18572 linux-restricted-modules-oem-5.6_5.6.0-1007.7.tar.xz
+
+Package: linux-restricted-modules-oracle
+Format: 3.0 (native)
+Binary: linux-modules-nvidia-430-oracle, linux-modules-nvidia-390-oracle, linux-modules-nvidia-440-oracle, linux-modules-nvidia-390-5.4.0-1009-oracle, linux-modules-nvidia-440-5.4.0-1009-oracle
+Architecture: amd64
+Version: 5.4.0-1009.9
+Priority: optional
+Section: restricted/utils
+Maintainer: Canonical Kernel Team <kernel-team@lists.ubuntu.com>
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9), lsb-release, python3, python3-apt, cpio, dkms, curl, gawk, linux-headers-5.4.0-1009-oracle (>= 5.4.0-1009.9), linux-buildinfo-5.4.0-1009-oracle (>= 5.4.0-1009.9)
+Vcs-Git: git://git.launchpad.net/~canonical-kernel/ubuntu/+source/linux-restricted-modules-oracle/+git/focal
+Directory: pool/restricted/l/linux-restricted-modules-oracle
+Package-List:
+ linux-modules-nvidia-390-5.4.0-1009-oracle deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-390-oracle deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-430-oracle deb oldlibs optional arch=amd64
+ linux-modules-nvidia-440-5.4.0-1009-oracle deb kernel optional arch=amd64 profile=!stage1
+ linux-modules-nvidia-440-oracle deb kernel optional arch=amd64 profile=!stage1
+Files:
+ f1d7a66d179c8dedfcc3a47d40a6f749 2044 linux-restricted-modules-oracle_5.4.0-1009.9.dsc
+ e78c3c4aeca40f0613918ea3158cc713 17216 linux-restricted-modules-oracle_5.4.0-1009.9.tar.xz
+Checksums-Sha1:
+ 001a7dd3979b3e4ea33feae193f78beb6b414769 2044 linux-restricted-modules-oracle_5.4.0-1009.9.dsc
+ c96df505349798939b0ddbc49bd589b8467e3a00 17216 linux-restricted-modules-oracle_5.4.0-1009.9.tar.xz
+Checksums-Sha256:
+ 6fdc79707f5ce4f2069a3c2ce2ad69bce6c7d500e0e45822dbf14ef04a4df4f4 2044 linux-restricted-modules-oracle_5.4.0-1009.9.dsc
+ 8a0ac90a90b3ae1f0b64d1d42634088ab32aaf490746ecf7777862d52e1d2010 17216 linux-restricted-modules-oracle_5.4.0-1009.9.tar.xz
+
+Package: nvidia-graphics-drivers-340
+Format: 1.0
+Binary: nvidia-340, nvidia-340-dev, libcuda1-340, nvidia-libopencl1-340, nvidia-opencl-icd-340, nvidia-340-uvm, nvidia-331, nvidia-331-dev, nvidia-331-uvm, nvidia-libopencl1-331, nvidia-opencl-icd-331, libcuda1-331, nvidia-331-updates, nvidia-331-updates-dev, nvidia-331-updates-uvm, nvidia-libopencl1-331-updates, nvidia-opencl-icd-331-updates, libcuda1-331-updates, nvidia-340-updates, nvidia-340-updates-dev, nvidia-libopencl1-340-updates, nvidia-opencl-icd-340-updates, libcuda1-340-updates
+Architecture: i386 amd64 armhf
+Version: 340.108-0ubuntu2
+Priority: optional
+Section: restricted/misc
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Standards-Version: 3.8.0
+Build-Depends: debhelper (>= 8.0.0), sed (>> 3.0), libxext6, bzip2, xserver-xorg-dev (>= 2:1.4), execstack, libc6, libxvmc1, dh-modaliases, libxv1
+Vcs-Browser: http://github.com/tseliot/nvidia-graphics-drivers
+Vcs-Git: git://github.com/tseliot/nvidia-graphics-drivers.git
+Directory: pool/restricted/n/nvidia-graphics-drivers-340
+Package-List:
+ libcuda1-331 deb restricted/misc optional arch=i386,amd64,armhf
+ libcuda1-331-updates deb restricted/misc optional arch=i386,amd64,armhf
+ libcuda1-340 deb restricted/misc optional arch=i386,amd64,armhf
+ libcuda1-340-updates deb restricted/misc optional arch=i386,amd64,armhf
+ nvidia-331 deb restricted/misc optional arch=i386,amd64,armhf
+ nvidia-331-dev deb restricted/misc optional arch=i386,amd64,armhf
+ nvidia-331-updates deb restricted/misc optional arch=i386,amd64,armhf
+ nvidia-331-updates-dev deb restricted/misc optional arch=i386,amd64,armhf
+ nvidia-331-updates-uvm deb restricted/misc optional arch=i386,amd64,armhf
+ nvidia-331-uvm deb restricted/misc optional arch=i386,amd64,armhf
+ nvidia-340 deb restricted/misc optional arch=i386,amd64,armhf
+ nvidia-340-dev deb restricted/misc optional arch=i386,amd64,armhf
+ nvidia-340-updates deb restricted/misc optional arch=i386,amd64,armhf
+ nvidia-340-updates-dev deb restricted/misc optional arch=i386,amd64,armhf
+ nvidia-340-uvm deb restricted/misc optional arch=i386,amd64,armhf
+ nvidia-libopencl1-331 deb restricted/misc optional arch=i386,amd64,armhf
+ nvidia-libopencl1-331-updates deb restricted/misc optional arch=i386,amd64,armhf
+ nvidia-libopencl1-340 deb restricted/misc optional arch=i386,amd64
+ nvidia-libopencl1-340-updates deb restricted/misc optional arch=i386,amd64
+ nvidia-opencl-icd-331 deb restricted/misc optional arch=i386,amd64,armhf
+ nvidia-opencl-icd-331-updates deb restricted/misc optional arch=i386,amd64,armhf
+ nvidia-opencl-icd-340 deb restricted/misc optional arch=i386,amd64
+ nvidia-opencl-icd-340-updates deb restricted/misc optional arch=i386,amd64
+Files:
+ 6b8a9d74031e33844e01106f92d521d8 4210 nvidia-graphics-drivers-340_340.108-0ubuntu2.dsc
+ c156a0b749ed2ff711e25b4f5e35a9d5 101142434 nvidia-graphics-drivers-340_340.108.orig.tar.gz
+ 7f6daa247c3ef987cc1f7cb0088181c5 158933 nvidia-graphics-drivers-340_340.108-0ubuntu2.diff.gz
+Checksums-Sha1:
+ 094f03f1c848f0580cde1c1a0379c0c52eb4a743 4210 nvidia-graphics-drivers-340_340.108-0ubuntu2.dsc
+ d5509d78eb70e253ae517d045b4f679ce90e15f6 101142434 nvidia-graphics-drivers-340_340.108.orig.tar.gz
+ 8ae31b13c4afb46680c40ee36547223e8271af7a 158933 nvidia-graphics-drivers-340_340.108-0ubuntu2.diff.gz
+Checksums-Sha256:
+ fac3393d0dae7fe8f2b5421b5d96e3c89b6fdc72be6b3ab806648cf80ff795b1 4210 nvidia-graphics-drivers-340_340.108-0ubuntu2.dsc
+ 1087eb8966d65341612fae0546d6f47bc8727f152d4ba7a39512d3a24fa36cb2 101142434 nvidia-graphics-drivers-340_340.108.orig.tar.gz
+ 33b7fbe7490af18099c7c31a58407eeeca6baa4dac73c6f00dbb7a02dcd2a1e8 158933 nvidia-graphics-drivers-340_340.108-0ubuntu2.diff.gz
+
+Package: nvidia-graphics-drivers-390
+Format: 3.0 (quilt)
+Binary: nvidia-driver-390, nvidia-kernel-source-390, nvidia-dkms-390, nvidia-utils-390, libnvidia-compute-390, nvidia-compute-utils-390, nvidia-headless-no-dkms-390, nvidia-headless-390, nvidia-kernel-common-390, libnvidia-gl-390, libnvidia-common-390, xserver-xorg-video-nvidia-390, libnvidia-cfg1-390, libnvidia-ifr1-390, libnvidia-fbc1-390, libnvidia-decode-390, libnvidia-encode-390, nvidia-384, nvidia-384-dev, nvidia-libopencl1-384, nvidia-opencl-icd-384, libcuda1-384
+Architecture: i386 amd64 armhf all
+Version: 390.132-0ubuntu2
+Priority: optional
+Section: restricted/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.1
+Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.17.11~), xz-utils, dkms, libxext6 [!ppc64el], quilt, po-debconf, execstack, dh-modaliases, xserver-xorg-dev (>= 2:1.4), libglvnd-dev
+Homepage: http://www.nvidia.com
+Vcs-Browser: https://github.com/tseliot/nvidia-graphics-drivers/tree/390
+Vcs-Git: git://github.com/tseliot/nvidia-graphics-drivers.git
+Directory: pool/restricted/n/nvidia-graphics-drivers-390
+Package-List:
+ libcuda1-384 deb non-free/libs optional arch=i386,amd64,armhf
+ libnvidia-cfg1-390 deb non-free/libs optional arch=i386,amd64,armhf
+ libnvidia-common-390 deb non-free/libs optional arch=all
+ libnvidia-compute-390 deb non-free/libs optional arch=i386,amd64,armhf
+ libnvidia-decode-390 deb non-free/libs optional arch=i386,amd64
+ libnvidia-encode-390 deb non-free/libs optional arch=i386,amd64
+ libnvidia-fbc1-390 deb non-free/libs optional arch=i386,amd64,armhf
+ libnvidia-gl-390 deb non-free/libs optional arch=i386,amd64,armhf
+ libnvidia-ifr1-390 deb non-free/libs optional arch=i386,amd64,armhf
+ nvidia-384 deb non-free/libs optional arch=i386,amd64,armhf
+ nvidia-384-dev deb non-free/libs optional arch=i386,amd64,armhf
+ nvidia-compute-utils-390 deb non-free/libs optional arch=i386,amd64,armhf
+ nvidia-dkms-390 deb non-free/libs optional arch=i386,amd64,armhf
+ nvidia-driver-390 deb non-free/libs optional arch=i386,amd64,armhf
+ nvidia-headless-390 deb non-free/libs optional arch=i386,amd64,armhf
+ nvidia-headless-no-dkms-390 deb non-free/libs optional arch=i386,amd64,armhf
+ nvidia-kernel-common-390 deb non-free/libs optional arch=i386,amd64,armhf
+ nvidia-kernel-source-390 deb non-free/libs optional arch=i386,amd64,armhf
+ nvidia-libopencl1-384 deb non-free/libs optional arch=i386,amd64
+ nvidia-opencl-icd-384 deb non-free/libs optional arch=i386,amd64
+ nvidia-utils-390 deb non-free/libs optional arch=i386,amd64,armhf
+ xserver-xorg-video-nvidia-390 deb non-free/x11 optional arch=i386,amd64,armhf
+Files:
+ 14e7e80875f74296235a7a110165e9ef 5185 nvidia-graphics-drivers-390_390.132-0ubuntu2.dsc
+ 061b849ef1e3319a5399f459a3d6c597 47485388 nvidia-graphics-drivers-390_390.132.orig-amd64.tar.gz
+ 1a8c6d64e125ecb721012b818ef14a9b 29045086 nvidia-graphics-drivers-390_390.132.orig-armhf.tar.gz
+ 53b6135b335386406f33270c761a16c2 48114533 nvidia-graphics-drivers-390_390.132.orig-i386.tar.gz
+ abd6dad5b8f0b6261925c2bfec9bc7c6 136 nvidia-graphics-drivers-390_390.132.orig.tar.gz
+ d06be0d6e1bfb6e6fcb18555b39ba16f 40940 nvidia-graphics-drivers-390_390.132-0ubuntu2.debian.tar.xz
+Checksums-Sha1:
+ 904de0c26a81f3e255b515a77a5a2714f128ea70 5185 nvidia-graphics-drivers-390_390.132-0ubuntu2.dsc
+ c61f1d3e73847f3f272957ed9769155581288875 47485388 nvidia-graphics-drivers-390_390.132.orig-amd64.tar.gz
+ ecd4ef477d8fe3d65f8a3924502a8a9ab36a1cf2 29045086 nvidia-graphics-drivers-390_390.132.orig-armhf.tar.gz
+ 69acd5cae84ee47fa98756eea002fedb210f21b6 48114533 nvidia-graphics-drivers-390_390.132.orig-i386.tar.gz
+ 8b521139b6e4f344d01556d1bb5280d40bcb35db 136 nvidia-graphics-drivers-390_390.132.orig.tar.gz
+ eddc7f34fc7bca56feafe7e978786b49f610e444 40940 nvidia-graphics-drivers-390_390.132-0ubuntu2.debian.tar.xz
+Checksums-Sha256:
+ 35dc1d719c65d6ed67dae03e2f475ac2a11627a5696bb328d5850b0f88088ec0 5185 nvidia-graphics-drivers-390_390.132-0ubuntu2.dsc
+ ec24af7cbfb6954982988a81d095080b6ff545290c1dc4d92b63fb22eef92d4f 47485388 nvidia-graphics-drivers-390_390.132.orig-amd64.tar.gz
+ aa91dc603490e8d4ee3f6b89a195c9288b2f772ab2d1f9b70de065879050bdb6 29045086 nvidia-graphics-drivers-390_390.132.orig-armhf.tar.gz
+ bb8e8d4761431cf9547b6e3005d0b7d445800d43644402d8aefe69ecf731f9e0 48114533 nvidia-graphics-drivers-390_390.132.orig-i386.tar.gz
+ 4ad806289688d9012b2fc1a8973c81202a54c0a4bd72868b4f43c4f3746ab82f 136 nvidia-graphics-drivers-390_390.132.orig.tar.gz
+ 0eefe0cd3e705be205ba24e4746f656627919809cf8b1d47d57d86377de376b2 40940 nvidia-graphics-drivers-390_390.132-0ubuntu2.debian.tar.xz
+Autobuild: yes
+
+Package: nvidia-graphics-drivers-430
+Format: 3.0 (quilt)
+Binary: nvidia-driver-430, nvidia-kernel-source-430, nvidia-dkms-430, nvidia-utils-430, libnvidia-compute-430, nvidia-compute-utils-430, nvidia-headless-no-dkms-430, nvidia-headless-430, nvidia-kernel-common-430, libnvidia-gl-430, libnvidia-common-430, xserver-xorg-video-nvidia-430, libnvidia-cfg1-430, libnvidia-ifr1-430, libnvidia-fbc1-430, libnvidia-decode-430, libnvidia-encode-430, nvidia-driver-418, nvidia-kernel-source-418, nvidia-dkms-418, nvidia-utils-418, libnvidia-compute-418, nvidia-compute-utils-418, nvidia-headless-no-dkms-418, nvidia-headless-418, nvidia-kernel-common-418, libnvidia-gl-418, libnvidia-common-418, xserver-xorg-video-nvidia-418, libnvidia-cfg1-418, libnvidia-ifr1-418, libnvidia-fbc1-418, libnvidia-decode-418, libnvidia-encode-418
+Architecture: amd64 i386 all
+Version: 430.50-0ubuntu3
+Priority: optional
+Section: restricted/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.1
+Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.17.11~), xz-utils, dkms, libxext6 [!ppc64el], quilt, po-debconf, execstack, dh-modaliases, xserver-xorg-dev (>= 2:1.4), libglvnd-dev
+Homepage: http://www.nvidia.com
+Vcs-Browser: https://github.com/tseliot/nvidia-graphics-drivers/tree/430
+Vcs-Git: git://github.com/tseliot/nvidia-graphics-drivers.git
+Directory: pool/restricted/n/nvidia-graphics-drivers-430
+Package-List:
+ libnvidia-cfg1-418 deb non-free/libs optional arch=amd64
+ libnvidia-cfg1-430 deb non-free/libs optional arch=amd64
+ libnvidia-common-418 deb non-free/libs optional arch=all
+ libnvidia-common-430 deb non-free/libs optional arch=all
+ libnvidia-compute-418 deb non-free/libs optional arch=i386,amd64
+ libnvidia-compute-430 deb non-free/libs optional arch=i386,amd64
+ libnvidia-decode-418 deb non-free/libs optional arch=i386,amd64
+ libnvidia-decode-430 deb non-free/libs optional arch=i386,amd64
+ libnvidia-encode-418 deb non-free/libs optional arch=i386,amd64
+ libnvidia-encode-430 deb non-free/libs optional arch=i386,amd64
+ libnvidia-fbc1-418 deb non-free/libs optional arch=i386,amd64
+ libnvidia-fbc1-430 deb non-free/libs optional arch=i386,amd64
+ libnvidia-gl-418 deb non-free/libs optional arch=i386,amd64
+ libnvidia-gl-430 deb non-free/libs optional arch=i386,amd64
+ libnvidia-ifr1-418 deb non-free/libs optional arch=i386,amd64
+ libnvidia-ifr1-430 deb non-free/libs optional arch=i386,amd64
+ nvidia-compute-utils-418 deb non-free/libs optional arch=amd64
+ nvidia-compute-utils-430 deb non-free/libs optional arch=amd64
+ nvidia-dkms-418 deb non-free/libs optional arch=amd64
+ nvidia-dkms-430 deb non-free/libs optional arch=amd64
+ nvidia-driver-418 deb non-free/libs optional arch=amd64
+ nvidia-driver-430 deb non-free/libs optional arch=amd64
+ nvidia-headless-418 deb non-free/libs optional arch=amd64
+ nvidia-headless-430 deb non-free/libs optional arch=amd64
+ nvidia-headless-no-dkms-418 deb non-free/libs optional arch=amd64
+ nvidia-headless-no-dkms-430 deb non-free/libs optional arch=amd64
+ nvidia-kernel-common-418 deb non-free/libs optional arch=amd64
+ nvidia-kernel-common-430 deb non-free/libs optional arch=amd64
+ nvidia-kernel-source-418 deb non-free/libs optional arch=amd64
+ nvidia-kernel-source-430 deb non-free/libs optional arch=amd64
+ nvidia-utils-418 deb non-free/libs optional arch=amd64
+ nvidia-utils-430 deb non-free/libs optional arch=amd64
+ xserver-xorg-video-nvidia-418 deb non-free/libs optional arch=amd64
+ xserver-xorg-video-nvidia-430 deb non-free/x11 optional arch=amd64
+Files:
+ 47d47905d197ce71c67ac10899046fba 5404 nvidia-graphics-drivers-430_430.50-0ubuntu3.dsc
+ 47ac9b658b8da52b52a6912bad349d51 110518854 nvidia-graphics-drivers-430_430.50.orig-amd64.tar.gz
+ 8032c5a8985a3023a045df8907c0f501 134 nvidia-graphics-drivers-430_430.50.orig.tar.gz
+ 1a2442c2ff1e6fb31e3126f9cb1c1d89 36616 nvidia-graphics-drivers-430_430.50-0ubuntu3.debian.tar.xz
+Checksums-Sha1:
+ 1b3d3d3fe8ab9fdafc769fdb7e84ef705aa3d0a1 5404 nvidia-graphics-drivers-430_430.50-0ubuntu3.dsc
+ 79d7e2eddfb87085afac29be7a226239544979d1 110518854 nvidia-graphics-drivers-430_430.50.orig-amd64.tar.gz
+ 91f2d0eed60a760263aa12f2a6c7fccd95aa80c0 134 nvidia-graphics-drivers-430_430.50.orig.tar.gz
+ 13e8d79c5e77213ee5823e178a787419de21e993 36616 nvidia-graphics-drivers-430_430.50-0ubuntu3.debian.tar.xz
+Checksums-Sha256:
+ 1f0fe40a477f539c103b5c17ec416b5da56bac5622e21d893881f4f301264e71 5404 nvidia-graphics-drivers-430_430.50-0ubuntu3.dsc
+ a68536bd20cc04dcc2d5b1b55ad840176dceb8f3189eb50c08e00a971d556a7e 110518854 nvidia-graphics-drivers-430_430.50.orig-amd64.tar.gz
+ 8987c10b4e692063e22fd60d5b8ca6007f888a638d79fe0b35dc16de48d2b9a0 134 nvidia-graphics-drivers-430_430.50.orig.tar.gz
+ 32a3e1de24c51de490a9ad6aa2c942079948a284b5818b4a2b606e53e6691e8e 36616 nvidia-graphics-drivers-430_430.50-0ubuntu3.debian.tar.xz
+Autobuild: yes
+
+Package: nvidia-graphics-drivers-435
+Format: 3.0 (quilt)
+Binary: nvidia-driver-435, nvidia-kernel-source-435, nvidia-dkms-435, nvidia-utils-435, libnvidia-compute-435, nvidia-compute-utils-435, nvidia-headless-no-dkms-435, nvidia-headless-435, nvidia-kernel-common-435, libnvidia-gl-435, libnvidia-common-435, xserver-xorg-video-nvidia-435, libnvidia-cfg1-435, libnvidia-ifr1-435, libnvidia-fbc1-435, libnvidia-decode-435, libnvidia-encode-435
+Architecture: amd64 i386 all
+Version: 435.21-0ubuntu7
+Priority: optional
+Section: restricted/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.1
+Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.17.11~), xz-utils, dkms, libxext6 [!ppc64el], quilt, po-debconf, execstack, dh-modaliases, xserver-xorg-dev (>= 2:1.4), libglvnd-dev
+Homepage: http://www.nvidia.com
+Vcs-Browser: https://github.com/tseliot/nvidia-graphics-drivers/tree/435
+Vcs-Git: git://github.com/tseliot/nvidia-graphics-drivers.git
+Directory: pool/restricted/n/nvidia-graphics-drivers-435
+Package-List:
+ libnvidia-cfg1-435 deb non-free/libs optional arch=amd64
+ libnvidia-common-435 deb non-free/libs optional arch=all
+ libnvidia-compute-435 deb non-free/libs optional arch=i386,amd64
+ libnvidia-decode-435 deb non-free/libs optional arch=i386,amd64
+ libnvidia-encode-435 deb non-free/libs optional arch=i386,amd64
+ libnvidia-fbc1-435 deb non-free/libs optional arch=i386,amd64
+ libnvidia-gl-435 deb non-free/libs optional arch=i386,amd64
+ libnvidia-ifr1-435 deb non-free/libs optional arch=i386,amd64
+ nvidia-compute-utils-435 deb non-free/libs optional arch=amd64
+ nvidia-dkms-435 deb non-free/libs optional arch=amd64
+ nvidia-driver-435 deb non-free/libs optional arch=amd64
+ nvidia-headless-435 deb non-free/libs optional arch=amd64
+ nvidia-headless-no-dkms-435 deb non-free/libs optional arch=amd64
+ nvidia-kernel-common-435 deb non-free/libs optional arch=amd64
+ nvidia-kernel-source-435 deb non-free/libs optional arch=amd64
+ nvidia-utils-435 deb non-free/libs optional arch=amd64
+ xserver-xorg-video-nvidia-435 deb non-free/x11 optional arch=amd64
+Files:
+ 975b2e617cdce6ebf0a40eca721e1f9c 3995 nvidia-graphics-drivers-435_435.21-0ubuntu7.dsc
+ 4578a34aba0fc74fcea9fde7aa17b255 144368795 nvidia-graphics-drivers-435_435.21.orig-amd64.tar.gz
+ 51da8a8a9db370bee72cd38546ace5e6 134 nvidia-graphics-drivers-435_435.21.orig.tar.gz
+ 82d40ab14d405e12719a4a95a57ac2a5 37068 nvidia-graphics-drivers-435_435.21-0ubuntu7.debian.tar.xz
+Checksums-Sha1:
+ d3166e20b1be23d14de0a62a3085b62b168faac7 3995 nvidia-graphics-drivers-435_435.21-0ubuntu7.dsc
+ 32a218248a3ef2a7844d9f1a73737c15d20587a4 144368795 nvidia-graphics-drivers-435_435.21.orig-amd64.tar.gz
+ 4bf04e4d629d67f6fce7c4b4213e1b659fda013f 134 nvidia-graphics-drivers-435_435.21.orig.tar.gz
+ a8ed7a736d17454dcf593a6387133105c591a481 37068 nvidia-graphics-drivers-435_435.21-0ubuntu7.debian.tar.xz
+Checksums-Sha256:
+ 6ded0f753458ea7ac192343711c5f76e1c9790520ba6565859989057119b00a7 3995 nvidia-graphics-drivers-435_435.21-0ubuntu7.dsc
+ db074ce96da65498ba6117e7b780e9a302d9fe2d2ec36a1da9e05d30f88d47a2 144368795 nvidia-graphics-drivers-435_435.21.orig-amd64.tar.gz
+ d6045230caaaf5bc64bea01b182c091875bfaa9a6342e1822e17f6558edbe6f2 134 nvidia-graphics-drivers-435_435.21.orig.tar.gz
+ 6463b2bd770e135ec4020eb13ba62298c94ca2cb1446c343a03acb80e22a18cb 37068 nvidia-graphics-drivers-435_435.21-0ubuntu7.debian.tar.xz
+Autobuild: yes
+
+Package: nvidia-graphics-drivers-440
+Format: 3.0 (quilt)
+Binary: nvidia-driver-440, nvidia-kernel-source-440, nvidia-dkms-440, nvidia-utils-440, libnvidia-compute-440, nvidia-compute-utils-440, nvidia-headless-no-dkms-440, nvidia-headless-440, nvidia-kernel-common-440, libnvidia-gl-440, libnvidia-common-440, libnvidia-extra-440, xserver-xorg-video-nvidia-440, libnvidia-cfg1-440, libnvidia-ifr1-440, libnvidia-fbc1-440, libnvidia-decode-440, libnvidia-encode-440, nvidia-driver-430, nvidia-kernel-source-430, nvidia-dkms-430, nvidia-utils-430, libnvidia-compute-430, nvidia-compute-utils-430, nvidia-headless-no-dkms-430, nvidia-headless-430, nvidia-kernel-common-430, libnvidia-gl-430, libnvidia-common-430, xserver-xorg-video-nvidia-430, libnvidia-cfg1-430, libnvidia-ifr1-430, libnvidia-fbc1-430, libnvidia-decode-430, libnvidia-encode-430
+Architecture: amd64 i386 all
+Version: 440.82+really.440.64-0ubuntu6
+Priority: optional
+Section: restricted/libs
+Maintainer: Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Uploaders:  Alberto Milone <alberto.milone@canonical.com>,
+Standards-Version: 4.1.1
+Build-Depends: debhelper (>= 9), dpkg-dev (>= 1.17.11~), xz-utils, dkms, libxext6 [!ppc64el], quilt, po-debconf, execstack, dh-modaliases, xserver-xorg-dev (>= 2:1.4), libglvnd-dev, libkmod-dev, libpciaccess-dev, pkg-config
+Homepage: http://www.nvidia.com
+Vcs-Browser: https://github.com/tseliot/nvidia-graphics-drivers/tree/440
+Vcs-Git: git://github.com/tseliot/nvidia-graphics-drivers.git
+Directory: pool/restricted/n/nvidia-graphics-drivers-440
+Package-List:
+ libnvidia-cfg1-430 deb non-free/libs optional arch=amd64
+ libnvidia-cfg1-440 deb non-free/libs optional arch=amd64
+ libnvidia-common-430 deb non-free/libs optional arch=all
+ libnvidia-common-440 deb non-free/libs optional arch=all
+ libnvidia-compute-430 deb non-free/libs optional arch=i386,amd64
+ libnvidia-compute-440 deb non-free/libs optional arch=i386,amd64
+ libnvidia-decode-430 deb non-free/libs optional arch=i386,amd64
+ libnvidia-decode-440 deb non-free/libs optional arch=i386,amd64
+ libnvidia-encode-430 deb non-free/libs optional arch=i386,amd64
+ libnvidia-encode-440 deb non-free/libs optional arch=i386,amd64
+ libnvidia-extra-440 deb non-free/libs optional arch=i386,amd64
+ libnvidia-fbc1-430 deb non-free/libs optional arch=i386,amd64
+ libnvidia-fbc1-440 deb non-free/libs optional arch=i386,amd64
+ libnvidia-gl-430 deb non-free/libs optional arch=i386,amd64
+ libnvidia-gl-440 deb non-free/libs optional arch=i386,amd64
+ libnvidia-ifr1-430 deb non-free/libs optional arch=i386,amd64
+ libnvidia-ifr1-440 deb non-free/libs optional arch=i386,amd64
+ nvidia-compute-utils-430 deb non-free/libs optional arch=amd64
+ nvidia-compute-utils-440 deb non-free/libs optional arch=amd64
+ nvidia-dkms-430 deb non-free/libs optional arch=amd64
+ nvidia-dkms-440 deb non-free/libs optional arch=amd64
+ nvidia-driver-430 deb non-free/libs optional arch=amd64
+ nvidia-driver-440 deb non-free/libs optional arch=amd64
+ nvidia-headless-430 deb non-free/libs optional arch=amd64
+ nvidia-headless-440 deb non-free/libs optional arch=amd64
+ nvidia-headless-no-dkms-430 deb non-free/libs optional arch=amd64
+ nvidia-headless-no-dkms-440 deb non-free/libs optional arch=amd64
+ nvidia-kernel-common-430 deb non-free/libs optional arch=amd64
+ nvidia-kernel-common-440 deb non-free/libs optional arch=amd64
+ nvidia-kernel-source-430 deb non-free/libs optional arch=amd64
+ nvidia-kernel-source-440 deb non-free/libs optional arch=amd64
+ nvidia-utils-430 deb non-free/libs optional arch=amd64
+ nvidia-utils-440 deb non-free/libs optional arch=amd64
+ xserver-xorg-video-nvidia-430 deb non-free/libs optional arch=amd64
+ xserver-xorg-video-nvidia-440 deb non-free/x11 optional arch=amd64
+Files:
+ b21c164f826b0fe9c696beb09cb74720 5709 nvidia-graphics-drivers-440_440.82+really.440.64-0ubuntu6.dsc
+ 08a4b40d9803408085d7467e3d43becb 141282034 nvidia-graphics-drivers-440_440.82+really.440.64.orig-amd64.tar.gz
+ 08c32f5e90231fd21f4188172a4c88c0 135 nvidia-graphics-drivers-440_440.82+really.440.64.orig.tar.gz
+ a32460cc476ad595f64c3f4b6e3bece6 44348 nvidia-graphics-drivers-440_440.82+really.440.64-0ubuntu6.debian.tar.xz
+Checksums-Sha1:
+ b9a28959f957662783d56cb9d331f994abd4093b 5709 nvidia-graphics-drivers-440_440.82+really.440.64-0ubuntu6.dsc
+ a3e93c8fbb088a73668f21ec811113b8912022d6 141282034 nvidia-graphics-drivers-440_440.82+really.440.64.orig-amd64.tar.gz
+ 44fbad2fd121ecfad3776a86e275884c8aa1f9c7 135 nvidia-graphics-drivers-440_440.82+really.440.64.orig.tar.gz
+ abf86ba4fa772631d7387db698fc4aad9aabe0ee 44348 nvidia-graphics-drivers-440_440.82+really.440.64-0ubuntu6.debian.tar.xz
+Checksums-Sha256:
+ ff97bd9edea6224820d5392e6b7cdd50e5f84964c82e1770e4c76a2a97627c6e 5709 nvidia-graphics-drivers-440_440.82+really.440.64-0ubuntu6.dsc
+ 7c40a077c14f96d2315d5810ed7f226b42c5cfe596cf6dce6756f97def4f527e 141282034 nvidia-graphics-drivers-440_440.82+really.440.64.orig-amd64.tar.gz
+ 3ee39b0c87aab8533009acd3f6f7b64a6dbcb3aeabeddafa74caa7143ebebc99 135 nvidia-graphics-drivers-440_440.82+really.440.64.orig.tar.gz
+ ff997d38a09e0741a420cf07a8ab2289a7fae2cc5a534ff4988b5dad4e6db016 44348 nvidia-graphics-drivers-440_440.82+really.440.64-0ubuntu6.debian.tar.xz
+Autobuild: yes
+
+Package: sl-modem
+Format: 3.0 (quilt)
+Binary: sl-modem-dkms, sl-modem-daemon
+Architecture: i386 amd64
+Version: 2.9.11~20110321-16ubuntu1
+Priority: optional
+Section: restricted/misc
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: أحمد المحمودي (Ahmed El-Mahmoudy) <aelmahmoudy@users.sourceforge.net>
+Uploaders: Maurizio Avogadro <mavoga@gmail.com>, Rolf Leggewie <foss@rolf.leggewie.biz>
+Standards-Version: 4.3.0
+Build-Depends: debhelper (>= 12), bzip2, libasound2-dev (>> 1.0.6), po-debconf, execstack, dkms (>= 2.1.1.2-1~)
+Homepage: https://linmodems.technion.ac.il/packages/smartlink/
+Vcs-Browser: https://salsa.debian.org/debian/sl-modem
+Vcs-Git: https://salsa.debian.org/debian/sl-modem.git
+Directory: pool/restricted/s/sl-modem
+Package-List:
+ sl-modem-daemon deb non-free/misc optional arch=i386
+ sl-modem-dkms deb non-free/kernel optional arch=i386,amd64
+Files:
+ a9385f30f2b106ddd8bb30efd74236a8 2356 sl-modem_2.9.11~20110321-16ubuntu1.dsc
+ e2b2217bb1727890dfa08ac65e4cf4ed 1006393 sl-modem_2.9.11~20110321.orig.tar.gz
+ 4825f27ca59a6a5e5c07096ce2b62d0d 36240 sl-modem_2.9.11~20110321-16ubuntu1.debian.tar.xz
+Checksums-Sha1:
+ 8d11cac73eb454f479cff438a88b8e7148f39387 2356 sl-modem_2.9.11~20110321-16ubuntu1.dsc
+ e9a5f456dab090674c2351cc9528ac41823a7949 1006393 sl-modem_2.9.11~20110321.orig.tar.gz
+ 434af98b2e9d7923315c7fd991f71dca6596fb60 36240 sl-modem_2.9.11~20110321-16ubuntu1.debian.tar.xz
+Checksums-Sha256:
+ 994ba70acc26aaf3d53c8d8d9dadefe8453a4ad65a1475ff10450905d418be4e 2356 sl-modem_2.9.11~20110321-16ubuntu1.dsc
+ cea496e9c34a16cf347124b27ed673f3a6e87089f83e15ab5e0b0365a56fd253 1006393 sl-modem_2.9.11~20110321.orig.tar.gz
+ 5c0131eec289a1bbc62b454112cd307029283c26b69ef68317886b44dd1902a9 36240 sl-modem_2.9.11~20110321-16ubuntu1.debian.tar.xz
+Autobuild: yes
+

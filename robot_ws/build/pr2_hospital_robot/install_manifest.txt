@@ -1,0 +1,7 @@
+/home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/install/pr2_hospital_robot/lib/pkgconfig/pr2_hospital_robot.pc
+/home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/install/pr2_hospital_robot/share/pr2_hospital_robot/cmake/pr2_hospital_robotConfig.cmake
+/home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/install/pr2_hospital_robot/share/pr2_hospital_robot/cmake/pr2_hospital_robotConfig-version.cmake
+/home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/install/pr2_hospital_robot/share/pr2_hospital_robot/package.xml
+/home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/install/pr2_hospital_robot/share/pr2_hospital_robot/launch/move_base.launch
+/home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/install/pr2_hospital_robot/share/pr2_hospital_robot/launch/pr2_2dnav.launch
+/home/eamon/aws-robomaker-sample-application-pr2-hospital/robot_ws/install/pr2_hospital_robot/share/pr2_hospital_robot/config/costmap_common_params.yaml

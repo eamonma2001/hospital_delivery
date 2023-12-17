@@ -1,0 +1,69 @@
+suite: focal-security
+component: restricted
+arch: arm64
+
+
+name: libnvidia-gl-525
+version: 525.125.06-0ubuntu0.20.04.3
+commands: nvidia-ngx-updater
+
+name: libnvidia-gl-525-server
+version: 525.125.06-0ubuntu0.20.04.2
+commands: nvidia-ngx-updater
+
+name: libnvidia-gl-535
+version: 535.113.01-0ubuntu0.20.04.3
+commands: nvidia-ngx-updater
+
+name: libnvidia-gl-535-server
+version: 535.104.12-0ubuntu0.20.04.2
+commands: nvidia-ngx-updater
+
+name: nvidia-compute-utils-525
+version: 525.125.06-0ubuntu0.20.04.3
+commands: nvidia-cuda-mps-control,nvidia-cuda-mps-server,nvidia-persistenced
+
+name: nvidia-compute-utils-525-server
+version: 525.125.06-0ubuntu0.20.04.2
+commands: nvidia-cuda-mps-control,nvidia-cuda-mps-server,nvidia-persistenced
+
+name: nvidia-compute-utils-535
+version: 535.113.01-0ubuntu0.20.04.3
+commands: nvidia-cuda-mps-control,nvidia-cuda-mps-server,nvidia-persistenced
+
+name: nvidia-compute-utils-535-server
+version: 535.104.12-0ubuntu0.20.04.2
+commands: nvidia-cuda-mps-control,nvidia-cuda-mps-server,nvidia-persistenced
+
+name: nvidia-kernel-common-525
+version: 525.125.06-0ubuntu0.20.04.3
+commands: nvidia-sleep.sh,ub-device-create
+
+name: nvidia-kernel-common-525-server
+version: 525.125.06-0ubuntu0.20.04.2
+commands: nvidia-sleep.sh,ub-device-create
+
+name: nvidia-kernel-common-535
+version: 535.113.01-0ubuntu0.20.04.3
+commands: nvidia-sleep.sh,ub-device-create
+
+name: nvidia-kernel-common-535-server
+version: 535.104.12-0ubuntu0.20.04.2
+commands: nvidia-sleep.sh,ub-device-create
+
+name: nvidia-utils-525
+version: 525.125.06-0ubuntu0.20.04.3
+commands: nvidia-bug-report.sh,nvidia-debugdump,nvidia-smi,nvidia-xconfig
+
+name: nvidia-utils-525-server
+version: 525.125.06-0ubuntu0.20.04.2
+commands: nvidia-bug-report.sh,nvidia-debugdump,nvidia-smi,nvidia-xconfig
+
+name: nvidia-utils-535
+version: 535.113.01-0ubuntu0.20.04.3
+commands: nvidia-bug-report.sh,nvidia-debugdump,nvidia-smi,nvidia-xconfig
+
+name: nvidia-utils-535-server
+version: 535.104.12-0ubuntu0.20.04.2
+commands: nvidia-bug-report.sh,nvidia-debugdump,nvidia-smi,nvidia-xconfig
+

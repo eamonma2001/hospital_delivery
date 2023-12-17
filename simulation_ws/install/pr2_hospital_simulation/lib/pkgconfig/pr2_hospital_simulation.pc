@@ -1,0 +1,8 @@
+prefix=/home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/install/pr2_hospital_simulation
+
+Name: pr2_hospital_simulation
+Description: Description of pr2_hospital_simulation
+Version: 1.2.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: gazebo_ros

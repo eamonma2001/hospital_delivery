@@ -1,0 +1,57 @@
+[0.066s] Invoking command in '/home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation': /usr/bin/cmake /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/src/pr2_hospital_simulation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/install/pr2_hospital_simulation
+[0.151s] -- The C compiler identification is GNU 9.4.0
+[0.205s] -- The CXX compiler identification is GNU 9.4.0
+[0.209s] -- Check for working C compiler: /usr/bin/cc
+[0.258s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.258s] -- Detecting C compiler ABI info
+[0.305s] -- Detecting C compiler ABI info - done
+[0.314s] -- Detecting C compile features
+[0.315s] -- Detecting C compile features - done
+[0.317s] -- Check for working CXX compiler: /usr/bin/c++
+[0.365s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.366s] -- Detecting CXX compiler ABI info
+[0.418s] -- Detecting CXX compiler ABI info - done
+[0.428s] -- Detecting CXX compile features
+[0.428s] -- Detecting CXX compile features - done
+[0.430s] -- Using CATKIN_DEVEL_PREFIX: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation/devel
+[0.430s] -- Using CMAKE_PREFIX_PATH: /opt/ros/noetic
+[0.430s] -- This workspace overlays: /opt/ros/noetic
+[0.443s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.443s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.443s] -- Using Debian Python package layout
+[0.462s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[0.462s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[0.533s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.534s] -- Call enable_testing()
+[0.535s] -- Using CATKIN_TEST_RESULTS_DIR: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation/test_results
+[0.756s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[0.756s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[0.756s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[0.771s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.773s] -- Found Threads: TRUE  
+[0.776s] -- Using Python nosetests: /usr/bin/nosetests3
+[0.807s] -- catkin 0.8.10
+[0.808s] -- BUILD_SHARED_LIBS is on
+[0.963s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[1.152s] -- Configuring done
+[1.172s] -- Generating done
+[1.178s] -- Build files have been written to: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation
+[1.183s] Invoked command in '/home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation' returned '0': /usr/bin/cmake /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/src/pr2_hospital_simulation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/install/pr2_hospital_simulation
+[1.185s] Invoking command in '/home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation': /usr/bin/cmake --build /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation -- -j6 -l6
+[1.209s] Invoked command in '/home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation' returned '0': /usr/bin/cmake --build /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation -- -j6 -l6
+[1.254s] Invoking command in '/home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation': /usr/bin/cmake --build /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation --target tests -- -j6 -l6
+[1.285s] [35m[1mScanning dependencies of target tests[0m
+[1.291s] Built target tests
+[1.298s] Invoked command in '/home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation' returned '0': /usr/bin/cmake --build /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation --target tests -- -j6 -l6
+[1.356s] Invoking command in '/home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation': /usr/bin/cmake --install /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation
+[1.360s] -- Install configuration: ""
+[1.361s] -- Installing: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/install/pr2_hospital_simulation/lib/pkgconfig/pr2_hospital_simulation.pc
+[1.361s] -- Installing: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/install/pr2_hospital_simulation/share/pr2_hospital_simulation/cmake/pr2_hospital_simulationConfig.cmake
+[1.361s] -- Installing: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/install/pr2_hospital_simulation/share/pr2_hospital_simulation/cmake/pr2_hospital_simulationConfig-version.cmake
+[1.361s] -- Installing: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/install/pr2_hospital_simulation/share/pr2_hospital_simulation/package.xml
+[1.361s] -- Installing: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/install/pr2_hospital_simulation/share/pr2_hospital_simulation/launch
+[1.362s] -- Installing: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/install/pr2_hospital_simulation/share/pr2_hospital_simulation/launch/hospital.launch
+[1.362s] -- Installing: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/install/pr2_hospital_simulation/share/pr2_hospital_simulation/launch/view_hospital.launch
+[1.362s] -- Installing: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/install/pr2_hospital_simulation/share/pr2_hospital_simulation/worlds
+[1.362s] -- Installing: /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/install/pr2_hospital_simulation/share/pr2_hospital_simulation/worlds/empty.world
+[1.364s] Invoked command in '/home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation' returned '0': /usr/bin/cmake --install /home/eamon/aws-robomaker-sample-application-pr2-hospital/simulation_ws/build/pr2_hospital_simulation
