@@ -1,6 +1,6 @@
 # Autonomous Hospital Navigation Using Imitation Learning
 
-![PR2_In_Hospital](videos/demonstration.mp4)
+[![PR2_In_Hospital](videos/thumbnail.jpg)](videos/demonstration.mp4)
 
 ## Overview 
 This project explores the application of imitation learning for autonomous robot navigation in a simulated hospital environment. By training a deep learning model on data collected from human-controlled demonstrations, the project aims to enable a robot to navigate complex and dynamic hospital settings autonomously.
